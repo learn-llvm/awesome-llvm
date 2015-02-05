@@ -35,10 +35,17 @@
 - [Eli Bendersky's website](http://eli.thegreenplace.net/)
 - [ChenWj's LLVM Wiki](http://people.cs.nctu.edu.tw/~chenwj/dokuwiki/doku.php?id=llvm)(Traditional Chinese)
 - [An Unofficial LLVM Website](http://llvm.lyngvig.org/Articles/)
-- ["LLVM" at StackOverflow](http://stackoverflow.com/questions/tagged/llvm)
-- ["Clang" at StackOverflow](http://stackoverflow.com/questions/tagged/clang)
+- [LLVM @ StackOverflow](http://stackoverflow.com/questions/tagged/llvm)
+- [Clang @ StackOverflow](http://stackoverflow.com/questions/tagged/clang)
+- Papers
+  - http://llvm.org/pubs/
+  - [LLVM @ Google Scholar](https://scholar.google.com.sg/scholar?hl=en&q=llvm&btnG=&as_sdt=1%2C5&as_sdtp=)
+  - [LLVM @ Microsoft Academic Search](http://academic.research.microsoft.com/Search?query=llvm)
+  - [LLVM @ ACM-DL](http://dl.acm.org/results.cfm?h=1&cfid=474738638&cftoken=86744949)
+  - [LLVM @ IEEEXplore](http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=llvm)
+  - [LLVM @ DBLP](http://dblp.org/search/#query=llvm&qp=H1.37:W1.3:F1.4:F2.4:F3.4:F4.3)
 
-# Tools [(REF)](http://llvm.org/docs/CommandGuide/index.html)
+# Tools [(R1)](http://llvm.org/docs/CommandGuide/index.html, [R2](http://llvm.org/ProjectsWithLLVM/))
 - [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer
 - [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester
 - [lli](directly execute programs from LLVM bitcode) - Directly execute programs from LLVM bitcode
@@ -78,12 +85,12 @@
 - [whole-program-llvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files
 - [DWGrep](http://pmachata.github.io/dwgrep/) - A tool for querying Dwarf (debuginfo) graphs
 - [Emscripten](https://github.com/kripken/emscripten) - An LLVM-to-JavaScript Compiler
+- [mcsema](https://github.com/trailofbits/mcsema) - A  x86 to LLVM IR decompiler
+- [stack](git@github.com:xiw/stack.git) - A static checker for identifying unstable code
 
 # Scripts
 See [Scripts](Scripts).
 
 # Tutorials
-See [Tutorials](Tutorials).
-
-# Papers ([REF](http://llvm.org/pubs/))
-- [LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation](http://llvm.org/pubs/2004-01-30-CGO-LLVM.html),	C. Lattner and V. Adve, CGO '04.
+- [llvm-clang-samples](https://github.com/eliben/llvm-clang-samples) - Examples of LLVM and Clang written by Dr. [Eli Bendersky](http://eli.thegreenplace.net/)
+- [srg-llvm-pass-tutorial](https://github.com/delcypher/srg-llvm-pass-tutorial) - A tutorial about llvm passes from [Software reliability group](http://srg.doc.ic.ac.uk/)
