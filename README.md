@@ -11,6 +11,7 @@
 - [CommandLine 2.0 Library Manual](http://llvm.org/docs/CommandLine.html)
 - [Getting Started with the LLVM System](http://llvm.org/docs/GettingStarted.html)
 - [LLVM Tutorials](http://llvm.org/docs/tutorial/index.html)
+- [Python Version of the LLVM Tutorial](https://github.com/eliben/pykaleidoscope)
 - [LLVM’s Analysis and Transform Passes](http://llvm.org/docs/Passes.html)
 - [FAQ](http://llvm.org/docs/FAQ.html)
 - [LLVM Testing Infrastructure Guide](http://llvm.org/docs/TestingGuide.html)
