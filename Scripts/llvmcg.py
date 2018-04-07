@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from __future__ import print_function
 import os
@@ -22,7 +22,7 @@ os.chdir(temp_dir)
 temp_file = os.path.join(temp_dir, ir_name)
 shutil.copy2(ir_file, temp_file)
 
-opt_str= "opt -dot-callgraph {} -disable-output".format(temp_file)
+opt_str = "opt -dot-callgraph {} -disable-output".format(temp_file)
 print(opt_str)
 p1 = subprocess.call(opt_str.split())
 
@@ -32,5 +32,5 @@ dot_str = "dot -Tpdf {} -o {}".format(dot_fname, out_pdf)
 print(dot_str)
 subprocess.call(dot_str.split())
 
-open_cmd = "open" if platform.system()=="Darwin" else "xdg-open"
+open_cmd = "open" if platform.system() =="Darwin" else "xdg-open"
 os.system("{} {} &".format(open_cmd, out_pdf))
