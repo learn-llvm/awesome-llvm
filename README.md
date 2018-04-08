@@ -20,7 +20,7 @@
 - [LLVM Bitcode File Format](http://llvm.org/docs/BitCodeFormat.html)
 - [Writing an LLVM Backend](http://llvm.org/docs/WritingAnLLVMBackend.html)
 - [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
-- [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html), also on [GitHub Wiki](https://github.com/google/sanitizers/wiki/AddressSanitizer)
+- [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html), also on [GitHub Wiki](https://github.com/google/sanitizers/wiki/AddressSanitizer); see also [sanitizers.md](sanitizers.md)
 
 
 # Official Pages
