@@ -19,7 +19,7 @@
 - [Exception Handling in LLVM](http://llvm.org/docs/ExceptionHandling.html)
 - [LLVM Bitcode File Format](http://llvm.org/docs/BitCodeFormat.html)
 - [Writing an LLVM Backend](http://llvm.org/docs/WritingAnLLVMBackend.html)
-- [Sanitizers](sanitizers) - AddressSanitizer, MemorySanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer, LeakSanitizer, etc
+- [Sanitizers](docs/sanitizers) - AddressSanitizer, MemorySanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer, LeakSanitizer, etc
 
 
 # Official Pages
