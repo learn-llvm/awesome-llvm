@@ -70,7 +70,7 @@
 - [clang-check](http://clang.llvm.org/docs/ClangCheck.html) - Error checking and AST dumping based on [LibTooling](http://clang.llvm.org/docs/LibTooling.html)
 - [scan-build](http://clang-analyzer.llvm.org/) - Clang Static Analyzer
 - [scan-view](http://clang-analyzer.llvm.org/) - Clang Static Analysis Viewer
-- [clang-modernize](http://clang.llvm.org/extra/clang-modernize.html) - Modernize C++ code
+- ~~[clang-modernize](http://clang.llvm.org/extra/clang-modernize.html) - Modernize C++ code~~
 - [clang-tidy](http://clang.llvm.org/extra/clang-tidy.html) - [Lint-like checks and beyondslides](http://llvm.org/devmtg/2014-04/PDFs/Talks/clang-tidy%20LLVM%20Euro%202014.pdf)
 - ~~[DragonEgg](http://dragonegg.llvm.org/) - Using LLVM as a GCC backend~~
 - [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
