@@ -77,24 +77,25 @@
 - [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
 
-# Unofficial Tools
+# Unofficial Tools/Framework
 - [American fuzzy lop (AFL)](http://lcamtuf.coredump.cx/afl/) - LLVM mode for instrumentation
 - [SVF-tools](https://github.com/SVF-tools/SVF) - Pointer Analysis and Program Dependence Analysis for C and C++ Programs
 - [Infer](https://github.com/facebook/infer) - Facebook's static analysis framework; C/C++/objc is based on LLVM/Clang
 - [wllvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files; its go port [gllvm](https://github.com/SRI-CSL/gllvm)
 - [Bear](https://github.com/rizsotto/Bear) - A tool that generates a compilation database for clang tooling
 - [klee](https://github.com/klee/klee) - Symbolic Virtual Machine
+- [CppInsights](https://github.com/andreasfertig/cppinsights) ([site](https://cppinsights.io/)) - See your source code with the eyes of a compiler
 - [S2E](https://github.com/s2e) - Selective Symbolic Execution (use KLEE as symbolic executor)
 - [RetDec](https://github.com/avast-tl/retdec) - a retargetable machine-code decompiler based on LLVM
 - [capstone](http://www.capstone-engine.org/beyond_llvm.html) - Disassembler based on the MC component of the LLVM compiler infrastructure
 - [rtags](https://github.com/Andersbakken/rtags) - A c/c++ client/server indexer for c/c++/objc[++]
-- [slicer](https://github.com/wujingyue/slicer) - Schedule Specialization Framework
-- [LLBMC](http://llbmc.org/) - The Low-Level Bounded Model Checker
+- ~~[slicer](https://github.com/wujingyue/slicer) - Schedule Specialization Framework~~
+- ~~[LLBMC](http://llbmc.org/) - The Low-Level Bounded Model Checker~~
 - [whole-program-llvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files
 - [DWGrep](http://pmachata.github.io/dwgrep/) - A tool for querying Dwarf (debuginfo) graphs
 - [Emscripten](https://github.com/kripken/emscripten) - An LLVM-to-JavaScript Compiler
-- [mcsema](https://github.com/trailofbits/mcsema) - A  x86 to LLVM IR decompiler
-- [stack](https://github.com/xiw/stack) - A static checker for identifying unstable code
+- [mcsema](https://github.com/trailofbits/mcsema) - An x86 to LLVM IR decompiler
+- ~~[stack](https://github.com/xiw/stack) - A static checker for identifying unstable code~~
 - ~~[andersen](https://github.com/grievejia/andersen) - Andersen's inclusion-based pointer analysis re-implementation in LLVM~~
 - ~~[NeonGoby](https://github.com/wujingyue/neongoby) - Alias Analysis Checker~~
 
