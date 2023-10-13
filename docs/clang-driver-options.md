@@ -1,5 +1,6 @@
 ## Check defined macros during compilation
-```
+
+```bash
 # clang
 $ clang -E -x c  /dev/null -dM
 # clang++

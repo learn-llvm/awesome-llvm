@@ -1,25 +1,26 @@
 #!/bin/bash
+# shellcheck disable=SC2046,SC2091,SC2034,SC2086,SC2164
 
 # apt-get install libcap-dev
 
 source "$(dirname $0)"/setup.rc
 # G is from git, M is from mirror
-KLEE_LLVM_SRC=${M_LLVM_SRC}
-KLEE_LLVM_OBJ=${M_LLVM_OBJ}
+KLEE_LLVM_SRC="${M_LLVM_SRC}"
+KLEE_LLVM_OBJ="${M_LLVM_OBJ}"
 # KLEE_REPO=git@github.com:klee/klee.git
 KLEE_REPO=git@github.com:klee/klee.git
 
 ensure_klee_dir(){
-    rm -rf ${KLEE_OBJ} ${KLEE_INSTALL}
-    mkdir -p ${KLEE_OBJ} ${KLEE_INSTALL}
+    rm -rf "${KLEE_OBJ}" "${KLEE_INSTALL}"
+    mkdir -p "${KLEE_OBJ}" "${KLEE_INSTALL}"
 }
 
 build_klee(){
     set -ex
     ensure_klee_dir
-    git_clone_or_update ${KLEE_REPO} ${KLEE_SRC}
-    cd ${KLEE_OBJ}
-    CXXFLAGS="-D_GLIBCXX_USE_CXX11_ABI=0" ${KLEE_SRC}/configure --with-llvmsrc=${M_LLVM_SRC} --with-llvmobj=${M_LLVM_OBJ} --prefix=${KLEE_INSTALL} --with-uclibc=${UCLIBC_SRC} --with-z3=/usr/local/ --enable-posix-runtime --enable-optimized --enable-cxx11 
+    git_clone_or_update "${KLEE_REPO}" "${KLEE_SRC}"
+    cd "${KLEE_OBJ}"
+    CXXFLAGS="-D_GLIBCXX_USE_CXX11_ABI=0" "${KLEE_SRC}"/configure --with-llvmsrc="${M_LLVM_SRC}" --with-llvmobj="${M_LLVM_OBJ}" --prefix="${KLEE_INSTALL}" --with-uclibc="${UCLIBC_SRC}" --with-z3=/usr/local/ --enable-posix-runtime --enable-optimized --enable-cxx11 
     bear make ENABLE_OPTIMIZED=1 -j$(nproc --ignore=8) CC=clang CXX=clang++ 
     # ENABLE_OPTIMIZED=1
     make install

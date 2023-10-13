@@ -17,7 +17,7 @@ dl_llvm() {
         cd "${DIR}"
         git pull
     else
-        git clone ${DEPTH_OPTS} "${LLVM_MONOREPO}" "${DIR}"
+        git clone "${DEPTH_OPTS}" "${LLVM_MONOREPO}" "${DIR}"
     fi
 }
 

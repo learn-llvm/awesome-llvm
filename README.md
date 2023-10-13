@@ -1,7 +1,7 @@
 Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ------
 
-Resources for [LLVM](http://llvm.org/)-relevant techniques; for Clang-specific resources, please see [clang.md](./clang.md). Other resources might also interest you:
+Resources for [LLVM](http://llvm.org/)-relevant techniques; for Clang-specific resources, please see [Clang.md](./Clang.md). Other resources might also interest you:
 * [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security) - awesome llvm security
 * [static-analysis](https://github.com/analysis-tools-dev/static-analysis) - A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more
 * [dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - A curated list of dynamic analysis tools and linters for all programming languages, binaries, and more

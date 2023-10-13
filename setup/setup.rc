@@ -1,18 +1,25 @@
 # vim: set ft=sh ts=4 sw=2 tw=0 et :
+# shellcheck disable=SC2148,SC2091,SC2034,SC2086,SC2164
 
 YELLOW="\033[1;33m"
 RED="\033[0;31m"
 ENDCOLOR="\033[0m"
 
-SETUP_DIR=$( $(dirname $0);pwd)
+SETUP_DIR=$(
+	$(dirname $0)
+	pwd
+)
 # SETUP_DIR=$(readlink -e $(dirname $0))
-printf "setup_dir: ${SETUP_DIR}\n"
-MAIN_DIR=$(cd ${SETUP_DIR}/..;pwd)
+echo "setup_dir: ${SETUP_DIR}"
+MAIN_DIR=$(
+	cd ${SETUP_DIR}/..
+	pwd
+)
 # MAIN_DIR=$(readlink -f ${SETUP_DIR}/..)
-printf "main_dir: ${MAIN_DIR}\n"
+echo "main_dir: ${MAIN_DIR}"
 BAK_DIR=${SETUP_DIR}/backup
 mkdir -p ${BAK_DIR}
-printf "back_dir: ${BAK_DIR}\n"
+echo "back_dir: ${BAK_DIR}"
 
 G_LLVM_ROOT=${MAIN_DIR}/git
 G_LLVM_INS=${G_LLVM_ROOT}/install
@@ -28,22 +35,23 @@ WLLVM_ROOT=${MAIN_DIR}/wllvm
 KLEE_ROOT=${MAIN_DIR}/klee
 KLEE_INSTALL=${KLEE_ROOT}/install
 
-check_dir(){
-    if ! [ -d $1 ]; then
-        printf "${YELLOW}$1 dir doesn't exist${ENDCOLOR}\n"
-        exit 1
-    fi
+check_dir() {
+	if ! [ -d $1 ]; then
+		echo "${YELLOW}$1 dir doesn't exist${ENDCOLOR}"
+		exit 1
+	fi
 }
 
 # $1: remote repo uri
 # $2: local directory
 # $3: additional arg for git
 git_clone_or_update() {
-    if [[ -d "$2" && -d "$2/.git" ]]; then
-        cd "$2"
-        git pull
-        cd -
-    else
-        git clone $3 $1 $2 # shadow clone
-    fi
+	if [[ -d "$2" && -d "$2/.git" ]]; then
+		D=$PWD
+		cd "$2"
+		git pull
+		cd $D
+	else
+		git clone $3 $1 $2 # shadow clone
+	fi
 }
