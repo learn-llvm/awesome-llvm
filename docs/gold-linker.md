@@ -15,7 +15,7 @@ ld.gold
 When installing the Ubuntu deb Clang-6.0 package, to use gold linker, it's necessary to:
 ```
 sudo mkdir -p /usr/lib/bfd-plugins
-ln -sf /usr/lib/llvm-6.0/lib/LLVMgold.so /usr/lib/bfd-plugins/LLVMgold.so
+sudo ln -sf /usr/lib/llvm-6.0/lib/LLVMgold.so /usr/lib/bfd-plugins/LLVMgold.so
 ```
 
 When building Clang manually, to use gold linker, it's necessary to 1) build binutils with gold linker enabled 2) build clang by specifying the `-DLLVM_BINUTILS_INCDIR=/path/to/binutils/include`.
