@@ -14,7 +14,8 @@ opt_flags = sys.argv[1:]
 opt_args = ["opt"] + opt_flags + ["-disable-output", "-debug-pass=Arguments"]
 
 p = subprocess.Popen(opt_args, stdin=open(os.devnull, 'r'), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-arg_str = p.communicate()[1].rstrip()
+arg_bytes = p.communicate()[1].rstrip()
+arg_str = arg_bytes.decode("utf-8")
 if unknown_option_pattern in arg_str:
     print(arg_str, file=sys.stderr)
     sys.exit(1)

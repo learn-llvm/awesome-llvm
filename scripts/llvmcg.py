@@ -9,7 +9,7 @@ import tempfile
 import platform
 
 if len(sys.argv) < 2:
-    print("usage: {} llvm.ll".format(sys.argv[1]))
+    print("usage: {} llvm.ll".format(sys.argv[0]))
     sys.exit(1)
 
 ir_file = os.path.abspath(sys.argv[1])
