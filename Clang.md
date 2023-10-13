@@ -52,13 +52,12 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [Clang Static Analyzer](https://clang-analyzer.llvm.org/index.html) - a source code analysis tool that finds bugs in C, C++, and Objective-C programs.
   - [scan-build](https://clang-analyzer.llvm.org/scan-build.html) -Running the analyzer from the command line (inactively maintained for cross-translation-unit analysis)
   - [Static Analysis with clang](https://btorpey.github.io/blog/2015/04/27/static-analysis-with-clang/)
-  - [CodeChecker](https://github.com/Ericsson/codechecker) - defect database and viewer extension for Clang Static Analyzer (specially for cross-translation-unit analysis)
   - [clang-analyzer-guide](https://github.com/haoNoQ/clang-analyzer-guide) An easy guide to Clang Static Analyzer extension.
 - [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html) - a fast memory error detector.
   - [overview by Mike Ash](https://www.mikeash.com/pyblog/friday-qa-2015-07-03-address-sanitizer.html)
 - [ClangIR](https://github.com/llvm/clangir/tree/main) - A new (MLIR based) high-level IR for clang
 
-# Unofficial tools/Libraries
+# Unofficial Tools/Libraries
 - [Checked C](https://github.com/microsoft/checkedc) - an extension to C that lets programmers write C code that is guaranteed by the compiler to be type-safe
 - [C++ Insights](https://github.com/andreasfertig/cppinsights) - a clang-based tool which does source to source transformation. Its goal is it to make things visible which normally, and intentionally, happen behind the scenes. [Live/online demo](https://cppinsights.io/) available.
 - [IKOS](https://github.com/nasa-sw-vnv/ikos) - Static analyzer for C/C++ based on the theory of Abstract Interpretation.
@@ -91,3 +90,6 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [standardese](https://github.com/standardese/standardese) - A (work-in-progress) nextgen Doxygen for C++ (based on libclang)
 - [C++Now 2017: clang-useful](https://github.com/peter-can-talk/cppnow-2017/tree/master)
 - [clang-experiments](https://github.com/pr0g/clang-experiments/tree/main)
+
+# Other Relevant Resources
+- [GCC Static Analyzer](https://gcc.gnu.org/wiki/StaticAnalyzer)
