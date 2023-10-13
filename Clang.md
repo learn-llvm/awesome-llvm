@@ -90,3 +90,4 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [libclangmm](https://github.com/cppit/libclangmm) - C++-wrapper for libclang (developed for [juCi++](https://github.com/cppit/jucipp)) (based on libclang, **archived**)
 - [Customizable Naming Convention Checker](https://github.com/mapbox/cncc/) - similar to clang-format, but for naming conventions only.
 - [standardese](https://github.com/standardese/standardese) - A (work-in-progress) nextgen Doxygen for C++ (based on libclang)
+- [clang-experiments](https://github.com/pr0g/clang-experiments/tree/main)
