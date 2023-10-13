@@ -21,7 +21,7 @@
 - [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
 
 
-## Web Pages
+# Official Pages
 - http://llvm.org/
 - http://clang.llvm.org/
 - http://blog.llvm.org/
@@ -29,11 +29,12 @@
 - Mailing List
   - [llvm-dev](http://lists.cs.uiuc.edu/mailman/listinfo/llvmdev)([nabble forum page](http://llvm.1065342.n5.nabble.com/LLVM-Dev-f3.html)), [llvm-weekly](http://llvmweekly.org/)
   - [cfe-dev](http://lists.cs.uiuc.edu/mailman/listinfo/cfe-dev)
-- [ELLCC](http://ellcc.org/demo/index.cgi) - Online LLVM Demo Page
   
-# Resources
+# Other Pages
+- [ELLCC](http://ellcc.org/demo/index.cgi) - Online LLVM Demo Page
 - [Eli Bendersky's website](http://eli.thegreenplace.net/)
 - [ChenWj's LLVM Wiki](http://people.cs.nctu.edu.tw/~chenwj/dokuwiki/doku.php?id=llvm)(Traditional Chinese)
+- [An Unofficial LLVM Website](http://llvm.lyngvig.org/Articles/)
 - ["LLVM" at StackOverflow](http://stackoverflow.com/questions/tagged/llvm)
 - ["Clang" at StackOverflow](http://stackoverflow.com/questions/tagged/clang)
 
