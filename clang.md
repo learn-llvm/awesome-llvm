@@ -1,7 +1,7 @@
 Awesome Clang [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ------
 
-This doc was originally forked from https://github.com/ingve/awesome-clang. However I prefer a monorepo for both LLVM and Clang; so I moved here for better maintainance.
+This doc was originally forked from https://github.com/ingve/awesome-clang and then maintained by me. However I prefer a monorepo for both LLVM and Clang, so moved here.
 
 # Websites
 - Project site: http://clang.llvm.org, and [its doxygen docs](https://clang.llvm.org/doxygen/index.html)
@@ -21,12 +21,12 @@ This doc was originally forked from https://github.com/ingve/awesome-clang. Howe
 - [AST Matcher Reference](https://clang.llvm.org/docs/LibASTMatchersReference.html) - AST matchers implemented by Clang.
 - [How to build LLVM from source](https://quuxplusone.github.io/blog/2018/04/16/building-llvm-from-source/) - Step-by step, using the GitHub mirror.
 - [Writing LLVM Pass in 2018 — Part I](https://medium.com/@mshockwave/writing-llvm-pass-in-2018-part-i-531c700e85eb) - New Pass & Pass Manager in a Peek.
-- 🎞️ [Create your own Refactoring Tool in Clang](https://www.youtube.com/watch?v=8PndHo7jjHk) - Richard Thompson's presentation from C++Now 2014.
-- 🎞️ [Refactoring C++ with Clang](https://www.youtube.com/watch?v=yuIOGfcOH0k) - Chandler Carruth's talk from C++Now 2012.
-- 🎞️ [Automatic C++ source code generation with clang](https://www.youtube.com/watch?v=aPTyatTI42k) - Sergei Sadovnikov's ACCU 2017 talk.
+- 📹 [Create your own Refactoring Tool in Clang](https://www.youtube.com/watch?v=8PndHo7jjHk) - Richard Thompson's presentation from C++Now 2014.
+- 📹 [Refactoring C++ with Clang](https://www.youtube.com/watch?v=yuIOGfcOH0k) - Chandler Carruth's talk from C++Now 2012.
+- 📹 [Automatic C++ source code generation with clang](https://www.youtube.com/watch?v=aPTyatTI42k) - Sergei Sadovnikov's ACCU 2017 talk.
 
 
-# Official Tools/libraries
+# Official Tools/Libraries
 - [libclang:](https://clang.llvm.org/doxygen/group__CINDEX.html) -  C Interface to Clang.
   - [Introduction to libclang](https://www.mikeash.com/pyblog/friday-qa-2014-01-24-introduction-to-libclang.html)
   - [Skipping library code in gdb with help from libClang](https://jefftrull.github.io/c++/gdb/python/libclang/llvm/2018/04/30/stepping-with-libclang.html) - using libClang’s Python bindings.
@@ -57,14 +57,17 @@ This doc was originally forked from https://github.com/ingve/awesome-clang. Howe
   - [clang-analyzer-guide](https://github.com/haoNoQ/clang-analyzer-guide) An easy guide to Clang Static Analyzer extension.
 - [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html) - a fast memory error detector.
   - [overview by Mike Ash](https://www.mikeash.com/pyblog/friday-qa-2015-07-03-address-sanitizer.html)
+- [ClangIR](https://github.com/llvm/clangir/tree/main) - A new (MLIR based) high-level IR for clang
 
-# Unofficial tools/libraries
+# Unofficial tools/Libraries
 - [Checked C](https://github.com/microsoft/checkedc) - an extension to C that lets programmers write C code that is guaranteed by the compiler to be type-safe
 - [C++ Insights](https://github.com/andreasfertig/cppinsights) - a clang-based tool which does source to source transformation. Its goal is it to make things visible which normally, and intentionally, happen behind the scenes. [Live/online demo](https://cppinsights.io/) available.
 - [IKOS](https://github.com/nasa-sw-vnv/ikos) - Static analyzer for C/C++ based on the theory of Abstract Interpretation.
 - [CodeChecker](https://github.com/Ericsson/codechecker) - an analyzer tooling, defect database and viewer extension for the Clang Static Analyzer and Clang Tidy
   - [docs](https://codechecker.readthedocs.io/en/latest/)
 - [QT Clazy](https://github.com/KDE/clazy) - Qt-oriented static code analyzer based on the Clang framework (as a plugin and a standalone tool on top of libtooling)
+- [VAST](https://github.com/trailofbits/vast) - VAST: MLIR for Program Analysis
+- [PASTA](https://github.com/trailofbits/pasta) - Peter's Amazing Syntax Tree Analyzer 
 - [scip-clang](https://github.com/sourcegraph/scip-clang) - SCIP indexer for C and C++
 - [lsif-clang](https://github.com/sourcegraph/lsif-clang) - LSIF generator for C, C++ and Objective C
 - [Clang Power Tools](https://github.com/Caphyon/clang-power-tools) - Visual Studio extension with Clang/LLVM tools (`clang++`, `clang-tidy` and `clang-format`).
@@ -84,3 +87,4 @@ This doc was originally forked from https://github.com/ingve/awesome-clang. Howe
 - [lloccount](https://github.com/neolynx/lloccount) - C/C++ Logical Lines Of Code Counter.
 - [libclangmm](https://github.com/cppit/libclangmm) - C++-wrapper for libclang (developed for [juCi++](https://github.com/cppit/jucipp)) (based on libclang, **archived**)
 - [Customizable Naming Convention Checker](https://github.com/mapbox/cncc/) - similar to clang-format, but for naming conventions only.
+- [standardese](https://github.com/standardese/standardese) - A (work-in-progress) nextgen Doxygen for C++ (based on libclang)
