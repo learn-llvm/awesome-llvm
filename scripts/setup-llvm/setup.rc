@@ -1,0 +1,76 @@
+# -*- mode: shell-script; -*-
+# vim: set ft=sh ts=4 sw=2 tw=0 et :
+
+YELLOW="\033[1;33m"
+RED="\033[0;31m"
+ENDCOLOR="\033[0m"
+
+GCC_VER=4.9
+SETUP_DIR=$(cd $(dirname $0);pwd)
+# SETUP_DIR=$(readlink -e $(dirname $0))
+printf "setup_dir: ${SETUP_DIR}\n"
+MAIN_DIR=$(cd ${SETUP_DIR}/..;pwd)
+# MAIN_DIR=$(readlink -f ${SETUP_DIR}/..)
+printf "main_dir: ${MAIN_DIR}\n"
+BAK_DIR=${SETUP_DIR}/backup
+mkdir -p ${BAK_DIR}
+printf "back_dir: ${BAK_DIR}\n"
+
+LLVM_VER=3.6
+M_LLVM_ROOT=${MAIN_DIR}/llvm-${LLVM_VER}
+M_LLVM_SRC=${M_LLVM_ROOT}/src
+M_LLVM_OBJ=${M_LLVM_ROOT}/obj
+M_LLVM_INS=${M_LLVM_ROOT}/install
+
+G_LLVM_ROOT=${MAIN_DIR}/llvm-git
+G_LLVM_SRC=${G_LLVM_ROOT}/src
+G_LLVM_OBJ=${G_LLVM_ROOT}/obj
+G_LLVM_INS=${G_LLVM_ROOT}/install
+
+Z3_ROOT=${MAIN_DIR}/Z3
+Z3_SRC=${Z3_ROOT}/src
+Z3_BUILD=${Z3_SRC}/build
+Z3_SCRIPT=${Z3_SRC}/scripts
+
+MARPLE_ROOT=${MAIN_DIR}/marple
+MARPLE_BUILD=${MARPLE_ROOT}/build
+
+STP_ROOT=${MAIN_DIR}/stp
+STP_SRC=${STP_ROOT}/src
+STP_OBJ=${STP_ROOT}/obj
+STP_INSTALL=${STP_ROOT}/install
+
+UCLIBC_SRC=${MAIN_DIR}/uclibc
+
+WLLVM_ROOT=${MAIN_DIR}/wllvm
+
+KLEE_ROOT=${MAIN_DIR}/klee
+KLEE_SRC=${KLEE_ROOT}/src
+KLEE_OBJ=${KLEE_ROOT}/obj
+KLEE_INSTALL=${KLEE_ROOT}/install
+
+ensure_gcc_ver(){
+sudo update-alternatives --set g++ /usr/bin/g++-${GCC_VER}
+sudo update-alternatives --set gcc /usr/bin/gcc-${GCC_VER}
+sudo update-alternatives --set cpp-bin /usr/bin/cpp-${GCC_VER}
+}
+
+check_dir(){
+    if ! [ -d $1 ]; then
+        printf "${YELLOW}$1 dir doesn't exist${ENDCOLOR}\n"
+        exit 1
+    fi
+}
+
+# $1: remote repo uri
+# $2: local directory
+# $3: additional arg for git
+git_clone_or_update() {
+    if [[ -d "$2" && -d "$2/.git" ]]; then
+        cd "$2"
+        git pull
+        cd -
+    else
+        git clone $3 $1 $2 # shadow clone
+    fi
+}

@@ -1,0 +1,5 @@
+/backup
+tests
+*.zip
+mit_benchmark/testcases
+coreutils/*.tar.bz2
