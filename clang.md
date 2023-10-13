@@ -44,9 +44,9 @@ This doc was forked from https://github.com/ingve/awesome-clang. However I prefe
 ### Clang static analyzer
 
 - [Clang Static Analyzer](https://clang-analyzer.llvm.org/index.html) - a source code analysis tool that finds bugs in C, C++, and Objective-C programs.
-- [scan-build](https://clang-analyzer.llvm.org/scan-build.html) -Running the analyzer from the command line.
+- [scan-build](https://clang-analyzer.llvm.org/scan-build.html) -Running the analyzer from the command line (inactively maintained for cross-translation-unit analysis)
 - [Static Analysis with clang](https://btorpey.github.io/blog/2015/04/27/static-analysis-with-clang/)
-- [CodeChecker](https://github.com/Ericsson/codechecker) - defect database and viewer extension for Clang Static Analyzer.
+- [CodeChecker](https://github.com/Ericsson/codechecker) - defect database and viewer extension for Clang Static Analyzer (specially for cross-translation-unit analysis)
 - [clang-analyzer-guide](https://github.com/haoNoQ/clang-analyzer-guide) An easy guide to Clang Static Analyzer extension.
 
 ### AddressSanitizer
@@ -79,8 +79,9 @@ This doc was forked from https://github.com/ingve/awesome-clang. However I prefe
 - [libclang:](https://clang.llvm.org/doxygen/group__CINDEX.html) -  C Interface to Clang.
 - [Introduction to libclang](https://www.mikeash.com/pyblog/friday-qa-2014-01-24-introduction-to-libclang.html)
 - [LLVM & Clang library usage samples](https://github.com/eliben/llvm-clang-samples)
+- [cppast](https://github.com/foonathan/cppast) - Library to parse and work with the C++ AST (**to be archived**)
 - [lloccount](https://github.com/neolynx/lloccount) - C/C++ Logical Lines Of Code Counter.
-- [libclangmm](https://github.com/cppit/libclangmm) - C++-wrapper for libclang (developed for [juCi++](https://github.com/cppit/jucipp))
+- [libclangmm](https://github.com/cppit/libclangmm) - C++-wrapper for libclang (developed for [juCi++](https://github.com/cppit/jucipp)) (**archived**)
 - [Customizable Naming Convention Checker](https://github.com/mapbox/cncc/) - similar to clang-format, but for naming conventions only.
 - [irony-mode](https://github.com/Sarcasm/irony-mode) - A C/C++ minor mode for Emacs powered by libclang.
 - [c99-to-c89](https://github.com/libav/c99-to-c89/) - Tool to convert C99 code to MSVC-compatible C89.
@@ -105,6 +106,9 @@ This doc was forked from https://github.com/ingve/awesome-clang. However I prefe
 - [AST Matcher Reference](https://clang.llvm.org/docs/LibASTMatchersReference.html) - AST matchers implemented by Clang.
 - [How to build LLVM from source](https://quuxplusone.github.io/blog/2018/04/16/building-llvm-from-source/) - Step-by step, using the GitHub mirror.
 - [Writing LLVM Pass in 2018 — Part I](https://medium.com/@mshockwave/writing-llvm-pass-in-2018-part-i-531c700e85eb) - New Pass & Pass Manager in a Peek.
+
+## Plugins
+- [QT Clazy](https://github.com/KDE/clazy) - Qt-oriented static code analyzer based on the Clang framework 
 
 ## Videos
 
