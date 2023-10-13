@@ -51,8 +51,6 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - 📃 [LLVM-Pass-Analysis-Collection](https://github.com/JohannesLiu/LLVM-Pass-Analysis-Collection) - A Collection of LLVM Pass for Program Analysis
 - 📃 [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
 - 📃 [llvm-ir-tutorial](https://github.com/Evian-Zhang/llvm-ir-tutorial) (in Chinese)
-- ⚙️ [LLVM Debian/Ubuntu nightly packages](http://apt.llvm.org/) - Debian APT sources
-- ⚙️ [Mac OS Homebrew Formula]([https://github.com/Homebrew/homebrew-core/blob/master/Formula/llvm.rb](https://github.com/Homebrew/homebrew-core/blob/master/Formula/l/llvm.rb)) - HomeBrew's LLVM formula
 
 # Publications
 - http://llvm.org/pubs/
@@ -65,7 +63,7 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - 📖 [Getting Started with LLVM Core Libraries](https://www.amazon.com/Getting-Started-LLVM-Core-Libraries/dp/1782166920), also available on [ACM library](https://dl.acm.org/citation.cfm?id=2692607)
 - 📖 [LLVM Cookbook](https://www.amazon.com/LLVM-Cookbook-Mayur-Pandey/dp/178528598X)
 - 📖 [LLVM Essentials](https://www.amazon.com/LLVM-Essentials-Suyog-Sarda/dp/1785280805/)
-- 📖 [LLVM Techniques, Tips, and Best Practices Clang and Middle-End Libraries](https://www.amazon.com/Techniques-Practices-Clang-Middle-End-Libraries/dp/1838824952) -- also has some tutorials on Clang (libtooling specific)
+- 📖 [LLVM Techniques, Tips, and Best Practices Clang and Middle-End Libraries](https://www.amazon.com/Techniques-Practices-Clang-Middle-End-Libraries/dp/1838824952)
 - 📖 [Engineering LLVM Backend](https://www.amazon.com/Engineering-LLVM-Backend-next-generation-accelerator-ebook/dp/B0BBRF69XL/ref=sr_1_15)
 
 # Official Tools/Libraries ([reference](http://llvm.org/docs/CommandGuide/index.html))
@@ -132,6 +130,10 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - [Crystal](https://crystal-lang.org/)
 - [codon](https://github.com/exaloop/codon)
 - [numba](https://github.com/numba/numba)
+
+# Setup
+- ⚙️ [LLVM Debian/Ubuntu nightly packages](http://apt.llvm.org/) - Debian APT sources
+- ⚙️ [Mac OS Homebrew Formula]([https://github.com/Homebrew/homebrew-core/blob/master/Formula/llvm.rb](https://github.com/Homebrew/homebrew-core/blob/master/Formula/l/llvm.rb)) - HomeBrew's LLVM formula
 
 # Other relevant resources:
 * [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security) - awesome llvm security
