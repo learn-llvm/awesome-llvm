@@ -69,6 +69,7 @@ This doc was forked from https://github.com/ingve/awesome-clang. However I prefe
 - [lsif-clang](https://github.com/sourcegraph/lsif-clang) - Language Server Indexing Format (LSIF) generator for C, C++ and Objective C
 - [codebrowser](https://github.com/KDAB/codebrowser) - Woboq CodeBrowser
 - [oclint](https://github.com/oclint) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
+- [CppNameLint](https://github.com/dougpuob/cppnamelint) - a naming convention linter of C/C++ source code Based on Clang libtooling
 
 
 ## Libraries
