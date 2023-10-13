@@ -30,7 +30,8 @@
 - http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
 - http://blog.llvm.org/
 - http://llvm.org/devmtg/
-- [Mailing List: llvm-dev](http://lists.cs.uiuc.edu/mailman/listinfo/llvmdev)([nabble forum page](http://llvm.1065342.n5.nabble.com/LLVM-Dev-f3.html))
+- [discourse forum](https://discourse.llvm.org/)
+- ~~[Mailing List: llvm-dev](http://lists.cs.uiuc.edu/mailman/listinfo/llvmdev)~~
 - [Mailing List: llvm-weekly](http://llvmweekly.org/)
 
 # Other Pages
@@ -41,7 +42,8 @@
 - [An Unofficial LLVM Website](http://llvm.lyngvig.org/Articles/)
 - [LLVM @ StackOverflow](http://stackoverflow.com/questions/tagged/llvm)
 - [LLVM @ reddit](https://www.reddit.com/r/LLVM/)
-- Papers
+- [GitHub LLVM topic](https://github.com/topics/llvm)
+- Publications
   - http://llvm.org/pubs/
   - [LLVM @ Google Scholar](https://scholar.google.com.sg/scholar?hl=en&q=llvm&btnG=&as_sdt=1%2C5&as_sdtp=)
   - [LLVM @ Microsoft Academic Search](http://academic.research.microsoft.com/Search?query=llvm)
@@ -75,22 +77,28 @@
 # Unofficial Tools/Framework
 - [American fuzzy lop (AFL)](http://lcamtuf.coredump.cx/afl/) - LLVM mode for instrumentation
 - [SVF-tools](https://github.com/SVF-tools/SVF) - Pointer Analysis and Program Dependence Analysis for C and C++ Programs
+- [Phasar](https://github.com/secure-software-engineering/phasar) - A LLVM-based static analysis framework
 - [Infer](https://github.com/facebook/infer) - Facebook's static analysis framework; C/C++/objc is based on LLVM/Clang
-- [wllvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files; its go port [gllvm](https://github.com/SRI-CSL/gllvm)
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files; its go port [gllvm](https://github.com/SRI-CSL/gllvm)
 - [klee](https://github.com/klee/klee) - Symbolic Virtual Machine
+- [ollvm](https://github.com/obfuscator-llvm/obfuscator/wiki) - code obfuscation based on LLVM4.0
 - [S2E](https://github.com/s2e) - Selective Symbolic Execution (use KLEE as symbolic executor)
 - [RetDec](https://github.com/avast-tl/retdec) - a retargetable machine-code decompiler based on LLVM
 - [capstone](http://www.capstone-engine.org/beyond_llvm.html) - Disassembler based on the MC component of the LLVM compiler infrastructure
 - ~~[slicer](https://github.com/wujingyue/slicer) - Schedule Specialization Framework~~
 - ~~[LLBMC](http://llbmc.org/) - The Low-Level Bounded Model Checker~~
-- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files
 - [DWGrep](http://pmachata.github.io/dwgrep/) - A tool for querying Dwarf (debuginfo) graphs
 - [Emscripten](https://github.com/kripken/emscripten) - An LLVM-to-JavaScript Compiler
+- [cling](https://github.com/root-project/cling) - The cling C++ interpreter
 - [mcsema](https://github.com/trailofbits/mcsema) - An x86 to LLVM IR decompiler
+- [remill](https://github.com/lifting-bits/remill) - Library for lifting machine code to LLVM bitcode
+- [llvm2cpg](https://github.com/ShiftLeftSecurity/llvm2cpg) - LLVM meets Code Property Graphs
 - ~~[stack](https://github.com/xiw/stack) - A static checker for identifying unstable code~~
 - ~~[andersen](https://github.com/grievejia/andersen) - Andersen's inclusion-based pointer analysis re-implementation in LLVM~~
 - ~~[NeonGoby](https://github.com/wujingyue/neongoby) - Alias Analysis Checker~~
-- [lsif-clangd](https://github.com/sourcegraph/lsif-clang) - Language Server Indexing Format (LSIF) generator for C, C++ and Objective C
+- [QBDI](https://github.com/QBDI/QBDI) - A Dynamic Binary Instrumentation framework based on LLVM
+- [circt](https://github.com/llvm/circt) - Circuit IR Compilers and Tools
+- [lsif-clang](https://github.com/sourcegraph/lsif-clang) - Language Server Indexing Format (LSIF) generator for C, C++ and Objective C
 
 # Books
 - [Learn LLVM 12](https://www.amazon.com/Learn-LLVM-12-beginners-libraries/dp/1839213507/ref=sr_1_1)
@@ -104,6 +112,7 @@
 # Tutorials
 - https://github.com/banach-space/llvm-tutor
 - [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
+- [llvm-ir-tutorial](https://github.com/Evian-Zhang/llvm-ir-tutorial) (in Chinese)
 
 # Installation
 - [LLVM Debian/Ubuntu nightly packages](http://apt.llvm.org/)
@@ -119,7 +128,10 @@
 - [scala-native](https://github.com/scala-native/scala-native)
 - [ldc](https://github.com/ldc-developers/ldc)
 - [Crystal](https://crystal-lang.org/)
+- [codon](https://github.com/exaloop/codon)
+- [numba](https://github.com/numba/numba)
 
 # Bindings
 - [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM python binding for writing JIT compilers
 - [LLVM Rust crates](https://crates.io/search?q=llvm)
+- [](https://crates.io/search?q=llvm)
