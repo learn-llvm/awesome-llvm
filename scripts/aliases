@@ -1,25 +1,41 @@
 #!/bin/bash
-# -*- mode: sh -*-
-# vim: ft=sh
 
 # this file contains the aliases used by me to get quick results of LLVM/Clang/GCC results
 # to use this, add these inside shell profile files such as ~/.profile, ~/.bashrc
 
-alias d_gcc='gcc -E -x c  /dev/null -dM'
-alias v_gcc='gcc -E -x c /dev/null -v'
-alias d_clang='clang -E -x c  /dev/null -dM'
-alias v_clang='clang -E -x c /dev/null -v'
-alias d_g++='g++ -E -x c++  /dev/null -dM'
-alias v_g++='gcc -E -x c++ /dev/null -v'
-alias d_clang++='clang++ -E -x c++  /dev/null -dM'
-alias v_clang++='clang++ -E -x c++ /dev/null -v'
-alias help_cc1='clang -cc1 -analyzer-checker-help |less'
+GCC_VERSION=
+CLANG_VERSION=16
+
+function versioned() {
+	if [[ -z "$2" ]]; then
+		echo "$1"
+	else
+		echo "$1-$2"
+	fi
+}
+
+MY_GCC=$(versioned gcc "${GCC_VERSION}")
+MY_GPP=$(versioned g++ "${GCC_VERSION}")
+MY_CLANG=$(versioned clang "${CLANG_VERSION}")
+MY_CLANGPP=$(versioned clang++ "${CLANG_VERSION}")
+
+alias d_gcc='${MY_GCC} -E -x c  /dev/null -dM'
+alias v_gcc='${MY_GCC} -E -x c /dev/null -v'
+alias d_clang='${MY_CLANG} -E -x c  /dev/null -dM'
+alias v_clang='${MY_CLANG} -E -x c /dev/null -v'
+alias d_g++='${MY_GPP} -E -x c++  /dev/null -dM'
+alias v_g++='${MY_GPP} -E -x c++ /dev/null -v'
+alias d_clang++='${MY_CLANGPP} -E -x c++  /dev/null -dM'
+alias v_clang++='${MY_CLANGPP} -E -x c++ /dev/null -v'
+alias help_cc1='${MY_CLANG} -cc1 -analyzer-checker-help'
 alias scan_build='scan-build --use-analyzer=$(which clang)'
-alias v_cc1_o0='clang /dev/null -xc -O0 - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
-alias v_cc1_o1='clang /dev/null -xc -O1 - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
-alias v_cc1_o2='clang /dev/null -xc -O2 - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
-alias v_cc1_o3='clang /dev/null -xc -O3 - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
-alias v_cc1_os='clang /dev/null -xc -Os - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
-alias v_cc1_oz='clang /dev/null -xc -Oz - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
-alias v_cc1_ofast='clang /dev/null -xc -Ofast - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
-alias v_clang_llvm='clang -xc /dev/null -c -mllvm -print-all-options'
+alias v_cc1_o0='${MY_CLANG} /dev/null -xc -O0 - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
+alias v_cc1_o1='${MY_CLANG} /dev/null -xc -O1 - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
+alias v_cc1_o2='${MY_CLANG} /dev/null -xc -O2 - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
+alias v_cc1_o3='${MY_CLANG} /dev/null -xc -O3 - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
+alias v_cc1_os='${MY_CLANG} /dev/null -xc -Os - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
+alias v_cc1_oz='${MY_CLANG} /dev/null -xc -Oz - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
+alias v_cc1_ofast='${MY_CLANG} /dev/null -xc -Ofast - -o /dev/null -\#\#\# 2>&1 | tr " " "\n"'
+alias v_clang_llvm='${MY_CLANG} -xc /dev/null -c -mllvm -print-all-options -o /dev/null'
+
+# vim: set ft=sh ts=4 sw=0 tw=0:
