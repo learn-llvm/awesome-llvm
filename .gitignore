@@ -1,0 +1,4 @@
+backup/
+tests/
+*.zip
+*.o
