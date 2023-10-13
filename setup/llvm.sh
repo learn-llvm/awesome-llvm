@@ -1,32 +1,19 @@
 #!/bin/bash
+# shellcheck disable=SC2086
 LLVM_MONOREPO="git@github.com:llvm/llvm-project.git"
 
-set -ex
+set -e
 
-DEPTH_OPTS="--depth 1"
-WORKDIR=$(realpath "${PWD}")
-ROOT_DIR=${WORKDIR}/git
-INSTALL_PREFIX="/usr/local"
+source "$(dirname $0)"/setup.rc
 
-export CC=clang
-export CXX=clang++
-
-dl_llvm() {
-    DIR="$1"
-    if [[ -d "${DIR}/.git" ]]; then
-        cd "${DIR}"
-        git pull
-    else
-        git clone "${DEPTH_OPTS}" "${LLVM_MONOREPO}" "${DIR}"
-    fi
-}
+export CC=clang CXX=clang++
 
 # https://llvm.org/docs/GettingStarted.html
 build() {
-    dl_llvm "${ROOT_DIR}"
+    git_clone_or_update "${GIT_OPTS}" "${LLVM_MONOREPO}" "${LLVM_SRC_DIR}"
     cd "${ROOT_DIR}" || exit
     cmake -B build -S llvm \
-      -DCMAKE_INSTALL_PREFIX=${INSTALL_PREFIX} \
+      -DCMAKE_INSTALL_PREFIX=${LLVM_INSTALL_DIR} \
       -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
       -DCMAKE_BUILD_TYPE=Release \
       -DBUILD_SHARED_LIBS=ON \
@@ -46,4 +33,4 @@ build() {
 
 build
 
-set +ex
+set +e

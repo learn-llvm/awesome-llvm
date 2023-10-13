@@ -1,12 +1,11 @@
 #!/bin/bash
 # shellcheck disable=SC2046,SC2091,SC2034,SC2086,SC2164
 
-# apt-get install libcap-dev
+sudo apt install build-essential cmake curl file g++-multilib gcc-multilib git libcap-dev libgoogle-perftools-dev libncurses5-dev libsqlite3-dev libtcmalloc-minimal4 python3-pip unzip graphviz doxygen
 
 source "$(dirname $0)"/setup.rc
-# G is from git, M is from mirror
-KLEE_LLVM_SRC="${M_LLVM_SRC}"
-KLEE_LLVM_OBJ="${M_LLVM_OBJ}"
+KLEE_LLVM_SRC="${G_LLVM_SRC}"
+KLEE_LLVM_OBJ="${G_LLVM_OBJ}"
 # KLEE_REPO=git@github.com:klee/klee.git
 KLEE_REPO=git@github.com:klee/klee.git
 
@@ -16,7 +15,7 @@ ensure_klee_dir(){
 }
 
 build_klee(){
-    set -ex
+    set -e
     ensure_klee_dir
     git_clone_or_update "${KLEE_REPO}" "${KLEE_SRC}"
     cd "${KLEE_OBJ}"
@@ -24,24 +23,7 @@ build_klee(){
     bear make ENABLE_OPTIMIZED=1 -j$(nproc --ignore=8) CC=clang CXX=clang++ 
     # ENABLE_OPTIMIZED=1
     make install
-    set +ex
+    set +e
 }
 
-# rm -f ${KLEE_SRC}/include/klee/Config/config.h
 build_klee 2>&1 | tee ${BAK_DIR}/log-4-klee
-
-# if ! [ -e ${KLEE_INSTALL}/lib/libkleeRuntimePOSIX.bca ]; then
-#     printf "bca file not installed\n"
-#     exit 1
-# else
-#     printf "bitcode library installed\n"
-# fi
-
-# strip --strip-debug `which klee`
-
-# # cd ${KLEE_OBJ}
-# # make test
-# # make doxygen
-
-# cd ${KLEE_SRC}/include/klee/Config/
-# ln -sf ../../../../klee-obj/include/klee/Config/config.h .

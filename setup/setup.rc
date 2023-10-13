@@ -1,57 +1,30 @@
 # vim: set ft=sh ts=4 sw=2 tw=0 et :
 # shellcheck disable=SC2148,SC2091,SC2034,SC2086,SC2164
 
-YELLOW="\033[1;33m"
-RED="\033[0;31m"
-ENDCOLOR="\033[0m"
+WORK_DIR=$(pwd)
+echo "WORK_DIR: ${WORK_DIR}"
 
-SETUP_DIR=$(
-	$(dirname $0)
-	pwd
-)
-# SETUP_DIR=$(readlink -e $(dirname $0))
-echo "setup_dir: ${SETUP_DIR}"
-MAIN_DIR=$(
-	cd ${SETUP_DIR}/..
-	pwd
-)
-# MAIN_DIR=$(readlink -f ${SETUP_DIR}/..)
-echo "main_dir: ${MAIN_DIR}"
-BAK_DIR=${SETUP_DIR}/backup
-mkdir -p ${BAK_DIR}
-echo "back_dir: ${BAK_DIR}"
+GIT_OPTS="--depth 1"
 
-G_LLVM_ROOT=${MAIN_DIR}/git
-G_LLVM_INS=${G_LLVM_ROOT}/install
+LLVM_SRC_DIR=${WORK_DIR}/llvm
+LLVM_INS_DIR=${LLVM_SRC_DIR}/install
 
-Z3_ROOT=${MAIN_DIR}/z3
-Z3_BUILD=${Z3_ROOT}/build
-Z3_SCRIPT=${Z3_ROOT}/scripts
+UCLIBC_SRC_DIR=${WORK_DIR}/uclibc
 
-UCLIBC_SRC=${MAIN_DIR}/uclibc
-
-WLLVM_ROOT=${MAIN_DIR}/wllvm
-
-KLEE_ROOT=${MAIN_DIR}/klee
-KLEE_INSTALL=${KLEE_ROOT}/install
-
-check_dir() {
-	if ! [ -d $1 ]; then
-		echo "${YELLOW}$1 dir doesn't exist${ENDCOLOR}"
+git_clone_or_update() {
+	if [[ $# -lt 3 ]]; then
+		echo "usage: $0 <GIT_OPTS> <REPO_URL> <SRC_DIR>"
 		exit 1
 	fi
-}
-
-# $1: remote repo uri
-# $2: local directory
-# $3: additional arg for git
-git_clone_or_update() {
-	if [[ -d "$2" && -d "$2/.git" ]]; then
+	GIT_OPTS="$1"
+	REPO_URL="$2"
+	SRC_DIR="$3"
+	if [[ -d "$SRC_DIR" && -d "$SRC_DIR/.git" ]]; then
 		D=$PWD
-		cd "$2"
+		cd "$SRC_DIR"
 		git pull
 		cd $D
 	else
-		git clone $3 $1 $2 # shadow clone
+		git clone ${GIT_OPTS} ${REPO_URL} ${SRC_DIR}
 	fi
 }

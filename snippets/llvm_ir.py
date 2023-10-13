@@ -2,7 +2,7 @@
 
 import sys
 import subprocess
-from colorama import * # type: ignore
+from colorama import init,Fore, Style
 import argparse
 
 init()
@@ -12,8 +12,8 @@ parser.add_argument( "file", metavar="FILE", action="store", help="FILE to be pr
 parser.add_argument( "-compiler", default="clang", help="llvm compatible compiler(default: clang)")
 parser.add_argument("-c", action="store_true", help="generate bitcode rather than IR")
 parser.add_argument( "--nostd", action="store_true", help="if in arglist, don't add -std=c99/-std=c++11")
-parser.add_argument( "-cs", action="store_true", help="when in arglist, -print-stats for compilation")
-parser.add_argument( "--cf", metavar='"COMPILATION_FLAGS"', help="extra compilation flags(string)")
+parser.add_argument( "-s", action="store_true", help="if in arglist, -print-stats for compilation")
+parser.add_argument( "--flags", metavar='"COMPILATION_FLAGS"', help="extra compilation flags(string)")
 parser.add_argument( "--of", metavar='"OPT_FLAGS"', help="extra optimization flags(string)")
 
 if len(sys.argv) == 1:
@@ -45,13 +45,11 @@ elif compile_type == "c++":
 
 compiler_flags.extend(["-c", "-emit-llvm"])
 
-if args.cs:
+if args.s:
     compiler_flags.extend(["-Xclang", "-print-stats"])
 
-if args.cf:
-    compiler_flags.extend(args.cf.split())
-# else:
-#     compiler_flags.append('-O1')
+if args.flags:
+    compiler_flags.extend(args.flags.split())
 
 compiler_flags.extend(["-o", "-"])
 

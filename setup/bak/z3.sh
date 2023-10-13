@@ -1,8 +1,7 @@
 #!/bin/bash
 # shellcheck disable=SC2046,SC2091,SC2034,SC2086,SC2164
 
-Z3_REPO=http://z3.codeplex.com/sourcecontrol/latest#README
-# z3="git@github.com:Z3Prover/z3.git"
+z3="git@github.com:Z3Prover/z3.git"
 
 set -e
 build_z3() {
