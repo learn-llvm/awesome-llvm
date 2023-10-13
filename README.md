@@ -77,7 +77,6 @@
 - [SVF-tools](https://github.com/SVF-tools/SVF) - Pointer Analysis and Program Dependence Analysis for C and C++ Programs
 - [Infer](https://github.com/facebook/infer) - Facebook's static analysis framework; C/C++/objc is based on LLVM/Clang
 - [wllvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files; its go port [gllvm](https://github.com/SRI-CSL/gllvm)
-- [Bear](https://github.com/rizsotto/Bear) - A tool that generates a compilation database for clang tooling
 - [klee](https://github.com/klee/klee) - Symbolic Virtual Machine
 - [S2E](https://github.com/s2e) - Selective Symbolic Execution (use KLEE as symbolic executor)
 - [RetDec](https://github.com/avast-tl/retdec) - a retargetable machine-code decompiler based on LLVM
