@@ -43,3 +43,9 @@ Run `clang -print-targets` if the version of `clang` is >= 11.
     x86-64     - 64-bit X86: EM64T and AMD64
     xcore      - XCore
 ```
+
+### How to make `clang-11` have the same completion options as `clang` CLI?
+If you are in zsh, execute
+```bash
+compdef clang-11=clang
+```
