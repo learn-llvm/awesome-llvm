@@ -1,14 +1,12 @@
 Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ------
 
-> Useful resources and samples for using [LLVM](http://llvm.org/)-relevant techniques and tools; for Clang-specific resources, please see [clang.md](./clang.md).
-
-Other resources that might interest you:
+Resources for [LLVM](http://llvm.org/)-relevant techniques; for Clang-specific resources, please see [clang.md](./clang.md). Other resources might also interest you:
 * [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security) - awesome llvm security
 * [static-analysis](https://github.com/analysis-tools-dev/static-analysis) - A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more
-* [dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - A curated list of dynamic analysis tools and linters for all programming languages, binaries, and more. 
-* other awesome lists [here](https://github.com/topics/awesome) on GitHub.
-* [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) - wikipedia list
+* [dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - A curated list of dynamic analysis tools and linters for all programming languages, binaries, and more
+* other [awesome lists on GitHub](https://github.com/topics/awesome)
+* [List of tools for static code analysis (on Wikipedia)](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
 
 # Documentation ([reference](http://llvm.org/docs/index.html))
 - [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
@@ -49,7 +47,7 @@ Other resources that might interest you:
 - [LLVM @ StackOverflow](http://stackoverflow.com/questions/tagged/llvm)
 - [LLVM @ reddit](https://www.reddit.com/r/LLVM/)
 - [GitHub LLVM topic](https://github.com/topics/llvm)
-- [hdoc](https://docs.hdoc.io/hdoc/llvm-project/)
+- [LLVM documentation in hdoc](https://docs.hdoc.io/hdoc/llvm-project/functions.html)
 
 # Tutorials
 - 📃 [LLVM-Tutor](https://github.com/banach-space/llvm-tutor) - A collection of out-of-tree LLVM passes for teaching and learning
@@ -57,8 +55,8 @@ Other resources that might interest you:
 - 📃 [LLVM-Pass-Analysis-Collection](https://github.com/JohannesLiu/LLVM-Pass-Analysis-Collection) - A Collection of LLVM Pass for Program Analysis
 - 📃 [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
 - 📃 [llvm-ir-tutorial](https://github.com/Evian-Zhang/llvm-ir-tutorial) (in Chinese)
-- ⚙️ [LLVM Debian/Ubuntu nightly packages](http://apt.llvm.org/)
-- ⚙️ [Mac OS Homebrew Formula](https://github.com/Homebrew/homebrew-core/blob/master/Formula/llvm.rb)
+- ⚙️ [LLVM Debian/Ubuntu nightly packages](http://apt.llvm.org/) - Debian APT sources
+- ⚙️ [Mac OS Homebrew Formula]([https://github.com/Homebrew/homebrew-core/blob/master/Formula/llvm.rb](https://github.com/Homebrew/homebrew-core/blob/master/Formula/l/llvm.rb)) - HomeBrew's LLVM formula
 
 # Publications
 - http://llvm.org/pubs/
@@ -81,7 +79,6 @@ Other resources that might interest you:
 - [llvm-dis](http://llvm.org/docs/CommandGuide/llvm-dis.html) - LLVM disassembler
 - [llvm-as](http://llvm.org/docs/CommandGuide/llvm-as.html) - LLVM assembler
 - [llvm-link](http://llvm.org/docs/CommandGuide/llvm-link.html) - LLVM bitcode linker
-- ~~[llvm-ld](http://llvm.org/releases/2.9/docs/CommandGuide/html/llvm-ld.html)(<=2.9) - LLVM linker~~
 - [llvm-dwarfdump](http://llvm.org/docs/CommandGuide/llvm-dwarfdump.html) - Print contents of DWARF sections
 - [llvm-config](http://llvm.org/docs/CommandGuide/llvm-config.html) - Print LLVM compilation options
 - [llvm-extract](http://llvm.org/docs/CommandGuide/llvm-extract.html) - Extract functions from an LLVM module
@@ -92,10 +89,11 @@ Other resources that might interest you:
 - [llvm-diff](http://llvm.org/docs/CommandGuide/llvm-diff.html) - LLVM structural "diff"
 - [llc](http://llvm.org/docs/CommandGuide/llc.html) -  LLVM static compiler
 - [llvm-ar](http://llvm.org/docs/CommandGuide/llvm-ar.html)(llvm-ranlib) - LLVM archiver
-- ~~[DragonEgg](http://dragonegg.llvm.org/) - Using LLVM as a GCC backend~~
 - [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
 - [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
+- ~~[DragonEgg](http://dragonegg.llvm.org/) - Using LLVM as a GCC backend~~
+- ~~[llvm-ld](http://llvm.org/releases/2.9/docs/CommandGuide/html/llvm-ld.html)(<=2.9) - LLVM linker~~
 
 # Unofficial Tools/Libraries ([reference](http://llvm.org/ProjectsWithLLVM/))
 - [American fuzzy lop (AFL)](http://lcamtuf.coredump.cx/afl/) - LLVM mode for instrumentation
@@ -108,19 +106,19 @@ Other resources that might interest you:
 - [S2E](https://github.com/s2e) - Selective Symbolic Execution (use KLEE as symbolic executor)
 - [RetDec](https://github.com/avast-tl/retdec) - a retargetable machine-code decompiler based on LLVM
 - [capstone](http://www.capstone-engine.org/beyond_llvm.html) - Disassembler based on the MC component of the LLVM compiler infrastructure
-- ~~[slicer](https://github.com/wujingyue/slicer) - Schedule Specialization Framework~~
-- ~~[LLBMC](http://llbmc.org/) - The Low-Level Bounded Model Checker~~
 - [DWGrep](http://pmachata.github.io/dwgrep/) - A tool for querying Dwarf (debuginfo) graphs
 - [Emscripten](https://github.com/kripken/emscripten) - An LLVM-to-JavaScript Compiler
 - [cling](https://github.com/root-project/cling) - The cling C++ interpreter
 - [mcsema](https://github.com/trailofbits/mcsema) - An x86 to LLVM IR decompiler
 - [remill](https://github.com/lifting-bits/remill) - Library for lifting machine code to LLVM bitcode
 - [llvm2cpg](https://github.com/ShiftLeftSecurity/llvm2cpg) - LLVM meets Code Property Graphs
+- [QBDI](https://github.com/QBDI/QBDI) - A Dynamic Binary Instrumentation framework based on LLVM
+- [circt](https://github.com/llvm/circt) - Circuit IR Compilers and Tools
+- ~~[slicer](https://github.com/wujingyue/slicer) - Schedule Specialization Framework~~
+- ~~[LLBMC](http://llbmc.org/) - The Low-Level Bounded Model Checker~~
 - ~~[stack](https://github.com/xiw/stack) - A static checker for identifying unstable code~~
 - ~~[andersen](https://github.com/grievejia/andersen) - Andersen's inclusion-based pointer analysis re-implementation in LLVM~~
 - ~~[NeonGoby](https://github.com/wujingyue/neongoby) - Alias Analysis Checker~~
-- [QBDI](https://github.com/QBDI/QBDI) - A Dynamic Binary Instrumentation framework based on LLVM
-- [circt](https://github.com/llvm/circt) - Circuit IR Compilers and Tools
 
 # Bindings
 - [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM python binding for writing JIT compilers
