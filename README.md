@@ -1,12 +1,7 @@
 Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ------
 
-Resources for [LLVM](http://llvm.org/)-relevant techniques; for Clang-specific resources, please see [Clang.md](./Clang.md). Other resources might also interest you:
-* [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security) - awesome llvm security
-* [static-analysis](https://github.com/analysis-tools-dev/static-analysis) - A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more
-* [dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - A curated list of dynamic analysis tools and linters for all programming languages, binaries, and more
-* other [awesome lists on GitHub](https://github.com/topics/awesome)
-* [List of tools for static code analysis (on Wikipedia)](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+This README contains bare resources for [LLVM](http://llvm.org/)-relevant techniques; for Clang-specific resources, please see [Clang.md in this repo](./Clang.md).
 
 # Documentation ([reference](http://llvm.org/docs/index.html))
 - [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
@@ -30,6 +25,7 @@ Resources for [LLVM](http://llvm.org/)-relevant techniques; for Clang-specific r
 - [LLVM Bitcode File Format](http://llvm.org/docs/BitCodeFormat.html)
 - [Writing an LLVM Backend](http://llvm.org/docs/WritingAnLLVMBackend.html)
 - [Sanitizers](docs/sanitizers) - AddressSanitizer, MemorySanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer, LeakSanitizer, etc
+- [Tutorial: Creating an LLVM Backend for the Cpu0 Architecture](http://jonathan2251.github.io/lbd/index.html)
 
 # Official Websites
 - http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
@@ -136,3 +132,10 @@ Resources for [LLVM](http://llvm.org/)-relevant techniques; for Clang-specific r
 - [Crystal](https://crystal-lang.org/)
 - [codon](https://github.com/exaloop/codon)
 - [numba](https://github.com/numba/numba)
+
+# Other relevant resources:
+* [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security) - awesome llvm security
+* [static-analysis](https://github.com/analysis-tools-dev/static-analysis) - A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more
+* [dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - A curated list of dynamic analysis tools and linters for all programming languages, binaries, and more
+* other [awesome lists on GitHub](https://github.com/topics/awesome)
+* [List of tools for static code analysis (on Wikipedia)](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
