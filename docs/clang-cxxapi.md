@@ -2,8 +2,8 @@ Since LLVM-3.9, LLVM official has [removed the c++ backend](https://reviews.llvm
 This backend is sometimes useful for beginners to easily generate some LLVM IR programatically. For now, a project called [llvm-cxxapi](https://github.com/zhangjiantao/llvm-cxxapi)
 helps deal with the issue.
 
-NOTE:
 the use of C++ backend is like:
+
 ```bash
 # generate IR
 clang++ -S -emit-llvm input.cpp -o input.ll
