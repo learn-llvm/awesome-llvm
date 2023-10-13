@@ -5,7 +5,6 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 
 # Websites
 - Project site: http://clang.llvm.org, and [its doxygen docs](https://clang.llvm.org/doxygen/index.html)
-- [Mailing List: cfe-dev](http://lists.cs.uiuc.edu/mailman/listinfo/cfe-dev)
 - [Clang @ LLVM Discourse](https://discourse.llvm.org/c/clang/6)
 - [Clang @ StackOverflow](http://stackoverflow.com/questions/tagged/clang)
 - [Clang @ reddit](https://www.reddit.com/r/Clang/)
