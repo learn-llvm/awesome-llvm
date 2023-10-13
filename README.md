@@ -1,6 +1,6 @@
 # Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> Useful resources and samples for using [LLVM](http://llvm.org/)-related techniques and tools; for Clang-specific resources, please see [awesome-clang](https://github.com/learn-llvm/awesome-clang).
+> Useful resources and samples for using [LLVM](http://llvm.org/)-specific techniques and tools; for Clang-specific resources, please see [awesome-clang](https://github.com/learn-llvm/awesome-clang).
 
 # Documentation ([REF](http://llvm.org/docs/index.html))
 - [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
@@ -98,7 +98,6 @@
 - ~~[NeonGoby](https://github.com/wujingyue/neongoby) - Alias Analysis Checker~~
 - [QBDI](https://github.com/QBDI/QBDI) - A Dynamic Binary Instrumentation framework based on LLVM
 - [circt](https://github.com/llvm/circt) - Circuit IR Compilers and Tools
-- [lsif-clang](https://github.com/sourcegraph/lsif-clang) - Language Server Indexing Format (LSIF) generator for C, C++ and Objective C
 
 # Books
 - [Learn LLVM 12](https://www.amazon.com/Learn-LLVM-12-beginners-libraries/dp/1839213507/ref=sr_1_1)
@@ -134,4 +133,3 @@
 # Bindings
 - [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM python binding for writing JIT compilers
 - [LLVM Rust crates](https://crates.io/search?q=llvm)
-- [](https://crates.io/search?q=llvm)
