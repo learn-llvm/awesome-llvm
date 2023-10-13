@@ -1,8 +1,15 @@
 # Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> Useful resources and samples for using [LLVM](http://llvm.org/)-specific techniques and tools; for Clang-specific resources, please see [clang.md](./clang.md). See also [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security), and other awesome lists [here](https://github.com/topics/awesome) on GitHub.
+> Useful resources and samples for using [LLVM](http://llvm.org/)-specific techniques and tools; for Clang-specific resources, please see [clang.md](./clang.md).
 
-# Documentation ([REF](http://llvm.org/docs/index.html))
+Other resources there might interest you:
+* See also [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security)
+* [static-analysis](https://github.com/analysis-tools-dev/static-analysis) - A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more
+* [dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - A curated list of dynamic analysis tools and linters for all programming languages, binaries, and more. 
+* other awesome lists [here](https://github.com/topics/awesome) on GitHub.
+* [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) - wikipedia list
+
+# Documentation ([reference](http://llvm.org/docs/index.html))
 - [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
 - [LLVM Programmer’s Manual](http://llvm.org/docs/ProgrammersManual.html)
 - [LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html)
@@ -25,16 +32,14 @@
 - [Writing an LLVM Backend](http://llvm.org/docs/WritingAnLLVMBackend.html)
 - [Sanitizers](docs/sanitizers) - AddressSanitizer, MemorySanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer, LeakSanitizer, etc
 
-
-# Official Pages
+# Official Websites
 - http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
 - http://blog.llvm.org/
 - http://llvm.org/devmtg/
 - [discourse forum](https://discourse.llvm.org/)
-- ~~[Mailing List: llvm-dev](http://lists.cs.uiuc.edu/mailman/listinfo/llvmdev)~~
 - [Mailing List: llvm-weekly](http://llvmweekly.org/)
 
-# Other Pages
+# Unofficial Websites
 - [The Architecture of Open Source Applications - LLVM](http://www.aosabook.org/en/llvm.html)
 - [ELLCC](http://ellcc.org/demo/index.cgi) - Online LLVM Demo Page
 - [Eli Bendersky's website](http://eli.thegreenplace.net/)
@@ -43,15 +48,32 @@
 - [LLVM @ StackOverflow](http://stackoverflow.com/questions/tagged/llvm)
 - [LLVM @ reddit](https://www.reddit.com/r/LLVM/)
 - [GitHub LLVM topic](https://github.com/topics/llvm)
-- Publications
-  - http://llvm.org/pubs/
-  - [LLVM @ Google Scholar](https://scholar.google.com.sg/scholar?hl=en&q=llvm&btnG=&as_sdt=1%2C5&as_sdtp=)
-  - [LLVM @ Microsoft Academic Search](http://academic.research.microsoft.com/Search?query=llvm)
-  - [LLVM @ ACM-DL](http://dl.acm.org/results.cfm?h=1&cfid=474738638&cftoken=86744949)
-  - [LLVM @ IEEEXplore](http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=llvm)
-  - [LLVM @ DBLP](http://dblp.org/search/#query=llvm&qp=H1.37:W1.3:F1.4:F2.4:F3.4:F4.3)
+- [hdoc](https://docs.hdoc.io/hdoc/llvm-project/)
 
-# Official Tools ([R1](http://llvm.org/docs/CommandGuide/index.html), [R2](http://llvm.org/ProjectsWithLLVM/))
+# Tutorials
+- 📃 [LLVM-Tutor](https://github.com/banach-space/llvm-tutor) - A collection of out-of-tree LLVM passes for teaching and learning
+- 📃 [learning-llvm](https://github.com/danbev/learning-llvm) - a few project for learning about llvm
+- 📃 [LLVM-Pass-Analysis-Collection](https://github.com/JohannesLiu/LLVM-Pass-Analysis-Collection) - A Collection of LLVM Pass for Program Analysis
+- 📃 [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
+- 📃 [llvm-ir-tutorial](https://github.com/Evian-Zhang/llvm-ir-tutorial) (in Chinese)
+- ⚙️ [LLVM Debian/Ubuntu nightly packages](http://apt.llvm.org/)
+- ⚙️ [Mac OS Homebrew Formula](https://github.com/Homebrew/homebrew-core/blob/master/Formula/llvm.rb)
+
+# Publications
+- http://llvm.org/pubs/
+- [LLVM @ Google Scholar](https://scholar.google.com.sg/scholar?hl=en&q=llvm&btnG=&as_sdt=1%2C5&as_sdtp=)
+- [LLVM @ Microsoft Academic Search](http://academic.research.microsoft.com/Search?query=llvm)
+- [LLVM @ ACM-DL](http://dl.acm.org/results.cfm?h=1&cfid=474738638&cftoken=86744949)
+- [LLVM @ IEEEXplore](http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=llvm)
+- [LLVM @ DBLP](http://dblp.org/search/#query=llvm&qp=H1.37:W1.3:F1.4:F2.4:F3.4:F4.3)
+- 📖 [Learn LLVM 12](https://www.amazon.com/Learn-LLVM-12-beginners-libraries/dp/1839213507/ref=sr_1_1) -- good to start with
+- 📖 [Getting Started with LLVM Core Libraries](https://www.amazon.com/Getting-Started-LLVM-Core-Libraries/dp/1782166920), also available on [ACM library](https://dl.acm.org/citation.cfm?id=2692607)
+- 📖 [LLVM Cookbook](https://www.amazon.com/LLVM-Cookbook-Mayur-Pandey/dp/178528598X)
+- 📖 [LLVM Essentials](https://www.amazon.com/LLVM-Essentials-Suyog-Sarda/dp/1785280805/)
+- 📖 [LLVM Techniques, Tips, and Best Practices Clang and Middle-End Libraries](https://www.amazon.com/Techniques-Practices-Clang-Middle-End-Libraries/dp/1838824952) -- also has some tutorials on Clang (libtooling specific)
+- 📖 [Engineering LLVM Backend](https://www.amazon.com/Engineering-LLVM-Backend-next-generation-accelerator-ebook/dp/B0BBRF69XL/ref=sr_1_15)
+
+# Official Tools/Libraries ([reference](http://llvm.org/docs/CommandGuide/index.html))
 - [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer
 - [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester
 - [lli](https://llvm.org/docs/CommandGuide/lli.html) - Directly execute programs from LLVM bitcode
@@ -74,7 +96,7 @@
 - [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
 
-# Unofficial Tools/Framework
+# Unofficial Tools/Libraries ([reference](http://llvm.org/ProjectsWithLLVM/))
 - [American fuzzy lop (AFL)](http://lcamtuf.coredump.cx/afl/) - LLVM mode for instrumentation
 - [SVF-tools](https://github.com/SVF-tools/SVF) - Pointer Analysis and Program Dependence Analysis for C and C++ Programs
 - [Phasar](https://github.com/secure-software-engineering/phasar) - A LLVM-based static analysis framework
@@ -99,26 +121,11 @@
 - [QBDI](https://github.com/QBDI/QBDI) - A Dynamic Binary Instrumentation framework based on LLVM
 - [circt](https://github.com/llvm/circt) - Circuit IR Compilers and Tools
 
-# Books
-- [Learn LLVM 12](https://www.amazon.com/Learn-LLVM-12-beginners-libraries/dp/1839213507/ref=sr_1_1) -- good to start with
-- [Getting Started with LLVM Core Libraries](https://www.amazon.com/Getting-Started-LLVM-Core-Libraries/dp/1782166920), also available on [ACM library](https://dl.acm.org/citation.cfm?id=2692607)
-- [LLVM Cookbook](https://www.amazon.com/LLVM-Cookbook-Mayur-Pandey/dp/178528598X)
-- [LLVM Essentials](https://www.amazon.com/LLVM-Essentials-Suyog-Sarda/dp/1785280805/)
-- [LLVM Techniques, Tips, and Best Practices Clang and Middle-End Libraries](https://www.amazon.com/Techniques-Practices-Clang-Middle-End-Libraries/dp/1838824952) -- also has some tutorials on Clang (libtooling specific)
-- [Engineering LLVM Backend](https://www.amazon.com/Engineering-LLVM-Backend-next-generation-accelerator-ebook/dp/B0BBRF69XL/ref=sr_1_15)
+# Bindings
+- [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM python binding for writing JIT compilers
+- [LLVM Rust crates](https://crates.io/search?q=llvm)
 
-# Tutorials
-- [LLVM-Tutor](https://github.com/banach-space/llvm-tutor) - A collection of out-of-tree LLVM passes for teaching and learning
-- [learning-llvm](https://github.com/danbev/learning-llvm) - a few project for learning about llvm
-- [LLVM-Pass-Analysis-Collection](https://github.com/JohannesLiu/LLVM-Pass-Analysis-Collection) - A Collection of LLVM Pass for Program Analysis
-- [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
-- [llvm-ir-tutorial](https://github.com/Evian-Zhang/llvm-ir-tutorial) (in Chinese)
-
-# Installation
-- [LLVM Debian/Ubuntu nightly packages](http://apt.llvm.org/)
-- [Mac OS Homebrew Formula](https://github.com/Homebrew/homebrew-core/blob/master/Formula/llvm.rb)
-
-# LLVM backed Languages
+# LLVM-backed Languages
 - C/C++/ObjC/ObjC++
 - [Swift](https://developer.apple.com/swift/)
 - [GHC Haskell](https://www.haskell.org/ghc/)
@@ -130,7 +137,3 @@
 - [Crystal](https://crystal-lang.org/)
 - [codon](https://github.com/exaloop/codon)
 - [numba](https://github.com/numba/numba)
-
-# Bindings
-- [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM python binding for writing JIT compilers
-- [LLVM Rust crates](https://crates.io/search?q=llvm)
