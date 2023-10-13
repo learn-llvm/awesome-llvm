@@ -67,7 +67,9 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
   - [docs](https://codechecker.readthedocs.io/en/latest/)
 - [QT Clazy](https://github.com/KDE/clazy) - Qt-oriented static code analyzer based on the Clang framework (as a plugin and a standalone tool on top of libtooling)
 - [VAST](https://github.com/trailofbits/vast) - VAST: MLIR for Program Analysis
-- [PASTA](https://github.com/trailofbits/pasta) - Peter's Amazing Syntax Tree Analyzer 
+- [PASTA](https://github.com/trailofbits/pasta) - Peter's Amazing Syntax Tree Analyzer
+- [Kythe](https://github.com/kythe/kythe) - a pluggable, (mostly) language-agnostic ecosystem for building tools that work with code
+- [ccls](https://github.com/MaskRay/ccls) - a C++ language server, similar to clangd
 - [scip-clang](https://github.com/sourcegraph/scip-clang) - SCIP indexer for C and C++
 - [lsif-clang](https://github.com/sourcegraph/lsif-clang) - LSIF generator for C, C++ and Objective C
 - [Clang Power Tools](https://github.com/Caphyon/clang-power-tools) - Visual Studio extension with Clang/LLVM tools (`clang++`, `clang-tidy` and `clang-format`).
