@@ -125,6 +125,7 @@
 - [go-llvm](https://github.com/go-llvm/llgo)
 - [scala-native](https://github.com/scala-native/scala-native)
 - [ldc](https://github.com/ldc-developers/ldc)
+- [Crystal](https://crystal-lang.org/)
 
 # Bindings
 - [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM python binding for writing JIT compilers
