@@ -23,8 +23,8 @@
 
 
 # Official Pages
-- http://llvm.org/
-- http://clang.llvm.org/
+- http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
+- http://clang.llvm.org, and [its doxygen docs](https://clang.llvm.org/doxygen/index.html)
 - http://blog.llvm.org/
 - http://llvm.org/devmtg/
 - Mailing List
@@ -76,6 +76,7 @@
 - [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
 - [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
+- [clangd](https://clangd.llvm.org/) - clangd language server (for [LSP](https://microsoft.github.io/language-server-protocol/))
 
 # Unofficial Tools/Framework
 - [American fuzzy lop (AFL)](http://lcamtuf.coredump.cx/afl/) - LLVM mode for instrumentation
@@ -98,6 +99,7 @@
 - ~~[stack](https://github.com/xiw/stack) - A static checker for identifying unstable code~~
 - ~~[andersen](https://github.com/grievejia/andersen) - Andersen's inclusion-based pointer analysis re-implementation in LLVM~~
 - ~~[NeonGoby](https://github.com/wujingyue/neongoby) - Alias Analysis Checker~~
+- [lsif-clangd](https://github.com/sourcegraph/lsif-clang) - Language Server Indexing Format (LSIF) generator for C, C++ and Objective C
 
 # Books
 - [Getting Started with LLVM Core Libraries](https://www.amazon.com/Getting-Started-LLVM-Core-Libraries/dp/1782166920), also available on [ACM library](https://dl.acm.org/citation.cfm?id=2692607)
