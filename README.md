@@ -100,12 +100,11 @@
 - [circt](https://github.com/llvm/circt) - Circuit IR Compilers and Tools
 
 # Books
-- [Learn LLVM 12](https://www.amazon.com/Learn-LLVM-12-beginners-libraries/dp/1839213507/ref=sr_1_1)
+- [Learn LLVM 12](https://www.amazon.com/Learn-LLVM-12-beginners-libraries/dp/1839213507/ref=sr_1_1) -- good to start with
 - [Getting Started with LLVM Core Libraries](https://www.amazon.com/Getting-Started-LLVM-Core-Libraries/dp/1782166920), also available on [ACM library](https://dl.acm.org/citation.cfm?id=2692607)
 - [LLVM Cookbook](https://www.amazon.com/LLVM-Cookbook-Mayur-Pandey/dp/178528598X)
 - [LLVM Essentials](https://www.amazon.com/LLVM-Essentials-Suyog-Sarda/dp/1785280805/)
-- [LLVM Techniques, Tips, and Best Practices Clang and Middle-End Libraries](https://www.amazon.com/Techniques-Practices-Clang-Middle-End-Libraries/dp/1838824952)
-- [LLVM compiler combat tutorial(Chinese Edition)](https://www.amazon.com/LLVM-compiler-combat-tutorial-Chinese/dp/7111631978/ref=sr_1_1)
+- [LLVM Techniques, Tips, and Best Practices Clang and Middle-End Libraries](https://www.amazon.com/Techniques-Practices-Clang-Middle-End-Libraries/dp/1838824952) -- also has some tutorials on Clang (libtooling specific)
 - [Engineering LLVM Backend](https://www.amazon.com/Engineering-LLVM-Backend-next-generation-accelerator-ebook/dp/B0BBRF69XL/ref=sr_1_15)
 
 # Tutorials
