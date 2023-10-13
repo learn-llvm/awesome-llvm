@@ -1,14 +1,12 @@
 #!/bin/bash
 
 Z3_REPO=http://z3.codeplex.com/sourcecontrol/latest#README
+z3="git@github.com:Z3Prover/z3.git"
 
 build_z3(){
   # set -ex
   mkdir -p ${Z3_ROOT}
-  if ! [ -d ${Z3_SRC} ];then
-    printf "Goto ${YELLOW}${Z3_REPO}${ENDCOLOR} to Download Z3 zip and rename source root to ${YELLOW}${Z3_SRC}${ENDCOLOR}\n"
-    exit
-  fi
+  git_clone_or_update ${Z3_REPO} ${Z3_ROOT}
   rm -rf ${Z3_BUILD}
   cd ${Z3_SRC}
   CC=gcc CXX=g++ && python ${Z3_SCRIPT}/mk_make.py

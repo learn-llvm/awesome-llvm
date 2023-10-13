@@ -2,7 +2,7 @@
 Run `clang -print-targets` if the version of `clang` is >= 11.
 
 ```bash
-> clang-11 -print-targets
+> clang -print-targets
   Registered Targets:
     aarch64    - AArch64 (little endian)
     aarch64_32 - AArch64 (little endian ILP32)

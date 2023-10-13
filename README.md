@@ -1,6 +1,6 @@
 # Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> Useful resources and samples for using [LLVM](http://llvm.org/)-specific techniques and tools; for Clang-specific resources, please see [awesome-clang](https://github.com/learn-llvm/awesome-clang).
+> Useful resources and samples for using [LLVM](http://llvm.org/)-specific techniques and tools; for Clang-specific resources, please see [clang.md](./clang.md). See also [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security), and other awesome lists [here](https://github.com/topics/awesome) on GitHub.
 
 # Documentation ([REF](http://llvm.org/docs/index.html))
 - [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)

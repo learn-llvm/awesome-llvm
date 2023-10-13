@@ -2,6 +2,7 @@
 
 # apt-get install libcap-dev
 
+source "$(dirname $0)"/setup.rc
 # G is from git, M is from mirror
 KLEE_LLVM_SRC=${M_LLVM_SRC}
 KLEE_LLVM_OBJ=${M_LLVM_OBJ}
@@ -26,7 +27,6 @@ build_klee(){
 }
 
 # rm -f ${KLEE_SRC}/include/klee/Config/config.h
-source "$(dirname $0)"/setup.rc
 build_klee 2>&1 | tee ${BAK_DIR}/log-4-klee
 
 # if ! [ -e ${KLEE_INSTALL}/lib/libkleeRuntimePOSIX.bca ]; then
