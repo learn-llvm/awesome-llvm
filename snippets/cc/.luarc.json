@@ -1,0 +1,5 @@
+{
+  "workspace.library": ["/home/hongxu/tools/LLS-Addons"],
+  "runtime.version": "Lua 5.4",
+  "hint.enable": true
+}
