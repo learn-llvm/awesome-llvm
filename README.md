@@ -1,3 +1,7 @@
+# Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+> Useful resources and samples for using [LLVM](http://llvm.org/)-related techniques and tools; for Clang-specific resources, please see [awesome-clang](https://github.com/learn-llvm/awesome-clang).
+
 # Documentation ([REF](http://llvm.org/docs/index.html))
 - [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
 - [LLVM Programmer’s Manual](http://llvm.org/docs/ProgrammersManual.html)
@@ -24,12 +28,10 @@
 
 # Official Pages
 - http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
-- http://clang.llvm.org, and [its doxygen docs](https://clang.llvm.org/doxygen/index.html)
 - http://blog.llvm.org/
 - http://llvm.org/devmtg/
-- Mailing List
-  - [llvm-dev](http://lists.cs.uiuc.edu/mailman/listinfo/llvmdev)([nabble forum page](http://llvm.1065342.n5.nabble.com/LLVM-Dev-f3.html)), [llvm-weekly](http://llvmweekly.org/)
-  - [cfe-dev](http://lists.cs.uiuc.edu/mailman/listinfo/cfe-dev)
+- [Mailing List: llvm-dev](http://lists.cs.uiuc.edu/mailman/listinfo/llvmdev)([nabble forum page](http://llvm.1065342.n5.nabble.com/LLVM-Dev-f3.html))
+- [Mailing List: llvm-weekly](http://llvmweekly.org/)
 
 # Other Pages
 - [The Architecture of Open Source Applications - LLVM](http://www.aosabook.org/en/llvm.html)
@@ -38,7 +40,7 @@
 - [ChenWj's LLVM Wiki](http://people.cs.nctu.edu.tw/~chenwj/dokuwiki/doku.php?id=llvm)(Traditional Chinese)
 - [An Unofficial LLVM Website](http://llvm.lyngvig.org/Articles/)
 - [LLVM @ StackOverflow](http://stackoverflow.com/questions/tagged/llvm)
-- [Clang @ StackOverflow](http://stackoverflow.com/questions/tagged/clang)
+- [LLVM @ reddit](https://www.reddit.com/r/LLVM/)
 - Papers
   - http://llvm.org/pubs/
   - [LLVM @ Google Scholar](https://scholar.google.com.sg/scholar?hl=en&q=llvm&btnG=&as_sdt=1%2C5&as_sdtp=)
@@ -65,18 +67,10 @@
 - [llvm-diff](http://llvm.org/docs/CommandGuide/llvm-diff.html) - LLVM structural "diff"
 - [llc](http://llvm.org/docs/CommandGuide/llc.html) -  LLVM static compiler
 - [llvm-ar](http://llvm.org/docs/CommandGuide/llvm-ar.html)(llvm-ranlib) - LLVM archiver
-- [clang](http://clang.llvm.org/) - Official C/C++/Objective C/Objective C++ front-end
-- [clang-format](http://clang.llvm.org/docs/ClangFormat.html) - Format C/C++/Obj-C code with different styles
-- [clang-check](http://clang.llvm.org/docs/ClangCheck.html) - Error checking and AST dumping based on [LibTooling](http://clang.llvm.org/docs/LibTooling.html)
-- [scan-build](http://clang-analyzer.llvm.org/) - Clang Static Analyzer
-- [scan-view](http://clang-analyzer.llvm.org/) - Clang Static Analysis Viewer
-- ~~[clang-modernize](http://clang.llvm.org/extra/clang-modernize.html) - Modernize C++ code~~
-- [clang-tidy](http://clang.llvm.org/extra/clang-tidy.html) - [Lint-like checks and beyondslides](http://llvm.org/devmtg/2014-04/PDFs/Talks/clang-tidy%20LLVM%20Euro%202014.pdf)
 - ~~[DragonEgg](http://dragonegg.llvm.org/) - Using LLVM as a GCC backend~~
 - [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
 - [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
-- [clangd](https://clangd.llvm.org/) - clangd language server (for [LSP](https://microsoft.github.io/language-server-protocol/))
 
 # Unofficial Tools/Framework
 - [American fuzzy lop (AFL)](http://lcamtuf.coredump.cx/afl/) - LLVM mode for instrumentation
@@ -85,11 +79,9 @@
 - [wllvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files; its go port [gllvm](https://github.com/SRI-CSL/gllvm)
 - [Bear](https://github.com/rizsotto/Bear) - A tool that generates a compilation database for clang tooling
 - [klee](https://github.com/klee/klee) - Symbolic Virtual Machine
-- [CppInsights](https://github.com/andreasfertig/cppinsights) ([site](https://cppinsights.io/)) - See your source code with the eyes of a compiler
 - [S2E](https://github.com/s2e) - Selective Symbolic Execution (use KLEE as symbolic executor)
 - [RetDec](https://github.com/avast-tl/retdec) - a retargetable machine-code decompiler based on LLVM
 - [capstone](http://www.capstone-engine.org/beyond_llvm.html) - Disassembler based on the MC component of the LLVM compiler infrastructure
-- [rtags](https://github.com/Andersbakken/rtags) - A c/c++ client/server indexer for c/c++/objc[++]
 - ~~[slicer](https://github.com/wujingyue/slicer) - Schedule Specialization Framework~~
 - ~~[LLBMC](http://llbmc.org/) - The Low-Level Bounded Model Checker~~
 - [whole-program-llvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files
@@ -111,9 +103,6 @@
 - [Engineering LLVM Backend](https://www.amazon.com/Engineering-LLVM-Backend-next-generation-accelerator-ebook/dp/B0BBRF69XL/ref=sr_1_15)
 
 # Tutorials
-- [llvm-clang-samples](https://github.com/eliben/llvm-clang-samples) - Examples of LLVM and Clang written by Dr. [Eli Bendersky](http://eli.thegreenplace.net/)
-- [srg-llvm-pass-tutorial](https://github.com/delcypher/srg-llvm-pass-tutorial) - A tutorial about llvm passes from [Software reliability group](http://srg.doc.ic.ac.uk/)
-- [clang-llvm-tutorial](https://github.com/lijiansong/clang-llvm-tutorial) - clang & llvm examples
 - [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
 
 # Installation
