@@ -1,5 +1,43 @@
-# Official Support
-## Documentation
+# Documentation [REF](http://llvm.org/docs/index.html)
+- [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
+- [LLVM Programmer’s Manual](http://llvm.org/docs/ProgrammersManual.html)
+- [LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html)
+- [LLVM Style RTTI](http://llvm.org/docs/HowToSetUpLLVMStyleRTTI.html)
+- [Writing an LLVM Pass](http://llvm.org/docs/WritingAnLLVMPass.html)
+- [LLVM Alias Analysis Infrastructure](http://llvm.org/docs/AliasAnalysis.html)
+- [Source Level Debugging](http://llvm.org/docs/SourceLevelDebugging.html)
+- [Create A Project](http://llvm.org/docs/Projects.html)
+- [LLVM Developer Policy](http://llvm.org/docs/DeveloperPolicy.html)
+- [CommandLine 2.0 Library Manual](http://llvm.org/docs/CommandLine.html)
+- [Getting Started with the LLVM System](http://llvm.org/docs/GettingStarted.html)
+- [LLVM Tutorials](http://llvm.org/docs/tutorial/index.html)
+- [LLVM’s Analysis and Transform Passes](http://llvm.org/docs/Passes.html)
+- [FAQ](http://llvm.org/docs/FAQ.html)
+- [LLVM Testing Infrastructure Guide](http://llvm.org/docs/TestingGuide.html)
+- [The Often Misunderstood GEP Instruction](http://llvm.org/docs/GetElementPtr.html)
+- [Exception Handling in LLVM](http://llvm.org/docs/ExceptionHandling.html)
+- [LLVM Bitcode File Format](http://llvm.org/docs/BitCodeFormat.html)
+- [Writing an LLVM Backend](http://llvm.org/docs/WritingAnLLVMBackend.html)
+- [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
+
+
+## Web Pages
+- http://llvm.org/
+- http://clang.llvm.org/
+- http://blog.llvm.org/
+- http://llvm.org/devmtg/
+- Mailing List
+  - [llvm-dev](http://lists.cs.uiuc.edu/mailman/listinfo/llvmdev)([nabble forum page](http://llvm.1065342.n5.nabble.com/LLVM-Dev-f3.html)), [llvm-weekly](http://llvmweekly.org/)
+  - [cfe-dev](http://lists.cs.uiuc.edu/mailman/listinfo/cfe-dev)
+  - [ELLCC](http://ellcc.org/demo/index.cgi) - Online LLVM Demo Page
+  
+# Resources
+- [Eli Bendersky's website](http://eli.thegreenplace.net/)
+- [ChenWj's LLVM Wiki](http://people.cs.nctu.edu.tw/~chenwj/dokuwiki/doku.php?id=llvm)(Traditional Chinese)
+- ["LLVM" at StackOverflow](http://stackoverflow.com/questions/tagged/llvm)
+- ["Clang" at StackOverflow](http://stackoverflow.com/questions/tagged/clang)
+
+# Tools
 ## Tools [(REF)](http://llvm.org/docs/CommandGuide/index.html)
 - [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer
 - [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester
@@ -26,28 +64,20 @@
 - [clang-modernize](http://clang.llvm.org/extra/clang-modernize.html) - Modernize C++ code
 - [clang-tidy](http://clang.llvm.org/extra/clang-tidy.html) - [Lint-like checks and beyondslides](http://llvm.org/devmtg/2014-04/PDFs/Talks/clang-tidy%20LLVM%20Euro%202014.pdf)
 - [DragonEgg](http://dragonegg.llvm.org/) - Using LLVM as a GCC backend
-
-## Web Pages
-- http://llvm.org/
-- http://clang.llvm.org/
-- http://blog.llvm.org/
-- Mailing List
-  - [llvm-dev](http://lists.cs.uiuc.edu/mailman/listinfo/llvmdev)([nabble forum page](http://llvm.1065342.n5.nabble.com/LLVM-Dev-f3.html)), [llvm-weekly](http://llvmweekly.org/)
-  - [cfe-dev](http://lists.cs.uiuc.edu/mailman/listinfo/cfe-dev)
-  
-
-# Resources
-- [Eli Bendersky's website](http://eli.thegreenplace.net/)
-- [ChenWj's LLVM Wiki](http://people.cs.nctu.edu.tw/~chenwj/dokuwiki/doku.php?id=llvm)(Traditional Chinese)
-- ["LLVM" at StackOverflow](http://stackoverflow.com/questions/tagged/llvm)
-- ["Clang" at StackOverflow](http://stackoverflow.com/questions/tagged/clang)
-
-# Tools
+- [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
+- [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
 - [klee](https://github.com/klee/klee) - Symbolic Virtual Machine
+- [S2E](https://github.com/dslab-epfl/s2e) - Selective Symbolic Execution (use KLEE as symbolic executor)
 - [rtags](https://github.com/Andersbakken/rtags) - A c/c++ client/server indexer for c/c++/objc[++]
+- [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM python binding for writing JIT compilers
 - [slicer](https://github.com/wujingyue/slicer) - Schedule Specialization Framework
 - [rcs](https://github.com/wujingyue/rcs)
 - [NeonGoby](https://github.com/wujingyue/neongoby) - Alias Analysis Checker
+- [LLBMC](http://llbmc.org/) - The Low-Level Bounded Model Checker
+- [Bear](https://github.com/rizsotto/Bear) - A tool that generates a compilation database for clang tooling
+- [whole-program-llvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files
+- [DWGrep](http://pmachata.github.io/dwgrep/) - A tool for querying Dwarf (debuginfo) graphs
+- [Emscripten](https://github.com/kripken/emscripten) - An LLVM-to-JavaScript Compiler
 
 # Scripts
 See [Scripts](Scripts).
@@ -55,6 +85,5 @@ See [Scripts](Scripts).
 # Tutorials
 See [Tutorials](Tutorials).
 
-# Slides
-
-# Papers
+# Papers [REF](http://llvm.org/pubs/)
+- [LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation](http://llvm.org/pubs/2004-01-30-CGO-LLVM.html)[1]	C. Lattner and V. Adve, CGO '04.
