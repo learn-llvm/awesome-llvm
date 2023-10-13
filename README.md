@@ -1,4 +1,4 @@
-# Documentation [REF](http://llvm.org/docs/index.html)
+# Documentation ([REF](http://llvm.org/docs/index.html))
 - [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
 - [LLVM Programmer’s Manual](http://llvm.org/docs/ProgrammersManual.html)
 - [LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html)
@@ -29,7 +29,7 @@
 - Mailing List
   - [llvm-dev](http://lists.cs.uiuc.edu/mailman/listinfo/llvmdev)([nabble forum page](http://llvm.1065342.n5.nabble.com/LLVM-Dev-f3.html)), [llvm-weekly](http://llvmweekly.org/)
   - [cfe-dev](http://lists.cs.uiuc.edu/mailman/listinfo/cfe-dev)
-  - [ELLCC](http://ellcc.org/demo/index.cgi) - Online LLVM Demo Page
+- [ELLCC](http://ellcc.org/demo/index.cgi) - Online LLVM Demo Page
   
 # Resources
 - [Eli Bendersky's website](http://eli.thegreenplace.net/)
@@ -37,8 +37,7 @@
 - ["LLVM" at StackOverflow](http://stackoverflow.com/questions/tagged/llvm)
 - ["Clang" at StackOverflow](http://stackoverflow.com/questions/tagged/clang)
 
-# Tools
-## Tools [(REF)](http://llvm.org/docs/CommandGuide/index.html)
+# Tools [(REF)](http://llvm.org/docs/CommandGuide/index.html)
 - [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer
 - [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester
 - [lli](directly execute programs from LLVM bitcode) - Directly execute programs from LLVM bitcode
@@ -85,5 +84,5 @@ See [Scripts](Scripts).
 # Tutorials
 See [Tutorials](Tutorials).
 
-# Papers [REF](http://llvm.org/pubs/)
-- [LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation](http://llvm.org/pubs/2004-01-30-CGO-LLVM.html)[1]	C. Lattner and V. Adve, CGO '04.
+# Papers ([REF](http://llvm.org/pubs/))
+- [LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation](http://llvm.org/pubs/2004-01-30-CGO-LLVM.html),	C. Lattner and V. Adve, CGO '04.
