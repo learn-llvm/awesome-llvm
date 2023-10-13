@@ -45,7 +45,7 @@
   - [LLVM @ IEEEXplore](http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=llvm)
   - [LLVM @ DBLP](http://dblp.org/search/#query=llvm&qp=H1.37:W1.3:F1.4:F2.4:F3.4:F4.3)
 
-# Tools [(R1)](http://llvm.org/docs/CommandGuide/index.html, [R2](http://llvm.org/ProjectsWithLLVM/))
+# Tools ([R1](http://llvm.org/docs/CommandGuide/index.html), [R2](http://llvm.org/ProjectsWithLLVM/))
 - [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer
 - [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester
 - [lli](directly execute programs from LLVM bitcode) - Directly execute programs from LLVM bitcode
