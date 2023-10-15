@@ -9,9 +9,11 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [Clang @ StackOverflow](http://stackoverflow.com/questions/tagged/clang)
 - [Clang @ reddit](https://www.reddit.com/r/Clang/)
 - [Clang @ GitHub](https://github.com/topics/clang)
+- [Open Projects](https://clang.llvm.org/OpenProjects.html)
 
 # Tutorials
 
+- 🐉 [“Clang” CFE Internals Manual](https://clang.llvm.org/docs/InternalsManual.html) - good start for Clang frontend developers
 - 🐉 [Introduction to the Clang AST](https://clang.llvm.org/docs/IntroductionToTheClangAST.html) - a gentle introduction to the mysteries of the Clang AST.
 - 🐉 [Matching the Clang AST](https://clang.llvm.org/docs/LibASTMatchers.html) - how to use Clang’s LibASTMatchers to match interesting nodes of the AST and execute code that uses the matched nodes.
 - 🐉 [AST Matcher Reference](https://clang.llvm.org/docs/LibASTMatchersReference.html) - AST matchers implemented by Clang.
@@ -60,16 +62,15 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [CodeChecker](https://github.com/Ericsson/codechecker) - an analyzer tooling, defect database and viewer extension for the Clang Static Analyzer and Clang Tidy
   - [docs](https://codechecker.readthedocs.io/en/latest/)
 - [QT Clazy](https://github.com/KDE/clazy) - Qt-oriented static code analyzer based on the Clang framework (as a plugin and a standalone tool on top of libtooling)
-- [VAST](https://github.com/trailofbits/vast) - VAST: MLIR for Program Analysis
-- [PASTA](https://github.com/trailofbits/pasta) - Peter's Amazing Syntax Tree Analyzer
-- [Kythe](https://github.com/kythe/kythe) - a pluggable, (mostly) language-agnostic ecosystem for building tools that work with code
+- [trailofbits/VAST](https://github.com/trailofbits/vast) - VAST: MLIR for Program Analysis
+- [trailofbits/PASTA](https://github.com/trailofbits/pasta) - Peter's Amazing Syntax Tree Analyzer
+- [kythe/Kythe](https://github.com/kythe/kythe) - a pluggable, (mostly) language-agnostic ecosystem for building tools that work with code
 - [ccls](https://github.com/MaskRay/ccls) - a C++ language server, similar to clangd
-- [scip-clang](https://github.com/sourcegraph/scip-clang) - SCIP indexer for C and C++
-- [lsif-clang](https://github.com/sourcegraph/lsif-clang) - LSIF generator for C, C++ and Objective C
+- [sourcegraph/scip-clang](https://github.com/sourcegraph/scip-clang) - SCIP indexer for C and C++
+- [sourcegraph/lsif-clang](https://github.com/sourcegraph/lsif-clang) - LSIF generator for C, C++ and Objective C
 - [Clang Power Tools](https://github.com/Caphyon/clang-power-tools) - Visual Studio extension with Clang/LLVM tools (`clang++`, `clang-tidy` and `clang-format`).
 - [rtags](https://github.com/Andersbakken/rtags) - A c/c++ client/server indexer for c/c++/objc[++]
 - [llvm-clang-samples](https://github.com/eliben/llvm-clang-samples) - Examples of LLVM and Clang written by Dr. [Eli Bendersky](http://eli.thegreenplace.net/)
-- [srg-llvm-pass-tutorial](https://github.com/delcypher/srg-llvm-pass-tutorial) - A tutorial about llvm passes from [Software reliability group](http://srg.doc.ic.ac.uk/)
 - [clang-llvm-tutorial](https://github.com/lijiansong/clang-llvm-tutorial) - clang & llvm examples
 - [Bear](https://github.com/rizsotto/Bear) - A tool that generates a compilation database for clang tooling
 - [compiledb](https://github.com/nickdiego/compiledb) -- Tool for generating Clang's JSON Compilation Database files for *make-based* build systems.
