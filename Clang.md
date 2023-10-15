@@ -10,19 +10,15 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [Clang @ reddit](https://www.reddit.com/r/Clang/)
 - [Clang @ GitHub](https://github.com/topics/clang)
 
-
 # Tutorials
 
-- [Quick overview of how Clang works internally](http://cppdepend.com/blog/?p=321)
-- [Getting Started with LLVM Core Libraries](https://www.packtpub.com/application-development/getting-started-llvm-core-libraries) - PacktPub books can be a bit hit and miss, but this one is excellent. (A [PDF with updates for Clang 3.5](https://www.packtpub.com/sites/default/files/downloads/6924OS_Appendix.pdf) is available for free download).
-- [Introduction to the Clang AST](https://clang.llvm.org/docs/IntroductionToTheClangAST.html) - a gentle introduction to the mysteries of the Clang AST.
-- [Matching the Clang AST](https://clang.llvm.org/docs/LibASTMatchers.html) - how to use Clang’s LibASTMatchers to match interesting nodes of the AST and execute code that uses the matched nodes.
-- [AST Matcher Reference](https://clang.llvm.org/docs/LibASTMatchersReference.html) - AST matchers implemented by Clang.
-- [How to build LLVM from source](https://quuxplusone.github.io/blog/2018/04/16/building-llvm-from-source/) - Step-by step, using the GitHub mirror.
-- [Writing LLVM Pass in 2018 — Part I](https://medium.com/@mshockwave/writing-llvm-pass-in-2018-part-i-531c700e85eb) - New Pass & Pass Manager in a Peek.
+- 🐉 [Introduction to the Clang AST](https://clang.llvm.org/docs/IntroductionToTheClangAST.html) - a gentle introduction to the mysteries of the Clang AST.
+- 🐉 [Matching the Clang AST](https://clang.llvm.org/docs/LibASTMatchers.html) - how to use Clang’s LibASTMatchers to match interesting nodes of the AST and execute code that uses the matched nodes.
+- 🐉 [AST Matcher Reference](https://clang.llvm.org/docs/LibASTMatchersReference.html) - AST matchers implemented by Clang.
 - 📹 [Create your own Refactoring Tool in Clang](https://www.youtube.com/watch?v=8PndHo7jjHk) - Richard Thompson's presentation from C++Now 2014.
 - 📹 [Refactoring C++ with Clang](https://www.youtube.com/watch?v=yuIOGfcOH0k) - Chandler Carruth's talk from C++Now 2012.
 - 📹 [Automatic C++ source code generation with clang](https://www.youtube.com/watch?v=aPTyatTI42k) - Sergei Sadovnikov's ACCU 2017 talk.
+- [Quick overview of how Clang works internally](http://cppdepend.com/blog/?p=321) - cppdepend's quick introduction
 
 
 # Official Tools/Libraries
@@ -93,3 +89,4 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 
 # Other Relevant Resources
 - [GCC Static Analyzer](https://gcc.gnu.org/wiki/StaticAnalyzer)
+- [godbolt - compiler explorer](https://godbolt.org/)
