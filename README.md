@@ -29,10 +29,10 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 
 # Official Websites
 - http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
-- http://blog.llvm.org/
-- http://llvm.org/devmtg/
+- http://blog.llvm.org/ - official blog
 - [discourse forum](https://discourse.llvm.org/)
 - [Mailing List: llvm-weekly](http://llvmweekly.org/)
+- [LLVMProj @ YouTube](https://www.youtube.com/@LLVMPROJ/videos?view=0&sort=dd&shelf_id=0) - official account, including [LLVM devmeeting](http://llvm.org/devmtg/), EuroLLVM, etc
 
 # Unofficial Websites
 - [The Architecture of Open Source Applications - LLVM](http://www.aosabook.org/en/llvm.html)
@@ -136,7 +136,7 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - ⚙️ [Mac OS Homebrew Formula]([https://github.com/Homebrew/homebrew-core/blob/master/Formula/llvm.rb](https://github.com/Homebrew/homebrew-core/blob/master/Formula/l/llvm.rb)) - HomeBrew's LLVM formula
 
 # Other relevant resources:
-* [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security) - awesome llvm security
+* [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security) - awesome llvm security projects
 * [static-analysis](https://github.com/analysis-tools-dev/static-analysis) - A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more
 * [dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - A curated list of dynamic analysis tools and linters for all programming languages, binaries, and more
 * other [awesome lists on GitHub](https://github.com/topics/awesome)
