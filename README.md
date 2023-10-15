@@ -48,11 +48,12 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - [LLVM documentation in hdoc](https://docs.hdoc.io/hdoc/llvm-project/functions.html)
 
 # Tutorials
-- 📃 [LLVM-Tutor](https://github.com/banach-space/llvm-tutor) - A collection of out-of-tree LLVM passes for teaching and learning
-- 📃 [learning-llvm](https://github.com/danbev/learning-llvm) - a few project for learning about llvm
-- 📃 [LLVM-Pass-Analysis-Collection](https://github.com/JohannesLiu/LLVM-Pass-Analysis-Collection) - A Collection of LLVM Pass for Program Analysis
+- :octocat: [LLVM-Tutor](https://github.com/banach-space/llvm-tutor) - A collection of out-of-tree LLVM passes for teaching and learning
+- :octocat: [learning-llvm](https://github.com/danbev/learning-llvm) - a few project for learning about llvm
+- :octocat: [LLVM-Pass-Analysis-Collection](https://github.com/JohannesLiu/LLVM-Pass-Analysis-Collection) - A Collection of LLVM Pass for Program Analysis
+- :octocat: [srg-llvm-pass-tutorial](https://github.com/delcypher/srg-llvm-pass-tutorial) - A tutorial about llvm passes from [Software reliability group](http://srg.doc.ic.ac.uk/)
 - 📃 [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
-- 📃 [llvm-ir-tutorial](https://github.com/Evian-Zhang/llvm-ir-tutorial) (in Chinese)
+- :octocat: [llvm-ir-tutorial](https://github.com/Evian-Zhang/llvm-ir-tutorial) (in Chinese)
 
 # Publications
 - http://llvm.org/pubs/
