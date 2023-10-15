@@ -1,7 +1,7 @@
 Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ------
 
-This README contains bare resources for [LLVM](http://llvm.org/)-relevant techniques; for Clang-specific resources, please see [Clang.md in this repo](./Clang.md).
+This README contains bare resources for [LLVM](http://llvm.org/)-relevant techniques; for Clang-specific resources, please see [Clang.md in this repo](./Clang.md). Only well-maintained projects are included; PRs are welcome.
 
 # Documentation ([reference](http://llvm.org/docs/index.html))
 - [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
@@ -29,10 +29,12 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 
 # Official Websites
 - http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
+- https://llvm.org/devmtg/ - LLVM Developers' Meeting and other events
 - http://blog.llvm.org/ - official blog
 - [discourse forum](https://discourse.llvm.org/)
 - [Mailing List: llvm-weekly](http://llvmweekly.org/)
 - [LLVMProj @ YouTube](https://www.youtube.com/@LLVMPROJ/videos?view=0&sort=dd&shelf_id=0) - official account, including [LLVM devmeeting](http://llvm.org/devmtg/), EuroLLVM, etc
+- [Open Projects](https://llvm.org/OpenProjects.html)
 
 # Unofficial Websites
 - [The Architecture of Open Source Applications - LLVM](http://www.aosabook.org/en/llvm.html)
@@ -86,16 +88,13 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
 - [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
-- ~~[DragonEgg](http://dragonegg.llvm.org/) - Using LLVM as a GCC backend~~
-- ~~[llvm-ld](http://llvm.org/releases/2.9/docs/CommandGuide/html/llvm-ld.html)(<=2.9) - LLVM linker~~
 
 # Unofficial Tools/Libraries ([reference](http://llvm.org/ProjectsWithLLVM/))
-- [American fuzzy lop (AFL)](http://lcamtuf.coredump.cx/afl/) - LLVM mode for instrumentation
 - [SVF-tools](https://github.com/SVF-tools/SVF) - Pointer Analysis and Program Dependence Analysis for C and C++ Programs
+- [smack](https://github.com/smackers/smack) - SMACK Software Verifier and Verification Toolchain
 - [Phasar](https://github.com/secure-software-engineering/phasar) - A LLVM-based static analysis framework
 - [Infer](https://github.com/facebook/infer) - Facebook's static analysis framework; C/C++/objc is based on LLVM/Clang
 - [whole-program-llvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files; its go port [gllvm](https://github.com/SRI-CSL/gllvm)
-- [klee](https://github.com/klee/klee) - Symbolic Virtual Machine
 - [ollvm](https://github.com/obfuscator-llvm/obfuscator/wiki) - code obfuscation based on LLVM4.0
 - [S2E](https://github.com/s2e) - Selective Symbolic Execution (use KLEE as symbolic executor)
 - [RetDec](https://github.com/avast-tl/retdec) - a retargetable machine-code decompiler based on LLVM
@@ -108,11 +107,8 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - [llvm2cpg](https://github.com/ShiftLeftSecurity/llvm2cpg) - LLVM meets Code Property Graphs
 - [QBDI](https://github.com/QBDI/QBDI) - A Dynamic Binary Instrumentation framework based on LLVM
 - [circt](https://github.com/llvm/circt) - Circuit IR Compilers and Tools
-- ~~[slicer](https://github.com/wujingyue/slicer) - Schedule Specialization Framework~~
-- ~~[LLBMC](http://llbmc.org/) - The Low-Level Bounded Model Checker~~
-- ~~[stack](https://github.com/xiw/stack) - A static checker for identifying unstable code~~
-- ~~[andersen](https://github.com/grievejia/andersen) - Andersen's inclusion-based pointer analysis re-implementation in LLVM~~
-- ~~[NeonGoby](https://github.com/wujingyue/neongoby) - Alias Analysis Checker~~
+- [American fuzzy lop (AFL)](http://lcamtuf.coredump.cx/afl/) - LLVM mode for instrumentation
+- [klee](https://github.com/klee/klee) - Symbolic Virtual Machine
 
 # Bindings
 - [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM python binding for writing JIT compilers
