@@ -17,6 +17,8 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - 🐉 [Introduction to the Clang AST](https://clang.llvm.org/docs/IntroductionToTheClangAST.html) - a gentle introduction to the mysteries of the Clang AST.
 - 🐉 [Matching the Clang AST](https://clang.llvm.org/docs/LibASTMatchers.html) - how to use Clang’s LibASTMatchers to match interesting nodes of the AST and execute code that uses the matched nodes.
 - 🐉 [AST Matcher Reference](https://clang.llvm.org/docs/LibASTMatchersReference.html) - AST matchers implemented by Clang.
+- :octocat: https://github.com/banach-space/clang-tutor - A collection of out-of-tree Clang plugins for teaching and learning
+- :octocat: https://github.com/ronnie88597/Notes/tree/master/clang
 - 📹 [Create your own Refactoring Tool in Clang](https://www.youtube.com/watch?v=8PndHo7jjHk) - Richard Thompson's presentation from C++Now 2014.
 - 📹 [Refactoring C++ with Clang](https://www.youtube.com/watch?v=yuIOGfcOH0k) - Chandler Carruth's talk from C++Now 2012.
 - 📹 [Automatic C++ source code generation with clang](https://www.youtube.com/watch?v=aPTyatTI42k) - Sergei Sadovnikov's ACCU 2017 talk.
@@ -39,6 +41,9 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [clang-tidy](http://clang.llvm.org/extra/clang-tidy.html) - [Lint-like checks and beyondslides](http://llvm.org/devmtg/2014-04/PDFs/Talks/clang-tidy%20LLVM%20Euro%202014.pdf)
 - [clangd](https://clangd.llvm.org/) - clangd language server (for [LSP](https://microsoft.github.io/language-server-protocol/))
   - [CppCon 2018 -- Clangd: architecture of a scalable C++ language server](https://www.youtube.com/watch?v=5HIyAXj1YNQ)
+  - [Clangd for Neovim](https://github.com/p00f/clangd_extensions.nvim)
+  - [Clangd for VSCode](https://github.com/clangd/vscode-clangd)
+  - [Clangd for Emacs](https://emacs-lsp.github.io/lsp-mode/page/lsp-clangd/)
 - [clang-format](http://clang.llvm.org/docs/ClangFormat.html)
   - [clang-format docs](https://clang.llvm.org/docs/ClangFormat.html) - A tool to format C/C++/Java/JavaScript/Objective-C/Protobuf code.
   - [style options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html) - clang-format style options.
@@ -66,6 +71,9 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [trailofbits/PASTA](https://github.com/trailofbits/pasta) - Peter's Amazing Syntax Tree Analyzer
 - [kythe/Kythe](https://github.com/kythe/kythe) - a pluggable, (mostly) language-agnostic ecosystem for building tools that work with code
 - [ccls](https://github.com/MaskRay/ccls) - a C++ language server, similar to clangd
+  - [ccls for Neovim](https://github.com/ranjithshegde/ccls.nvim)
+  - [ccls for VSCode](https://github.com/MaskRay/vscode-ccls/tree/master)
+  - [ccls for Emacs](https://emacs-lsp.github.io/lsp-mode/page/lsp-ccls/)
 - [sourcegraph/scip-clang](https://github.com/sourcegraph/scip-clang) - SCIP indexer for C and C++
 - [sourcegraph/lsif-clang](https://github.com/sourcegraph/lsif-clang) - LSIF generator for C, C++ and Objective C
 - [Clang Power Tools](https://github.com/Caphyon/clang-power-tools) - Visual Studio extension with Clang/LLVM tools (`clang++`, `clang-tidy` and `clang-format`).
@@ -87,7 +95,10 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [standardese](https://github.com/standardese/standardese) - A (work-in-progress) nextgen Doxygen for C++ (based on libclang)
 - [C++Now 2017: clang-useful](https://github.com/peter-can-talk/cppnow-2017/tree/master)
 - [clang-experiments](https://github.com/pr0g/clang-experiments/tree/main)
+- https://github.com/aras-p/ClangBuildAnalyzer - Clang build analysis tool using -ftime-trace
 
 # Other Relevant Resources
 - [GCC Static Analyzer](https://gcc.gnu.org/wiki/StaticAnalyzer)
 - [godbolt - compiler explorer](https://godbolt.org/)
+- https://github.com/AnthonyCalandra/modern-cpp-features
+- https://github.com/andreasfertig/programming-with-cpp20
