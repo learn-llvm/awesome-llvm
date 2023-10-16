@@ -53,6 +53,8 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - :octocat: [LLVM-Pass-Analysis-Collection](https://github.com/JohannesLiu/LLVM-Pass-Analysis-Collection) - A Collection of LLVM Pass for Program Analysis
 - :octocat: [srg-llvm-pass-tutorial](https://github.com/delcypher/srg-llvm-pass-tutorial) - A tutorial about llvm passes from [Software reliability group](http://srg.doc.ic.ac.uk/)
 - 📃 [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
+- :octocat: https://github.com/lahiri-phdworks/LLVM-Examples/tree/master - LLVM Repository and Code samples. LLVM Passes and quick bytes.
+- :octocat: https://github.com/wuzhanglin/llvm-IR-examples - Some examples for using LLVM to generate IR
 - :octocat: [llvm-ir-tutorial](https://github.com/Evian-Zhang/llvm-ir-tutorial) (in Chinese)
 
 # Publications
@@ -62,7 +64,7 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - [LLVM @ ACM-DL](http://dl.acm.org/results.cfm?h=1&cfid=474738638&cftoken=86744949)
 - [LLVM @ IEEEXplore](http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=llvm)
 - [LLVM @ DBLP](http://dblp.org/search/#query=llvm&qp=H1.37:W1.3:F1.4:F2.4:F3.4:F4.3)
-- 📖 [Learn LLVM 12](https://www.amazon.com/Learn-LLVM-12-beginners-libraries/dp/1839213507/ref=sr_1_1) -- good to start with
+- 📖 [Learn LLVM 12](https://www.amazon.com/Learn-LLVM-12-beginners-libraries/dp/1839213507/ref=sr_1_1) - good to start with
 - 📖 [Getting Started with LLVM Core Libraries](https://www.amazon.com/Getting-Started-LLVM-Core-Libraries/dp/1782166920), also available on [ACM library](https://dl.acm.org/citation.cfm?id=2692607)
 - 📖 [LLVM Cookbook](https://www.amazon.com/LLVM-Cookbook-Mayur-Pandey/dp/178528598X)
 - 📖 [LLVM Essentials](https://www.amazon.com/LLVM-Essentials-Suyog-Sarda/dp/1785280805/)
@@ -98,7 +100,7 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - [whole-program-llvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files; its go port [gllvm](https://github.com/SRI-CSL/gllvm)
 - [ollvm](https://github.com/obfuscator-llvm/obfuscator/wiki) - code obfuscation based on LLVM4.0
 - [S2E](https://github.com/s2e) - Selective Symbolic Execution (use KLEE as symbolic executor)
-- [RetDec](https://github.com/avast-tl/retdec) - a retargetable machine-code decompiler based on LLVM
+- [RetDec](https://github.com/avast/retdec) - a retargetable machine-code decompiler based on LLVM
 - [capstone](http://www.capstone-engine.org/beyond_llvm.html) - Disassembler based on the MC component of the LLVM compiler infrastructure
 - [DWGrep](http://pmachata.github.io/dwgrep/) - A tool for querying Dwarf (debuginfo) graphs
 - [Emscripten](https://github.com/kripken/emscripten) - An LLVM-to-JavaScript Compiler
@@ -110,6 +112,13 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - [circt](https://github.com/llvm/circt) - Circuit IR Compilers and Tools
 - [American fuzzy lop (AFL)](http://lcamtuf.coredump.cx/afl/) - LLVM mode for instrumentation
 - [klee](https://github.com/klee/klee) - Symbolic Virtual Machine
+- https://github.com/viktormalik/diffkemp - Static analysis of semantic differences in kernel versionsa
+- https://github.com/GaloisInc/yapall - A precise and scalable pointer analysis for LLVM, written in Ascent
+- https://github.com/SCRT/avcleaner - C/C++ source obfuscator for antivirus bypass
+- https://github.com/staticafi/llvm2c - Decompiler of LLVM bitcode to C
+- https://github.com/ucsb-seclab/dr_checker - Dr. Checker: A Soundy Vulnerability Detection Tool for Linux Kernel Drivers
+- https://github.com/mchalupa/dg -  Various program analyses, construction of dependence graphs and program slicing of LLVM bitcode
+- https://github.com/cisco-open/llvm-crash-analyzer
 
 # Bindings
 - [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM python binding for writing JIT compilers
@@ -136,5 +145,6 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 * [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security) - awesome llvm security projects
 * [static-analysis](https://github.com/analysis-tools-dev/static-analysis) - A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more
 * [dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - A curated list of dynamic analysis tools and linters for all programming languages, binaries, and more
+* https://github.com/mikeroyal/LLVM-Guide
 * other [awesome lists on GitHub](https://github.com/topics/awesome)
 * [List of tools for static code analysis (on Wikipedia)](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
