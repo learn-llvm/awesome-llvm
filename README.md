@@ -3,6 +3,10 @@ Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 
 This README contains bare resources for [LLVM](http://llvm.org/)-relevant techniques; for Clang-specific resources, please see [Clang.md in this repo](./Clang.md). Only well-maintained projects are included; PRs are welcome.
 
+## Starchart
+
+![Star History Chart](https://api.star-history.com/svg?repos=learn-llvm/awesome-llvm&type=Date)
+
 # Documentation ([reference](http://llvm.org/docs/index.html))
 - [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
 - [LLVM Programmer’s Manual](http://llvm.org/docs/ProgrammersManual.html)
