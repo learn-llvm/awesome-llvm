@@ -13,7 +13,7 @@ build() {
     git_clone_or_update "${GIT_OPTS}" "${LLVM_MONOREPO}" "${LLVM_SRC_DIR}"
     cd "${ROOT_DIR}" || exit
     cmake -B build -S llvm \
-      -DCMAKE_INSTALL_PREFIX=${LLVM_INSTALL_DIR} \
+      -DCMAKE_INSTALL_PREFIX=${LLVM_INS_DIR} \
       -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
       -DCMAKE_BUILD_TYPE=Release \
       -DBUILD_SHARED_LIBS=ON \
