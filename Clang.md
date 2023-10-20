@@ -63,7 +63,6 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 # Unofficial Tools/Libraries
 - [Checked C](https://github.com/microsoft/checkedc) - an extension to C that lets programmers write C code that is guaranteed by the compiler to be type-safe
 - [C++ Insights](https://github.com/andreasfertig/cppinsights) - a clang-based tool which does source to source transformation. Its goal is it to make things visible which normally, and intentionally, happen behind the scenes. [Live/online demo](https://cppinsights.io/) available.
-- [IKOS](https://github.com/nasa-sw-vnv/ikos) - Static analyzer for C/C++ based on the theory of Abstract Interpretation.
 - [CodeChecker](https://github.com/Ericsson/codechecker) - an analyzer tooling, defect database and viewer extension for the Clang Static Analyzer and Clang Tidy
   - [docs](https://codechecker.readthedocs.io/en/latest/)
 - [QT Clazy](https://github.com/KDE/clazy) - Qt-oriented static code analyzer based on the Clang framework (as a plugin and a standalone tool on top of libtooling)
