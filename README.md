@@ -1,7 +1,7 @@
 Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ------
 
-This README contains bare resources for [LLVM](http://llvm.org/)-relevant techniques; for Clang-specific resources, please see [Clang.md in this repo](./Clang.md). Only well-maintained projects are included; PRs are welcome.
+This README contains bare resources for LLVM-relevant techniques; for Clang-specific resources, please check [Clang.md in this repo](./Clang.md). Only well-maintained projects are included; PRs are welcome.
 
 ## Starchart
 
@@ -117,13 +117,14 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - [American fuzzy lop (AFL)](http://lcamtuf.coredump.cx/afl/) - LLVM mode for instrumentation
 - [klee](https://github.com/klee/klee) - Symbolic Virtual Machine
 - [IKOS](https://github.com/nasa-sw-vnv/ikos) - Static analyzer for C/C++ based on the theory of Abstract Interpretation.
-- https://github.com/viktormalik/diffkemp - Static analysis of semantic differences in kernel versionsa
-- https://github.com/GaloisInc/yapall - A precise and scalable pointer analysis for LLVM, written in Ascent
-- https://github.com/SCRT/avcleaner - C/C++ source obfuscator for antivirus bypass
-- https://github.com/staticafi/llvm2c - Decompiler of LLVM bitcode to C
-- https://github.com/ucsb-seclab/dr_checker - Dr. Checker: A Soundy Vulnerability Detection Tool for Linux Kernel Drivers
-- https://github.com/mchalupa/dg -  Various program analyses, construction of dependence graphs and program slicing of LLVM bitcode
-- https://github.com/cisco-open/llvm-crash-analyzer
+- [diffkemp](https://github.com/viktormalik/diffkemp) - Static analysis of semantic differences in kernel versionsa
+- [GaloisInc/yapall](https://github.com/GaloisInc/yapall) - A precise and scalable pointer analysis for LLVM, written in Ascent
+- [SCRT/avcleaner](https://github.com/SCRT/avcleaner) - C/C++ source obfuscator for antivirus bypass
+- [llvm2c](https://github.com/staticafi/llvm2c) - Decompiler of LLVM bitcode to C
+- [dr checker](https://github.com/ucsb-seclab/dr_checker) - A Soundy Vulnerability Detection Tool for Linux Kernel Drivers
+- [DG](https://github.com/mchalupa/dg) -  Various program analyses, construction of dependence graphs and program slicing of LLVM bitcode
+  - dg can integrate SVF, see [here](https://github.com/mchalupa/dg/blob/master/doc/SVF.md) for details
+- [llvm-crash-analyzer](https://github.com/cisco-open/llvm-crash-analyzer) -- crash analysis against coredump files based on LLVM Machine-IR, together with LLDB
 
 # Bindings
 - [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM python binding for writing JIT compilers
