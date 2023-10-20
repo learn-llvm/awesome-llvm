@@ -116,6 +116,7 @@ This README contains bare resources for [LLVM](http://llvm.org/)-relevant techni
 - [circt](https://github.com/llvm/circt) - Circuit IR Compilers and Tools
 - [American fuzzy lop (AFL)](http://lcamtuf.coredump.cx/afl/) - LLVM mode for instrumentation
 - [klee](https://github.com/klee/klee) - Symbolic Virtual Machine
+- [IKOS](https://github.com/nasa-sw-vnv/ikos) - Static analyzer for C/C++ based on the theory of Abstract Interpretation.
 - https://github.com/viktormalik/diffkemp - Static analysis of semantic differences in kernel versionsa
 - https://github.com/GaloisInc/yapall - A precise and scalable pointer analysis for LLVM, written in Ascent
 - https://github.com/SCRT/avcleaner - C/C++ source obfuscator for antivirus bypass
