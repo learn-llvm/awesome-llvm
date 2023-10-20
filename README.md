@@ -78,31 +78,38 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 - 📖 [Engineering LLVM Backend](https://www.amazon.com/Engineering-LLVM-Backend-next-generation-accelerator-ebook/dp/B0BBRF69XL/ref=sr_1_15)
 
 # Official Tools/Libraries ([reference](http://llvm.org/docs/CommandGuide/index.html))
-- [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer
-- [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester
-- [lli](https://llvm.org/docs/CommandGuide/lli.html) - Directly execute programs from LLVM bitcode
-- [llvm-dis](http://llvm.org/docs/CommandGuide/llvm-dis.html) - LLVM disassembler
-- [llvm-as](http://llvm.org/docs/CommandGuide/llvm-as.html) - LLVM assembler
-- [llvm-link](http://llvm.org/docs/CommandGuide/llvm-link.html) - LLVM bitcode linker
-- [llvm-dwarfdump](http://llvm.org/docs/CommandGuide/llvm-dwarfdump.html) - Print contents of DWARF sections
-- [llvm-config](http://llvm.org/docs/CommandGuide/llvm-config.html) - Print LLVM compilation options
-- [llvm-extract](http://llvm.org/docs/CommandGuide/llvm-extract.html) - Extract functions from an LLVM module
-- [llvm-bcanalyzer](http://llvm.org/docs/CommandGuide/llvm-bcanalyzer.html) - LLVM bitcode analyzer
-- [llvm-objdump](http://llvm.org/docs/CommandGuide/llvm-objdump.html) - LLVM objdump
-- [llvm-nm](http://llvm.org/docs/CommandGuide/llvm-nm.html) - LLVM nm
-- [llvm-readobj](http://llvm.org/docs/CommandGuide/llvm-readobj.html) - LLVM object reader
-- [llvm-diff](http://llvm.org/docs/CommandGuide/llvm-diff.html) - LLVM structural "diff"
-- [llc](http://llvm.org/docs/CommandGuide/llc.html) -  LLVM static compiler
-- [llvm-ar](http://llvm.org/docs/CommandGuide/llvm-ar.html)(llvm-ranlib) - LLVM archiver
+- Core Utilities
+  - [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer
+  - [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester
+  - [lli](https://llvm.org/docs/CommandGuide/lli.html) - Directly execute programs from LLVM bitcode
+  - [llvm-dis](http://llvm.org/docs/CommandGuide/llvm-dis.html) - LLVM disassembler
+  - [llvm-as](http://llvm.org/docs/CommandGuide/llvm-as.html) - LLVM assembler
+  - [llvm-link](http://llvm.org/docs/CommandGuide/llvm-link.html) - LLVM bitcode linker
+  - [llvm-dwarfdump](http://llvm.org/docs/CommandGuide/llvm-dwarfdump.html) - Print contents of DWARF sections
+  - [llvm-config](http://llvm.org/docs/CommandGuide/llvm-config.html) - Print LLVM compilation options
+  - [llvm-extract](http://llvm.org/docs/CommandGuide/llvm-extract.html) - Extract functions from an LLVM module
+  - [llvm-bcanalyzer](http://llvm.org/docs/CommandGuide/llvm-bcanalyzer.html) - LLVM bitcode analyzer
+  - [llvm-objdump](http://llvm.org/docs/CommandGuide/llvm-objdump.html) - LLVM objdump
+  - [llvm-nm](http://llvm.org/docs/CommandGuide/llvm-nm.html) - LLVM nm
+  - [llvm-readobj](http://llvm.org/docs/CommandGuide/llvm-readobj.html) - LLVM object reader
+  - [llvm-diff](http://llvm.org/docs/CommandGuide/llvm-diff.html) - LLVM structural "diff"
+  - [llc](http://llvm.org/docs/CommandGuide/llc.html) -  LLVM static compiler
+  - [llvm-ar](http://llvm.org/docs/CommandGuide/llvm-ar.html)(llvm-ranlib) - LLVM archiver
+- [Compiler-RT](https://compiler-rt.llvm.org/) - runtime libraries, including sanitizers, profiling utilities, etc
 - [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
 - [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
+- [llvm/Torch-LLVM](https://github.com/llvm/torch-mlir) - first class support from the PyTorch ecosystem to the MLIR ecosystem
+- [llvm/Polygeist](https://github.com/llvm/Polygeist) - C/C++ frontend for MLIR
 
 # Unofficial Tools/Libraries ([reference](http://llvm.org/ProjectsWithLLVM/))
 - [SVF-tools](https://github.com/SVF-tools/SVF) - Pointer Analysis and Program Dependence Analysis for C and C++ Programs
 - [smack](https://github.com/smackers/smack) - SMACK Software Verifier and Verification Toolchain
 - [Phasar](https://github.com/secure-software-engineering/phasar) - A LLVM-based static analysis framework
 - [Infer](https://github.com/facebook/infer) - Facebook's static analysis framework; C/C++/objc is based on LLVM/Clang
+- [mstorsjo/llvm-mingw](https://github.com/mstorsjo/llvm-mingw) - An LLVM/Clang/LLD based mingw-w64 toolchain
+- [microsoft/llvm-mctoll](https://github.com/microsoft/llvm-mctoll) - statically (AOT) translates (or raises) binaries to LLVM IR
+- [mcsema](https://github.com/trailofbits/mcsema) - An x86 to LLVM IR decompiler
 - [whole-program-llvm](https://github.com/travitch/whole-program-llvm) - A wrapper script to build whole-program LLVM bitcode files; its go port [gllvm](https://github.com/SRI-CSL/gllvm)
 - [ollvm](https://github.com/obfuscator-llvm/obfuscator/wiki) - code obfuscation based on LLVM4.0
 - [S2E](https://github.com/s2e) - Selective Symbolic Execution (use KLEE as symbolic executor)
@@ -111,7 +118,6 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 - [DWGrep](http://pmachata.github.io/dwgrep/) - A tool for querying Dwarf (debuginfo) graphs
 - [Emscripten](https://github.com/kripken/emscripten) - An LLVM-to-JavaScript Compiler
 - [cling](https://github.com/root-project/cling) - The cling C++ interpreter
-- [mcsema](https://github.com/trailofbits/mcsema) - An x86 to LLVM IR decompiler
 - [remill](https://github.com/lifting-bits/remill) - Library for lifting machine code to LLVM bitcode
 - [llvm2cpg](https://github.com/ShiftLeftSecurity/llvm2cpg) - LLVM meets Code Property Graphs
 - [QBDI](https://github.com/QBDI/QBDI) - A Dynamic Binary Instrumentation framework based on LLVM
