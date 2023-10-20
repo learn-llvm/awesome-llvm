@@ -60,6 +60,8 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 - :octocat: https://github.com/lahiri-phdworks/LLVM-Examples/tree/master - LLVM Repository and Code samples. LLVM Passes and quick bytes.
 - :octocat: https://github.com/wuzhanglin/llvm-IR-examples - Some examples for using LLVM to generate IR
 - :octocat: [llvm-ir-tutorial](https://github.com/Evian-Zhang/llvm-ir-tutorial) (in Chinese)
+- 📹 [LLVM Tutorial Walkthrough](https://www.youtube.com/watch?v=09EAVa7BAp4&list=PLSq9OFrD2Q3ChEc_ejnBcO5u9JeT0ufkg) -- Toby Ho's tutorial
+- 📹 [Introduction to the Low-Level Virtual Machine (LLVM)](https://www.youtube.com/playlist?list=PLDSTpI7ZVmVnvqtebWnnI8YeB8bJoGOyv) - UFMG's Compilers Lab's tutorial
 
 # Publications
 - http://llvm.org/pubs/
