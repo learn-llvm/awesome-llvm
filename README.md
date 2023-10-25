@@ -1,7 +1,7 @@
 Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ------
 
-This README contains bare resources for LLVM-relevant techniques; for Clang-specific resources, please check [Clang.md in this repo](./Clang.md). Only well-maintained projects are included; PRs are welcome.
+This README contains bare resources for LLVM-relevant techniques; for Clang-specific resources, please check [Clang.md in this repo](./Clang.md). Only well-maintained projects/websites/docs are included; PRs are welcome.
 
 ## Starchart
 
@@ -22,7 +22,7 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 - [LLVM Tutorials](http://llvm.org/docs/tutorial/index.html)
 - [Python Version of the LLVM Tutorial](https://github.com/eliben/pykaleidoscope)
 - [LLVM’s Analysis and Transform Passes](http://llvm.org/docs/Passes.html)
-- [FAQ](http://llvm.org/docs/FAQ.html)
+- [LLVM FAQ](http://llvm.org/docs/FAQ.html)
 - [LLVM Testing Infrastructure Guide](http://llvm.org/docs/TestingGuide.html)
 - [The Often Misunderstood GEP Instruction](http://llvm.org/docs/GetElementPtr.html)
 - [Exception Handling in LLVM](http://llvm.org/docs/ExceptionHandling.html)
