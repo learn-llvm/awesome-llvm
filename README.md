@@ -42,7 +42,6 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 
 # Unofficial Websites
 - [The Architecture of Open Source Applications - LLVM](http://www.aosabook.org/en/llvm.html)
-- [ELLCC](http://ellcc.org/demo/index.cgi) - Online LLVM Demo Page
 - [Eli Bendersky's website](http://eli.thegreenplace.net/)
 - [ChenWj's LLVM Wiki](http://people.cs.nctu.edu.tw/~chenwj/dokuwiki/doku.php?id=llvm)(Traditional Chinese)
 - [An Unofficial LLVM Website](http://llvm.lyngvig.org/Articles/)
@@ -50,6 +49,7 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 - [LLVM @ reddit](https://www.reddit.com/r/LLVM/)
 - [GitHub LLVM topic](https://github.com/topics/llvm)
 - [LLVM documentation in hdoc](https://docs.hdoc.io/hdoc/llvm-project/functions.html)
+- ~~[ELLCC](http://ellcc.org/demo/index.cgi) - Online LLVM Demo Page~~
 
 # Tutorials
 - :octocat: [LLVM-Tutor](https://github.com/banach-space/llvm-tutor) - A collection of out-of-tree LLVM passes for teaching and learning
@@ -79,12 +79,11 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 
 # Official Tools/Libraries ([reference](http://llvm.org/docs/CommandGuide/index.html))
 - Core Utilities
-  - [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer
-  - [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester
-  - [lli](https://llvm.org/docs/CommandGuide/lli.html) - Directly execute programs from LLVM bitcode
-  - [llvm-dis](http://llvm.org/docs/CommandGuide/llvm-dis.html) - LLVM disassembler
-  - [llvm-as](http://llvm.org/docs/CommandGuide/llvm-as.html) - LLVM assembler
-  - [llvm-link](http://llvm.org/docs/CommandGuide/llvm-link.html) - LLVM bitcode linker
+  - [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer, for LLVM analysis and transformation passes
+  - [lli](https://llvm.org/docs/CommandGuide/lli.html) - Directly execute/intepreter programs from LLVM bitcode
+  - [llvm-dis](http://llvm.org/docs/CommandGuide/llvm-dis.html) - LLVM disassembler, from `.bc` to `.ll`
+  - [llvm-as](http://llvm.org/docs/CommandGuide/llvm-as.html) - LLVM assembler, from `.ll` to `.bc`
+  - [llvm-link](http://llvm.org/docs/CommandGuide/llvm-link.html) - LLVM bitcode linker to merge multiple `.bc`s into one
   - [llvm-dwarfdump](http://llvm.org/docs/CommandGuide/llvm-dwarfdump.html) - Print contents of DWARF sections
   - [llvm-config](http://llvm.org/docs/CommandGuide/llvm-config.html) - Print LLVM compilation options
   - [llvm-extract](http://llvm.org/docs/CommandGuide/llvm-extract.html) - Extract functions from an LLVM module
@@ -95,10 +94,17 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
   - [llvm-diff](http://llvm.org/docs/CommandGuide/llvm-diff.html) - LLVM structural "diff"
   - [llc](http://llvm.org/docs/CommandGuide/llc.html) -  LLVM static compiler
   - [llvm-ar](http://llvm.org/docs/CommandGuide/llvm-ar.html)(llvm-ranlib) - LLVM archiver
+  - [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester, for testing purpose during development
+- [libc++](https://libcxx.llvm.org/) - LLVM's implementation of C++ standard library
 - [Compiler-RT](https://compiler-rt.llvm.org/) - runtime libraries, including sanitizers, profiling utilities, etc
-- [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
-- [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
+- [MLIR](https://mlir.llvm.org/) - Multi-Level Intermediate Representation
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
+- [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
+- [LLVM's libunwind](https://bcain-llvm.readthedocs.io/projects/libunwind/en/latest/) - an implementation of the interface defined by the HP libunwind project
+- [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
+- [OpenMP in LLVM](https://openmp.llvm.org/)
+- [OpenCL C in LLVM](https://libclc.llvm.org/) - open source, BSD/MIT dual licensed implementation of the library requirements of the OpenCL C programming language
+- [BOLT](https://github.com/llvm/llvm-project/blob/main/bolt/README.md) - a post-link optimizer developed to speed up large applications
 - [llvm/Torch-LLVM](https://github.com/llvm/torch-mlir) - first class support from the PyTorch ecosystem to the MLIR ecosystem
 - [llvm/Polygeist](https://github.com/llvm/Polygeist) - C/C++ frontend for MLIR
 
