@@ -141,8 +141,9 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 - [llvm-crash-analyzer](https://github.com/cisco-open/llvm-crash-analyzer) -- crash analysis against coredump files based on LLVM Machine-IR, together with LLDB
 
 # Bindings
-- [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM python binding for writing JIT compilers
-- [LLVM Rust crates](https://crates.io/search?q=llvm)
+- [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM **python** binding for writing JIT compilers
+- [LLVM Rust crates](https://crates.io/search?q=llvm) - **Rust** bindings
+- [go-llvm](https://github.com/tinygo-org/go-llvm) - **Go** binding
 
 # LLVM-backed Languages
 - C/C++/ObjC/ObjC++
@@ -150,12 +151,13 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 - [GHC Haskell](https://www.haskell.org/ghc/)
 - [Rust](https://www.rust-lang.org)
 - [Julia](https://julialang.org/)
-- [go-llvm](https://github.com/go-llvm/llgo)
 - [scala-native](https://github.com/scala-native/scala-native)
 - [ldc](https://github.com/ldc-developers/ldc)
 - [Crystal](https://crystal-lang.org/)
 - [codon](https://github.com/exaloop/codon)
 - [numba](https://github.com/numba/numba)
+- [mojo](https://docs.modular.com/)
+- ~~[go-llvm](https://github.com/go-llvm/llgo)~~
 
 # Setup
 - ⚙️ [LLVM Debian/Ubuntu nightly packages](http://apt.llvm.org/) - Debian APT sources
