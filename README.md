@@ -53,7 +53,7 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 
 # Tutorials
 - :octocat: [LLVM-Tutor](https://github.com/banach-space/llvm-tutor) - A collection of out-of-tree LLVM passes for teaching and learning
-- :octocat: [learning-llvm](https://github.com/danbev/learning-llvm) - a few project for learning about llvm
+- :octocat: [learning-llvm](https://github.com/danbev/learning-llvm) - a project for learning about llvm
 - :octocat: [LLVM-Pass-Analysis-Collection](https://github.com/JohannesLiu/LLVM-Pass-Analysis-Collection) - A Collection of LLVM Pass for Program Analysis
 - :octocat: [srg-llvm-pass-tutorial](https://github.com/delcypher/srg-llvm-pass-tutorial) - A tutorial about llvm passes from [Software reliability group](http://srg.doc.ic.ac.uk/)
 - 📃 [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
@@ -79,20 +79,21 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 
 # Official Tools/Libraries ([reference](http://llvm.org/docs/CommandGuide/index.html))
 - Core Utilities
-  - [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer, for LLVM analysis and transformation passes
-  - [lli](https://llvm.org/docs/CommandGuide/lli.html) - Directly execute/intepreter programs from LLVM bitcode
+  - [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer, for LLVM analysis and transformation passes, works on `.ll` or `.bc` files
+  - [lli](https://llvm.org/docs/CommandGuide/lli.html) - Directly execute/intepreter programs from LLVM bitcode, running on `.ll` or `.bc` files
   - [llvm-dis](http://llvm.org/docs/CommandGuide/llvm-dis.html) - LLVM disassembler, from `.bc` to `.ll`
   - [llvm-as](http://llvm.org/docs/CommandGuide/llvm-as.html) - LLVM assembler, from `.ll` to `.bc`
-  - [llvm-link](http://llvm.org/docs/CommandGuide/llvm-link.html) - LLVM bitcode linker to merge multiple `.bc`s into one
-  - [llvm-dwarfdump](http://llvm.org/docs/CommandGuide/llvm-dwarfdump.html) - Print contents of DWARF sections
-  - [llvm-config](http://llvm.org/docs/CommandGuide/llvm-config.html) - Print LLVM compilation options
+  - [llvm-link](http://llvm.org/docs/CommandGuide/llvm-link.html) - LLVM bitcode linker, merge multiple `.bc`s/`.ll`s into one
+  - [llvm-dwarfdump](http://llvm.org/docs/CommandGuide/llvm-dwarfdump.html) - Print contents of DWARF sections, `llvm-dwarfdump -a main.o`
+  - [llvm-config](http://llvm.org/docs/CommandGuide/llvm-config.html) - Print LLVM compilation options, e.g., `llvm-config --includedir`
   - [llvm-extract](http://llvm.org/docs/CommandGuide/llvm-extract.html) - Extract functions from an LLVM module
-  - [llvm-bcanalyzer](http://llvm.org/docs/CommandGuide/llvm-bcanalyzer.html) - LLVM bitcode analyzer
-  - [llvm-objdump](http://llvm.org/docs/CommandGuide/llvm-objdump.html) - LLVM objdump
-  - [llvm-nm](http://llvm.org/docs/CommandGuide/llvm-nm.html) - LLVM nm
-  - [llvm-readobj](http://llvm.org/docs/CommandGuide/llvm-readobj.html) - LLVM object reader
+  - [llvm-bcanalyzer](http://llvm.org/docs/CommandGuide/llvm-bcanalyzer.html) - LLVM bitcode analyzer, `llvm-bcanalyzer main.bc`
+  - [llvm-objdump](http://llvm.org/docs/CommandGuide/llvm-objdump.html) - LLVM's [objdump](https://en.wikipedia.org/wiki/Objdump), `llvm-objdump -a main.o`
+  - [llvm-nm](http://llvm.org/docs/CommandGuide/llvm-nm.html) - LLVM's nm
+  - [llvm-readelf](https://llvm.org/docs/CommandGuide/llvm-readelf.html) - LLVM's [readelf](https://en.wikipedia.org/wiki/Readelf), `llvm-readelf -a main.o`
+  - [llvm-readobj](http://llvm.org/docs/CommandGuide/llvm-readobj.html) - LLVM object reader, `llvm-readobj --all main.o`
   - [llvm-diff](http://llvm.org/docs/CommandGuide/llvm-diff.html) - LLVM structural "diff"
-  - [llc](http://llvm.org/docs/CommandGuide/llc.html) -  LLVM static compiler
+  - [llc](http://llvm.org/docs/CommandGuide/llc.html) -  LLVM static compiler, compile LLVM IR to native assembly,  `llc main.ll -o main.s`
   - [llvm-ar](http://llvm.org/docs/CommandGuide/llvm-ar.html)(llvm-ranlib) - LLVM archiver
   - [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester, for testing purpose during development
 - [libc++](https://libcxx.llvm.org/) - LLVM's implementation of C++ standard library
