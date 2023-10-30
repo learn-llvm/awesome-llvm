@@ -1,46 +1,21 @@
 Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ------
 
-This README contains bare resources for LLVM-relevant techniques; for Clang-specific resources, please check [Clang.md in this repo](./Clang.md). Only well-maintained projects/websites/docs are included; PRs are welcome.
+This repo includes LLVM-related projects, websites, docs, and other resources. Only well-maintained resources are included; PRs are welcome.
+This README.md itself mostly records **LLVM backend** resources; for **Clang**-specific ones, please check [Clang.md](./Clang.md) in this repo.
 
 ## Starchart
 
 ![Star History Chart](https://api.star-history.com/svg?repos=learn-llvm/awesome-llvm&type=Date)
 
-# Documentation ([reference](http://llvm.org/docs/index.html))
-- [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
-- [LLVM Programmer’s Manual](http://llvm.org/docs/ProgrammersManual.html)
-- [LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html)
-- [LLVM Style RTTI](http://llvm.org/docs/HowToSetUpLLVMStyleRTTI.html)
-- [Writing an LLVM Pass](http://llvm.org/docs/WritingAnLLVMPass.html)
-- [LLVM Alias Analysis Infrastructure](http://llvm.org/docs/AliasAnalysis.html)
-- [Source Level Debugging](http://llvm.org/docs/SourceLevelDebugging.html)
-- [Create A Project](http://llvm.org/docs/Projects.html)
-- [LLVM Developer Policy](http://llvm.org/docs/DeveloperPolicy.html)
-- [CommandLine 2.0 Library Manual](http://llvm.org/docs/CommandLine.html)
-- [Getting Started with the LLVM System](http://llvm.org/docs/GettingStarted.html)
-- [LLVM Tutorials](http://llvm.org/docs/tutorial/index.html)
-- [Python Version of the LLVM Tutorial](https://github.com/eliben/pykaleidoscope)
-- [LLVM’s Analysis and Transform Passes](http://llvm.org/docs/Passes.html)
-- [LLVM FAQ](http://llvm.org/docs/FAQ.html)
-- [LLVM Testing Infrastructure Guide](http://llvm.org/docs/TestingGuide.html)
-- [The Often Misunderstood GEP Instruction](http://llvm.org/docs/GetElementPtr.html)
-- [Exception Handling in LLVM](http://llvm.org/docs/ExceptionHandling.html)
-- [LLVM Bitcode File Format](http://llvm.org/docs/BitCodeFormat.html)
-- [Writing an LLVM Backend](http://llvm.org/docs/WritingAnLLVMBackend.html)
-- [Sanitizers](docs/sanitizers) - AddressSanitizer, MemorySanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer, LeakSanitizer, etc
-- [Tutorial: Creating an LLVM Backend for the Cpu0 Architecture](http://jonathan2251.github.io/lbd/index.html)
-
-# Official Websites
-- http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
-- https://llvm.org/devmtg/ - LLVM Developers' Meeting and other events
-- http://blog.llvm.org/ - official blog
-- [discourse forum](https://discourse.llvm.org/)
-- [LLVMProj @ YouTube](https://www.youtube.com/@LLVMPROJ/videos?view=0&sort=dd&shelf_id=0) - official account, including [LLVM devmeeting](http://llvm.org/devmtg/), EuroLLVM, etc
-- [Open Projects](https://llvm.org/OpenProjects.html)
-- [LLVM Community events calendar](https://calendar.google.com/calendar/u/0/embed?src=calendar@llvm.org)
-
-# Unofficial Websites
+# Websites
+- 🐉 http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
+- 🐉 https://llvm.org/devmtg/ - LLVM Developers' Meeting and other events
+- 🐉 http://blog.llvm.org/ - official blog
+- 🐉 [discourse forum](https://discourse.llvm.org/)
+- 🐉 [LLVMProj @ YouTube](https://www.youtube.com/@LLVMPROJ/videos?view=0&sort=dd&shelf_id=0) - official account, including [LLVM devmeeting](http://llvm.org/devmtg/), EuroLLVM, etc
+- 🐉 [Open Projects](https://llvm.org/OpenProjects.html)
+- 🐉 [LLVM Community events calendar](https://calendar.google.com/calendar/u/0/embed?src=calendar@llvm.org)
 - [llvm-weekly](http://llvmweekly.org/) and its [Mastodon page](https://fosstodon.org/@llvmweekly) by [Alex Bradbury](https://fosstodon.org/@asb)
 - [The Architecture of Open Source Applications - LLVM](http://www.aosabook.org/en/llvm.html)
 - [Eli Bendersky's website](http://eli.thegreenplace.net/)
@@ -52,7 +27,29 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 - [LLVM documentation in hdoc](https://docs.hdoc.io/hdoc/llvm-project/functions.html)
 - ~~[ELLCC](http://ellcc.org/demo/index.cgi) - Online LLVM Demo Page~~
 
-# Tutorials
+# Tutorials/Documentation ([reference](http://llvm.org/docs/index.html))
+- 🐉 [LLVM Tutorials](http://llvm.org/docs/tutorial/index.html) - a list of tutorials
+  - :octocat: [Python Version of the LLVM Tutorial](https://github.com/eliben/pykaleidoscope)
+- 🐉 [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html) - detailed docs for LLVM IR/Bitcode
+  - 🐉 [LLVM Bitcode File Format](http://llvm.org/docs/BitCodeFormat.html)
+  - 🐉 [The Often Misunderstood GEP Instruction](http://llvm.org/docs/GetElementPtr.html)
+- 🐉 [LLVM Programmer’s Manual](http://llvm.org/docs/ProgrammersManual.html) - how to develop using LLVM infrastructure
+  - 🐉 [LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html)
+  - 🐉 [LLVM Developer Policy](http://llvm.org/docs/DeveloperPolicy.html)
+  - 🐉 [LLVM Style RTTI](http://llvm.org/docs/HowToSetUpLLVMStyleRTTI.html)
+  - 🐉 [Source Level Debugging](http://llvm.org/docs/SourceLevelDebugging.html)
+  - 🐉 [Create A Project](http://llvm.org/docs/Projects.html)
+  - 🐉 [Exception Handling in LLVM](http://llvm.org/docs/ExceptionHandling.html)
+- 🐉 [CommandLine 2.0 Library Manual](http://llvm.org/docs/CommandLine.html) - LLVM's CLI option parser library, used by all LLVM CLI tools etc
+- 🐉 [Getting Started with the LLVM System](http://llvm.org/docs/GettingStarted.html) - LLVM project's build, configurations, directory layouts, etc
+- 🐉 [LLVM’s Analysis and Transform Passes](http://llvm.org/docs/Passes.html)
+  - 🐉 [LLVM Alias Analysis Infrastructure](http://llvm.org/docs/AliasAnalysis.html)
+  - 🐉 [Writing an LLVM Pass](http://llvm.org/docs/WritingAnLLVMPass.html)
+- 🐉 [LLVM Testing Infrastructure Guide](http://llvm.org/docs/TestingGuide.html)
+- 🐉 [Writing an LLVM Backend](http://llvm.org/docs/WritingAnLLVMBackend.html)
+- 🐉 [LLVM FAQ](http://llvm.org/docs/FAQ.html)
+- :octocat: [Sanitizers](docs/sanitizers) - AddressSanitizer, MemorySanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer, LeakSanitizer, etc
+- :octocat: [Tutorial: Creating an LLVM Backend for the Cpu0 Architecture](http://jonathan2251.github.io/lbd/index.html)
 - :octocat: [LLVM-Tutor](https://github.com/banach-space/llvm-tutor) - A collection of out-of-tree LLVM passes for teaching and learning
 - :octocat: [learning-llvm](https://github.com/danbev/learning-llvm) - a project for learning about llvm
 - :octocat: [LLVM-Pass-Analysis-Collection](https://github.com/JohannesLiu/LLVM-Pass-Analysis-Collection) - A Collection of LLVM Pass for Program Analysis
