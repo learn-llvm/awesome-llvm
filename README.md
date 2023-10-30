@@ -36,11 +36,12 @@ This README contains bare resources for LLVM-relevant techniques; for Clang-spec
 - https://llvm.org/devmtg/ - LLVM Developers' Meeting and other events
 - http://blog.llvm.org/ - official blog
 - [discourse forum](https://discourse.llvm.org/)
-- [Mailing List: llvm-weekly](http://llvmweekly.org/)
 - [LLVMProj @ YouTube](https://www.youtube.com/@LLVMPROJ/videos?view=0&sort=dd&shelf_id=0) - official account, including [LLVM devmeeting](http://llvm.org/devmtg/), EuroLLVM, etc
 - [Open Projects](https://llvm.org/OpenProjects.html)
+- [LLVM Community events calendar](https://calendar.google.com/calendar/u/0/embed?src=calendar@llvm.org)
 
 # Unofficial Websites
+- [llvm-weekly](http://llvmweekly.org/) and its [Mastodon page](https://fosstodon.org/@llvmweekly) by [Alex Bradbury](https://fosstodon.org/@asb)
 - [The Architecture of Open Source Applications - LLVM](http://www.aosabook.org/en/llvm.html)
 - [Eli Bendersky's website](http://eli.thegreenplace.net/)
 - [ChenWj's LLVM Wiki](http://people.cs.nctu.edu.tw/~chenwj/dokuwiki/doku.php?id=llvm)(Traditional Chinese)
