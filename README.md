@@ -63,11 +63,11 @@ This README.md itself mostly records **LLVM backend** resources; for **Clang**-s
 
 # Publications
 - http://llvm.org/pubs/
-- [LLVM @ Google Scholar](https://scholar.google.com.sg/scholar?hl=en&q=llvm&btnG=&as_sdt=1%2C5&as_sdtp=)
+- [LLVM @ Google Scholar](https://scholar.google.com/scholar?hl=en&q=llvm)
 - [LLVM @ Microsoft Academic Search](http://academic.research.microsoft.com/Search?query=llvm)
-- [LLVM @ ACM-DL](http://dl.acm.org/results.cfm?h=1&cfid=474738638&cftoken=86744949)
+- [LLVM @ ACM-DL](https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&field1=AllField&text1=llvm)
 - [LLVM @ IEEEXplore](http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=llvm)
-- [LLVM @ DBLP](http://dblp.org/search/#query=llvm&qp=H1.37:W1.3:F1.4:F2.4:F3.4:F4.3)
+- [LLVM @ DBLP](http://dblp.org/search/#query=llvm)
 - 📖 [Learn LLVM 12](https://www.amazon.com/Learn-LLVM-12-beginners-libraries/dp/1839213507/ref=sr_1_1) - good to start with
 - 📖 [Getting Started with LLVM Core Libraries](https://www.amazon.com/Getting-Started-LLVM-Core-Libraries/dp/1782166920), also available on [ACM library](https://dl.acm.org/citation.cfm?id=2692607)
 - 📖 [LLVM Cookbook](https://www.amazon.com/LLVM-Cookbook-Mayur-Pandey/dp/178528598X)
