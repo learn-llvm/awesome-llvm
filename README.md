@@ -8,11 +8,13 @@ This README.md itself mostly records **LLVM backend** resources; for **Clang**-s
 
 ![Star History Chart](https://api.star-history.com/svg?repos=learn-llvm/awesome-llvm&type=Date)
 
-# Websites
+# Websites([references](https://llvm.org/docs/GettingInvolved.html))
 - 🐉 http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
 - 🐉 https://llvm.org/devmtg/ - LLVM Developers' Meeting and other events
 - 🐉 http://blog.llvm.org/ - official blog
 - 🐉 [discourse forum](https://discourse.llvm.org/)
+- 🐉 [llvm-commits archives](https://lists.llvm.org/pipermail/llvm-commits/)
+- 🐉 [llvm-bugs archives](https://lists.llvm.org/pipermail/llvm-bugs/)
 - 🐉 [LLVMProj @ YouTube](https://www.youtube.com/@LLVMPROJ/videos?view=0&sort=dd&shelf_id=0) - official account, including [LLVM devmeeting](http://llvm.org/devmtg/), EuroLLVM, etc
 - 🐉 [Open Projects](https://llvm.org/OpenProjects.html)
 - 🐉 [LLVM Community events calendar](https://calendar.google.com/calendar/u/0/embed?src=calendar@llvm.org)
