@@ -48,6 +48,7 @@ This README.md itself mostly records **LLVM backend** resources; for **Clang**-s
 - 🐉 [LLVM Testing Infrastructure Guide](http://llvm.org/docs/TestingGuide.html)
 - 🐉 [Writing an LLVM Backend](http://llvm.org/docs/WritingAnLLVMBackend.html)
 - 🐉 [LLVM FAQ](http://llvm.org/docs/FAQ.html)
+- 🐉 [LLVM Remarks](https://llvm.org/docs/Remarks.html) - emit diagnostics describing whether an optimization is performed/missed, used by `llc` or `opt`
 - :octocat: [Sanitizers](docs/sanitizers) - AddressSanitizer, MemorySanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer, LeakSanitizer, etc
 - :octocat: [Tutorial: Creating an LLVM Backend for the Cpu0 Architecture](http://jonathan2251.github.io/lbd/index.html)
 - :octocat: [LLVM-Tutor](https://github.com/banach-space/llvm-tutor) - A collection of out-of-tree LLVM passes for teaching and learning
@@ -64,7 +65,6 @@ This README.md itself mostly records **LLVM backend** resources; for **Clang**-s
 # Publications
 - http://llvm.org/pubs/
 - [LLVM @ Google Scholar](https://scholar.google.com/scholar?hl=en&q=llvm)
-- [LLVM @ Microsoft Academic Search](http://academic.research.microsoft.com/Search?query=llvm)
 - [LLVM @ ACM-DL](https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&field1=AllField&text1=llvm)
 - [LLVM @ IEEEXplore](http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=llvm)
 - [LLVM @ DBLP](http://dblp.org/search/#query=llvm)
@@ -78,6 +78,8 @@ This README.md itself mostly records **LLVM backend** resources; for **Clang**-s
 # Official Tools/Libraries ([reference](http://llvm.org/docs/CommandGuide/index.html))
 - Core Utilities
   - [opt](http://llvm.org/docs/CommandGuide/opt.html) - LLVM optimizer, for LLVM analysis and transformation passes, works on `.ll` or `.bc` files
+    - 📹 [Core C++ 2021 :: opt-viewer: Inspecting compiler optimizations in high-level code](https://www.youtube.com/watch?v=BJ_yxTmZQbc)
+    - 📹 [LLVM Optimization Remarks - Ofek Shilon - CppCon 2022](https://www.youtube.com/watch?v=qmEsx4MbKoc)
   - [lli](https://llvm.org/docs/CommandGuide/lli.html) - Directly execute/intepreter programs from LLVM bitcode, running on `.ll` or `.bc` files
   - [llvm-dis](http://llvm.org/docs/CommandGuide/llvm-dis.html) - LLVM disassembler, from `.bc` to `.ll`
   - [llvm-as](http://llvm.org/docs/CommandGuide/llvm-as.html) - LLVM assembler, from `.ll` to `.bc`
@@ -97,15 +99,16 @@ This README.md itself mostly records **LLVM backend** resources; for **Clang**-s
 - [libc++](https://libcxx.llvm.org/) - LLVM's implementation of C++ standard library
 - [Compiler-RT](https://compiler-rt.llvm.org/) - runtime libraries, including sanitizers, profiling utilities, etc
 - [MLIR](https://mlir.llvm.org/) - Multi-Level Intermediate Representation
+  - :octocat: [llvm/Polygeist](https://github.com/llvm/Polygeist) - C/C++ frontend for MLIR
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
 - [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
 - [LLVM's libunwind](https://bcain-llvm.readthedocs.io/projects/libunwind/en/latest/) - an implementation of the interface defined by the HP libunwind project
 - [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
 - [OpenMP in LLVM](https://openmp.llvm.org/)
+  - 🐉 [LLVM OpenMP @ discourse](https://discourse.llvm.org/c/runtimes/openmp/35)
 - [OpenCL C in LLVM](https://libclc.llvm.org/) - open source, BSD/MIT dual licensed implementation of the library requirements of the OpenCL C programming language
 - [BOLT](https://github.com/llvm/llvm-project/blob/main/bolt/README.md) - a post-link optimizer developed to speed up large applications
 - [llvm/Torch-LLVM](https://github.com/llvm/torch-mlir) - first class support from the PyTorch ecosystem to the MLIR ecosystem
-- [llvm/Polygeist](https://github.com/llvm/Polygeist) - C/C++ frontend for MLIR
 
 # Unofficial Tools/Libraries ([reference](http://llvm.org/ProjectsWithLLVM/))
 - [SVF-tools](https://github.com/SVF-tools/SVF) - Pointer Analysis and Program Dependence Analysis for C and C++ Programs
