@@ -23,6 +23,8 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - 📹 [Refactoring C++ with Clang](https://www.youtube.com/watch?v=yuIOGfcOH0k) - Chandler Carruth's talk from C++Now 2012.
 - 📹 [Automatic C++ source code generation with clang](https://www.youtube.com/watch?v=aPTyatTI42k) - Sergei Sadovnikov's ACCU 2017 talk.
 - [Quick overview of how Clang works internally](http://cppdepend.com/blog/?p=321) - cppdepend's quick introduction
+- [C Support in Clang](https://clang.llvm.org/c_status.html) and [C Defect Report Support in Clang](https://clang.llvm.org/cxx_dr_status.html)
+- [C++ Support in Clang](https://clang.llvm.org/cxx_status.html) and [C++ Defect Report Support in Clang](https://clang.llvm.org/cxx_dr_status.html)
 
 
 # Official Tools/Libraries
