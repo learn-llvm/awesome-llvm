@@ -70,6 +70,7 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [QT Clazy](https://github.com/KDE/clazy) - Qt-oriented static code analyzer based on the Clang framework (as a plugin and a standalone tool on top of libtooling)
 - [trailofbits/VAST](https://github.com/trailofbits/vast) - VAST: MLIR for Program Analysis
 - [trailofbits/PASTA](https://github.com/trailofbits/pasta) - Peter's Amazing Syntax Tree Analyzer
+- [naivesystems/analyze](https://github.com/naivesystems/analyze) - NaiveSystems' analyzer (community version), 
 - [kythe/Kythe](https://github.com/kythe/kythe) - a pluggable, (mostly) language-agnostic ecosystem for building tools that work with code
 - [ccls](https://github.com/MaskRay/ccls) - a C++ language server, similar to clangd
   - [ccls for Neovim](https://github.com/ranjithshegde/ccls.nvim)
