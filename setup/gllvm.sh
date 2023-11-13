@@ -3,4 +3,9 @@
 
 set -e
 go get github.com/SRI-CSL/gllvm/cmd/...
+which gclang
+which gclang++
+which gflang
+which get-bc
+which gsanity-check
 set +e

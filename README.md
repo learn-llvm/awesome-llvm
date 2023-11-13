@@ -43,10 +43,11 @@ This README.md itself mostly records **LLVM backend** resources; for **Clang**-s
   - 🐉 [Create A Project](http://llvm.org/docs/Projects.html)
   - 🐉 [Exception Handling in LLVM](http://llvm.org/docs/ExceptionHandling.html)
 - 🐉 [CommandLine 2.0 Library Manual](http://llvm.org/docs/CommandLine.html) - LLVM's CLI option parser library, used by all LLVM CLI tools etc
-- 🐉 [Getting Started with the LLVM System](http://llvm.org/docs/GettingStarted.html) - LLVM project's build, configurations, directory layouts, etc
+- 🐉 [Getting Started with the LLVM System](http://llvm.org/docs/GettingStarted.html) - LLVM project's build, configurations, directory layouts etc
 - 🐉 [LLVM’s Analysis and Transform Passes](http://llvm.org/docs/Passes.html)
-  - 🐉 [LLVM Alias Analysis Infrastructure](http://llvm.org/docs/AliasAnalysis.html)
+  - 🐉 [Using the New Pass Manager](https://llvm.org/docs/NewPassManager.html) - LLVM's new pass manager for optimization (both CLI and API changed)
   - 🐉 [Writing an LLVM Pass](http://llvm.org/docs/WritingAnLLVMPass.html)
+  - 🐉 [LLVM Alias Analysis Infrastructure](http://llvm.org/docs/AliasAnalysis.html)
 - 🐉 [LLVM Testing Infrastructure Guide](http://llvm.org/docs/TestingGuide.html)
 - 🐉 [Writing an LLVM Backend](http://llvm.org/docs/WritingAnLLVMBackend.html)
 - 🐉 [LLVM FAQ](http://llvm.org/docs/FAQ.html)
