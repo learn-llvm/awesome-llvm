@@ -14,9 +14,11 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 # Tutorials
 
 - 🐉 [“Clang” CFE Internals Manual](https://clang.llvm.org/docs/InternalsManual.html) - good start for Clang frontend developers
+- 🐉 [Clang Toolchain](https://clang.llvm.org/docs/Toolchain.html) - Toolchains when using Clang compiler driver
 - 🐉 [Introduction to the Clang AST](https://clang.llvm.org/docs/IntroductionToTheClangAST.html) - a gentle introduction to the mysteries of the Clang AST.
 - 🐉 [Matching the Clang AST](https://clang.llvm.org/docs/LibASTMatchers.html) - how to use Clang’s LibASTMatchers to match interesting nodes of the AST and execute code that uses the matched nodes.
 - 🐉 [AST Matcher Reference](https://clang.llvm.org/docs/LibASTMatchersReference.html) - AST matchers implemented by Clang.
+- 🐉 [Modules](https://clang.llvm.org/docs/Modules.html) - C++ modules
 - :octocat: https://github.com/banach-space/clang-tutor - A collection of out-of-tree Clang plugins for teaching and learning
 - :octocat: https://github.com/ronnie88597/Notes/tree/master/clang
 - 📹 [Create your own Refactoring Tool in Clang](https://www.youtube.com/watch?v=8PndHo7jjHk) - Richard Thompson's presentation from C++Now 2014.
