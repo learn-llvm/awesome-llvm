@@ -88,7 +88,7 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [compiledb](https://github.com/nickdiego/compiledb) -- Tool for generating Clang's JSON Compilation Database files for *make-based* build systems.
 - [codebrowser](https://github.com/KDAB/codebrowser) - Woboq CodeBrowser
 - [oclint](https://github.com/oclint) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
-- [CppNameLint](https://github.com/dougpuob/cppnamelint) - a naming convention linter of C/C++ source code Based on Clang libtooling
+- [CppNameLint](https://github.com/dougpuob/cppnamelint) - a naming convention linter of C/C++ source code Based on libtooling
 - [irony-mode](https://github.com/Sarcasm/irony-mode) - A C/C++ minor mode for Emacs powered by libclang.
 - [c99-to-c89](https://github.com/libav/c99-to-c89/) - Tool to convert C99 code to MSVC-compatible C89.
 - [ClangKit](https://github.com/macmade/ClangKit) - Objective-C frontend to LibClang.
@@ -99,6 +99,7 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [standardese](https://github.com/standardese/standardese) - A (work-in-progress) nextgen Doxygen for C++ (based on libclang)
 - [C++Now 2017: clang-useful](https://github.com/peter-can-talk/cppnow-2017/tree/master)
 - [clang-experiments](https://github.com/pr0g/clang-experiments/tree/main)
+- [SCRT/avcleaner](https://github.com/SCRT/avcleaner) - C/C++ source obfuscator for antivirus bypass (based on libtooling)
 - https://github.com/aras-p/ClangBuildAnalyzer - Clang build analysis tool using -ftime-trace
 
 # Other Relevant Resources

@@ -2,7 +2,7 @@ Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 ------
 
 This repo includes LLVM-related projects, websites, docs, and other resources. Only well-maintained resources are included; PRs are welcome.
-This README.md itself mostly records **LLVM backend** resources; for **Clang**-specific ones, please check [Clang.md](./Clang.md) in this repo.
+This README.md itself mostly records **LLVM backend** (and some mixed) resources; for **Clang**-specific ones, please check **[Clang.md](./Clang.md)** in this repo.
 
 ## Starchart
 
@@ -101,18 +101,21 @@ This README.md itself mostly records **LLVM backend** resources; for **Clang**-s
   - [llvm-ar](http://llvm.org/docs/CommandGuide/llvm-ar.html)(llvm-ranlib) - LLVM archiver
   - [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester, for testing purpose during development
 - [libc++](https://libcxx.llvm.org/) - LLVM's implementation of C++ standard library
+- [libc++abi](https://libcxxabi.llvm.org/) - LLVM's C++ ABI library that provides an implementation of the library portion of the Itanium C++ ABI
 - [Compiler-RT](https://compiler-rt.llvm.org/) - runtime libraries, including sanitizers, profiling utilities, etc
 - [MLIR](https://mlir.llvm.org/) - Multi-Level Intermediate Representation
+  - :octocat: [llvm/Torch-LLVM](https://github.com/llvm/torch-mlir) - first class support from the PyTorch ecosystem to the MLIR ecosystem
   - :octocat: [llvm/Polygeist](https://github.com/llvm/Polygeist) - C/C++ frontend for MLIR
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
-- [LLDB](http://lldb.llvm.org/) - The LLDB Debugger
+- [LLD](https://lld.llvm.org/) - LLVM's integrated linker, similar to [GNU ld](https://linux.die.net/man/1/ld) and [gold linker](https://en.wikipedia.org/wiki/Gold_(linker))
+  - relevant: [LLVM Gold Linker plugin](https://llvm.org/docs/GoldPlugin.html)
+- [LLDB](http://lldb.llvm.org/) - LLVM's LLDB Debugger
 - [LLVM's libunwind](https://bcain-llvm.readthedocs.io/projects/libunwind/en/latest/) - an implementation of the interface defined by the HP libunwind project
 - [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
 - [OpenMP in LLVM](https://openmp.llvm.org/)
   - 🐉 [LLVM OpenMP @ discourse](https://discourse.llvm.org/c/runtimes/openmp/35)
 - [OpenCL C in LLVM](https://libclc.llvm.org/) - open source, BSD/MIT dual licensed implementation of the library requirements of the OpenCL C programming language
 - [BOLT](https://github.com/llvm/llvm-project/blob/main/bolt/README.md) - a post-link optimizer developed to speed up large applications
-- [llvm/Torch-LLVM](https://github.com/llvm/torch-mlir) - first class support from the PyTorch ecosystem to the MLIR ecosystem
 
 # Unofficial Tools/Libraries ([reference](http://llvm.org/ProjectsWithLLVM/))
 - [SVF-tools](https://github.com/SVF-tools/SVF) - Pointer Analysis and Program Dependence Analysis for C and C++ Programs
@@ -139,7 +142,6 @@ This README.md itself mostly records **LLVM backend** resources; for **Clang**-s
 - [IKOS](https://github.com/nasa-sw-vnv/ikos) - Static analyzer for C/C++ based on the theory of Abstract Interpretation.
 - [diffkemp](https://github.com/viktormalik/diffkemp) - Static analysis of semantic differences in kernel versionsa
 - [GaloisInc/yapall](https://github.com/GaloisInc/yapall) - A precise and scalable pointer analysis for LLVM, written in Ascent
-- [SCRT/avcleaner](https://github.com/SCRT/avcleaner) - C/C++ source obfuscator for antivirus bypass
 - [llvm2c](https://github.com/staticafi/llvm2c) - Decompiler of LLVM bitcode to C
 - [dr checker](https://github.com/ucsb-seclab/dr_checker) - A Soundy Vulnerability Detection Tool for Linux Kernel Drivers
 - [DG](https://github.com/mchalupa/dg) -  Various program analyses, construction of dependence graphs and program slicing of LLVM bitcode
