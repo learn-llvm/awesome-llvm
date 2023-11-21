@@ -27,6 +27,7 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [Quick overview of how Clang works internally](http://cppdepend.com/blog/?p=321) - cppdepend's quick introduction
 - [C Support in Clang](https://clang.llvm.org/c_status.html) and [C Defect Report Support in Clang](https://clang.llvm.org/cxx_dr_status.html)
 - [C++ Support in Clang](https://clang.llvm.org/cxx_status.html) and [C++ Defect Report Support in Clang](https://clang.llvm.org/cxx_dr_status.html)
+- [Data flow analysis: an informal introduction](https://clang.llvm.org/docs/DataFlowAnalysisIntro.html) - Clang's docs about data flow analysis, etc
 
 
 # Official Tools/Libraries

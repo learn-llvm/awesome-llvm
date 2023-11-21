@@ -48,6 +48,7 @@ This README.md itself mostly records **LLVM backend** (and some mixed) resources
   - 🐉 [Using the New Pass Manager](https://llvm.org/docs/NewPassManager.html) - LLVM's new pass manager for optimization (both CLI and API changed)
   - 🐉 [Writing an LLVM Pass](http://llvm.org/docs/WritingAnLLVMPass.html)
   - 🐉 [LLVM Alias Analysis Infrastructure](http://llvm.org/docs/AliasAnalysis.html)
+  - [Tracing Memory Access With an LLVM Pass](https://www.bitsand.cloud/posts/llvm-pass/) - a blog post details how to implement an LLVM Pass that allows for tracing memory access
 - 🐉 [LLVM Testing Infrastructure Guide](http://llvm.org/docs/TestingGuide.html)
 - 🐉 [Writing an LLVM Backend](http://llvm.org/docs/WritingAnLLVMBackend.html)
 - 🐉 [LLVM FAQ](http://llvm.org/docs/FAQ.html)
