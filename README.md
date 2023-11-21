@@ -107,6 +107,8 @@ This README.md itself mostly records **LLVM backend** (and some mixed) resources
 - [MLIR](https://mlir.llvm.org/) - Multi-Level Intermediate Representation
   - :octocat: [llvm/Torch-LLVM](https://github.com/llvm/torch-mlir) - first class support from the PyTorch ecosystem to the MLIR ecosystem
   - :octocat: [llvm/Polygeist](https://github.com/llvm/Polygeist) - C/C++ frontend for MLIR
+  - :octocat: [j2kun/mlir-tutorial](https://github.com/j2kun/mlir-tutorial) - a series of articles on the MLIR framework for building compilers
+  - :octocat: [Lewuathe/mlir-hello](https://github.com/Lewuathe/mlir-hello) - minimal Hello-World example of MLIR
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
 - [LLD](https://lld.llvm.org/) - LLVM's integrated linker, similar to [GNU ld](https://linux.die.net/man/1/ld) and [gold linker](https://en.wikipedia.org/wiki/Gold_(linker))
   - relevant: [LLVM Gold Linker plugin](https://llvm.org/docs/GoldPlugin.html)
