@@ -2,7 +2,7 @@ Awesome LLVM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 ------
 
 This repo includes LLVM-related projects, websites, docs, and other resources. Only well-maintained resources are included; PRs are welcome.
-This README.md itself mostly records **LLVM backend** (and some mixed) resources; for **Clang**-specific ones, please check **[Clang.md](./Clang.md)** in this repo.
+This README.md itself mostly records **LLVM backend** (as well as mixed) resources; for **Clang**-specific ones, please check **[Clang.md](./Clang.md)** in this repo.
 
 ## Starchart
 
@@ -51,8 +51,8 @@ This README.md itself mostly records **LLVM backend** (and some mixed) resources
   - [Tracing Memory Access With an LLVM Pass](https://www.bitsand.cloud/posts/llvm-pass/) - a blog post details how to implement an LLVM Pass that allows for tracing memory access
 - 🐉 [LLVM Testing Infrastructure Guide](http://llvm.org/docs/TestingGuide.html)
 - 🐉 [Writing an LLVM Backend](http://llvm.org/docs/WritingAnLLVMBackend.html)
-- 🐉 [LLVM FAQ](http://llvm.org/docs/FAQ.html)
-- 🐉 [LLVM Remarks](https://llvm.org/docs/Remarks.html) - emit diagnostics describing whether an optimization is performed/missed, used by `llc` or `opt`
+- 🐉 [LLVM Remarks](https://llvm.org/docs/Remarks.html) - emit diagnostics describing whether an optimization is performed/missed
+- 🐉 [LLVM FAQ](http://llvm.org/docs/FAQ.html) - Frequently Asked Questions
 - :octocat: [Sanitizers](docs/sanitizers) - AddressSanitizer, MemorySanitizer, ThreadSanitizer, UndefinedBehaviorSanitizer, LeakSanitizer, etc
 - :octocat: [Tutorial: Creating an LLVM Backend for the Cpu0 Architecture](http://jonathan2251.github.io/lbd/index.html)
 - :octocat: [LLVM-Tutor](https://github.com/banach-space/llvm-tutor) - A collection of out-of-tree LLVM passes for teaching and learning
@@ -60,8 +60,8 @@ This README.md itself mostly records **LLVM backend** (and some mixed) resources
 - :octocat: [LLVM-Pass-Analysis-Collection](https://github.com/JohannesLiu/LLVM-Pass-Analysis-Collection) - A Collection of LLVM Pass for Program Analysis
 - :octocat: [srg-llvm-pass-tutorial](https://github.com/delcypher/srg-llvm-pass-tutorial) - A tutorial about llvm passes from [Software reliability group](http://srg.doc.ic.ac.uk/)
 - 📃 [Get Started with the LLVM C API](https://pauladamsmith.com/blog/2015/01/how-to-get-started-with-llvm-c-api.html)
-- :octocat: https://github.com/lahiri-phdworks/LLVM-Examples/tree/master - LLVM Repository and Code samples. LLVM Passes and quick bytes.
-- :octocat: https://github.com/wuzhanglin/llvm-IR-examples - Some examples for using LLVM to generate IR
+- :octocat: [lahiri-phdworks/LLVM-Examples](https://github.com/lahiri-phdworks/LLVM-Examples) - LLVM Repository and Code samples. LLVM Passes and quick bytes.
+- :octocat: [wuzhanglin/llvm-IR-examples](https://github.com/wuzhanglin/llvm-IR-examples) - Some examples for using LLVM to generate IR
 - :octocat: [llvm-ir-tutorial](https://github.com/Evian-Zhang/llvm-ir-tutorial) (in Chinese)
 - 📹 [LLVM Tutorial Walkthrough](https://www.youtube.com/watch?v=09EAVa7BAp4&list=PLSq9OFrD2Q3ChEc_ejnBcO5u9JeT0ufkg) -- Toby Ho's tutorial
 - 📹 [Introduction to the Low-Level Virtual Machine (LLVM)](https://www.youtube.com/playlist?list=PLDSTpI7ZVmVnvqtebWnnI8YeB8bJoGOyv) - UFMG's Compilers Lab's tutorial
