@@ -150,6 +150,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [DG](https://github.com/mchalupa/dg) -  Various program analyses, construction of dependence graphs and program slicing of LLVM bitcode
   - dg can integrate SVF, see [here](https://github.com/mchalupa/dg/blob/master/doc/SVF.md) for details
 - [llvm-crash-analyzer](https://github.com/cisco-open/llvm-crash-analyzer) -- crash analysis against coredump files based on LLVM Machine-IR, together with LLDB
+- [seahorn/clam](https://github.com/seahorn/clam) - a static analyzer (CLI) based on [seahorn/crab](https://github.com/seahorn/crab), the latter of which is abstract Interpretation-based library
 
 # Bindings
 - [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM **python** binding for writing JIT compilers
@@ -175,9 +176,10 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - ⚙️ [Mac OS Homebrew Formula]([https://github.com/Homebrew/homebrew-core/blob/master/Formula/llvm.rb](https://github.com/Homebrew/homebrew-core/blob/master/Formula/l/llvm.rb)) - HomeBrew's LLVM formula
 
 # Other relevant resources:
-* [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security) - awesome llvm security projects
-* [static-analysis](https://github.com/analysis-tools-dev/static-analysis) - A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more
-* [dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - A curated list of dynamic analysis tools and linters for all programming languages, binaries, and more
-* https://github.com/mikeroyal/LLVM-Guide
-* other [awesome lists on GitHub](https://github.com/topics/awesome)
+* :octocat: [awesome-llvm-security](https://github.com/gmh5225/awesome-llvm-security) - awesome llvm security projects
+* :octocat: [static-analysis](https://github.com/analysis-tools-dev/static-analysis) - A curated list of static analysis tools and linters for all programming languages, config files, build tools, and more
+* :octocat: [dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - A curated list of dynamic analysis tools and linters for all programming languages, binaries, and more
+* :octocat: [LLVM-Guide](https://github.com/mikeroyal/LLVM-Guide)
+* :octocat: [program analysis topics on GitHub](https://github.com/topics/program-analysis)
+* :octocat: other [awesome lists on GitHub](https://github.com/topics/awesome)
 * [List of tools for static code analysis (on Wikipedia)](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
