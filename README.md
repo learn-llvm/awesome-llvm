@@ -113,6 +113,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [LLD](https://lld.llvm.org/) - LLVM's integrated linker, similar to [GNU ld](https://linux.die.net/man/1/ld) and [gold linker](https://en.wikipedia.org/wiki/Gold_(linker))
   - relevant: [LLVM Gold Linker plugin](https://llvm.org/docs/GoldPlugin.html)
 - [LLDB](http://lldb.llvm.org/) - LLVM's LLDB Debugger
+  - 🐉 [GDB to LLDB command map](https://lldb.llvm.org/use/map.html)
 - [LLVM's libunwind](https://bcain-llvm.readthedocs.io/projects/libunwind/en/latest/) - an implementation of the interface defined by the HP libunwind project
 - [Polly](http://polly.llvm.org/) - LLVM Framework for High-Level Loop and Data-Locality Optimizations
 - [OpenMP in LLVM](https://openmp.llvm.org/)
