@@ -109,6 +109,8 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
   - :octocat: [llvm/Polygeist](https://github.com/llvm/Polygeist) - C/C++ frontend for MLIR
   - :octocat: [j2kun/mlir-tutorial](https://github.com/j2kun/mlir-tutorial) - a series of articles on the MLIR framework for building compilers
   - :octocat: [Lewuathe/mlir-hello](https://github.com/Lewuathe/mlir-hello) - minimal Hello-World example of MLIR
+  - :octocat: [melior](https://github.com/edg-l/melior) - The rustic MLIR bindings in Rust; see also [introduction blog post](https://edgarluque.com/blog/mlir-with-rust/)
+  - :octocat: [Sparsifier](https://developers.google.com/mlir-sparsifier) - Google MLIR sparsifier
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
 - [LLD](https://lld.llvm.org/) - LLVM's integrated linker, similar to [GNU ld](https://linux.die.net/man/1/ld) and [gold linker](https://en.wikipedia.org/wiki/Gold_(linker))
   - relevant: [LLVM Gold Linker plugin](https://llvm.org/docs/GoldPlugin.html)
