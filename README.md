@@ -11,6 +11,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 # Websites([references](https://llvm.org/docs/GettingInvolved.html))
 - 🐉 http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
 - 🐉 https://llvm.org/devmtg/ - LLVM Developers' Meeting and other events
+  - [2023](https://www.youtube.com/playlist?list=PL_R5A0lGi1AD9nPVlv7mG8_2mMSiL_0Ik)
 - 🐉 http://blog.llvm.org/ - official blog
 - 🐉 [discourse forum](https://discourse.llvm.org/)
 - 🐉 [llvm-commits archives](https://lists.llvm.org/pipermail/llvm-commits/)
@@ -138,7 +139,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [capstone](http://www.capstone-engine.org/beyond_llvm.html) - Disassembler based on the MC component of the LLVM compiler infrastructure
 - [DWGrep](http://pmachata.github.io/dwgrep/) - A tool for querying Dwarf (debuginfo) graphs
 - [Emscripten](https://github.com/kripken/emscripten) - An LLVM-to-JavaScript Compiler
-- [cling](https://github.com/root-project/cling) - The cling C++ interpreter
+- [cling](https://github.com/root-project/cling) - The cling C++ interpreter ([1.0](https://github.com/vgvassilev/cling/releases/tag/v1.0) has been released)
 - [remill](https://github.com/lifting-bits/remill) - Library for lifting machine code to LLVM bitcode
 - [llvm2cpg](https://github.com/ShiftLeftSecurity/llvm2cpg) - LLVM meets Code Property Graphs
 - [QBDI](https://github.com/QBDI/QBDI) - A Dynamic Binary Instrumentation framework based on LLVM
