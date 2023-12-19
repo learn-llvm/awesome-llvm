@@ -67,6 +67,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - 📹 [LLVM Tutorial Walkthrough](https://www.youtube.com/watch?v=09EAVa7BAp4&list=PLSq9OFrD2Q3ChEc_ejnBcO5u9JeT0ufkg) -- Toby Ho's tutorial
 - 📹 [Introduction to the Low-Level Virtual Machine (LLVM)](https://www.youtube.com/playlist?list=PLDSTpI7ZVmVnvqtebWnnI8YeB8bJoGOyv) - UFMG's Compilers Lab's tutorial
 - 📹 [Understanding Compiler Optimization](https://www.youtube.com/watch?v=FnGCDLhaxKU&t=59s) - Chandler Carruth's Opening Keynote Meeting C++ 2015
+- 🐉 [Tools for Learning LLVM TableGen](https://blog.llvm.org/posts/2023-12-07-tools-for-learning-llvm-tablegen/) - tutorial by David Spickett about LLVM's [TableGen](https://github.com/llvm/llvm-project/tree/main/llvm/utils/TableGen)
 
 # Publications
 - http://llvm.org/pubs/
