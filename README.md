@@ -43,6 +43,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
   - 🐉 [Source Level Debugging](http://llvm.org/docs/SourceLevelDebugging.html)
   - 🐉 [Create A Project](http://llvm.org/docs/Projects.html)
   - 🐉 [Exception Handling in LLVM](http://llvm.org/docs/ExceptionHandling.html)
+  - 📹 [A Tour of ADT - the LLVM Developer's Toolbox](https://www.youtube.com/watch?v=owQlnNYek2o&list=PL_R5A0lGi1AD9nPVlv7mG8_2mMSiL_0Ik&index=26)
 - 🐉 [CommandLine 2.0 Library Manual](http://llvm.org/docs/CommandLine.html) - LLVM's CLI option parser library, used by all LLVM CLI tools etc
 - 🐉 [Getting Started with the LLVM System](http://llvm.org/docs/GettingStarted.html) - LLVM project's build, configurations, directory layouts etc
 - 🐉 [LLVM’s Analysis and Transform Passes](http://llvm.org/docs/Passes.html)
