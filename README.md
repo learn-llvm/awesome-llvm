@@ -175,6 +175,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [codon](https://github.com/exaloop/codon)
 - [numba](https://github.com/numba/numba)
 - [mojo](https://docs.modular.com/)
+- [solang](https://github.com/hyperledger/solang)
 - ~~[go-llvm](https://github.com/go-llvm/llgo)~~
 
 # Setup
