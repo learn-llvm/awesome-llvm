@@ -113,6 +113,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
   - :octocat: [Lewuathe/mlir-hello](https://github.com/Lewuathe/mlir-hello) - minimal Hello-World example of MLIR
   - :octocat: [melior](https://github.com/edg-l/melior) - The rustic MLIR bindings in Rust; see also [introduction blog post](https://edgarluque.com/blog/mlir-with-rust/)
   - :octocat: [Sparsifier](https://developers.google.com/mlir-sparsifier) - Google MLIR sparsifier
+  - 📹 [MLIR Is Not an ML Compiler, and Other Common Misconceptions](https://www.youtube.com/watch?v=lXAp6ZAWyBY&list=PL_R5A0lGi1AD9nPVlv7mG8_2mMSiL_0Ik&index=25)
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
 - [LLD](https://lld.llvm.org/) - LLVM's integrated linker, similar to [GNU ld](https://linux.die.net/man/1/ld) and [gold linker](https://en.wikipedia.org/wiki/Gold_(linker))
   - relevant: [LLVM Gold Linker plugin](https://llvm.org/docs/GoldPlugin.html)
