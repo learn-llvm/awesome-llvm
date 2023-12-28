@@ -11,7 +11,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 # Websites([references](https://llvm.org/docs/GettingInvolved.html))
 - 🐉 http://llvm.org/, and [its doxygen docs](https://llvm.org/doxygen/index.html)
 - 🐉 https://llvm.org/devmtg/ - LLVM Developers' Meeting and other events
-  - [2023](https://www.youtube.com/playlist?list=PL_R5A0lGi1AD9nPVlv7mG8_2mMSiL_0Ik)
+  - 📹 [2023](https://www.youtube.com/playlist?list=PL_R5A0lGi1AD9nPVlv7mG8_2mMSiL_0Ik)
 - 🐉 http://blog.llvm.org/ - official blog
 - 🐉 [discourse forum](https://discourse.llvm.org/)
 - 🐉 [llvm-commits archives](https://lists.llvm.org/pipermail/llvm-commits/)
@@ -36,6 +36,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - 🐉 [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html) - detailed docs for LLVM IR/Bitcode
   - 🐉 [LLVM Bitcode File Format](http://llvm.org/docs/BitCodeFormat.html)
   - 🐉 [The Often Misunderstood GEP Instruction](http://llvm.org/docs/GetElementPtr.html)
+  - :octocat: [](https://github.com/sunxfancy/vscode-llvm) - VSCode LLVM Compiler Explorer
 - 🐉 [LLVM Programmer’s Manual](http://llvm.org/docs/ProgrammersManual.html) - how to develop using LLVM infrastructure
   - 🐉 [LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html)
   - 🐉 [LLVM Developer Policy](http://llvm.org/docs/DeveloperPolicy.html)
