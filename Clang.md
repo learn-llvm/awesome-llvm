@@ -13,6 +13,8 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 
 # Tutorials
 
+- 🐉 [Clang Compiler User’s Manual](https://clang.llvm.org/docs/UsersManual.html)
+   - 🐉 [Clang Driver Configuration files](https://clang.llvm.org/docs/UsersManual.html#configuration-files), see also [GCC spec files](https://gcc.gnu.org/onlinedocs/gcc-13.2.0/gcc/Spec-Files.html) and [the tutorial](https://wozniak.ca/blog/2024/01/02/1/index.html)
 - 🐉 [“Clang” CFE Internals Manual](https://clang.llvm.org/docs/InternalsManual.html) - good start for Clang frontend developers
 - 🐉 [Clang Toolchain](https://clang.llvm.org/docs/Toolchain.html) - Toolchains when using Clang compiler driver
 - 🐉 [Introduction to the Clang AST](https://clang.llvm.org/docs/IntroductionToTheClangAST.html) - a gentle introduction to the mysteries of the Clang AST.
