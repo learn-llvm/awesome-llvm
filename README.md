@@ -109,6 +109,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [libc++abi](https://libcxxabi.llvm.org/) - LLVM's C++ ABI library that provides an implementation of the library portion of the Itanium C++ ABI
 - [Compiler-RT](https://compiler-rt.llvm.org/) - runtime libraries, including sanitizers, profiling utilities, etc
 - [MLIR](https://mlir.llvm.org/) - Multi-Level Intermediate Representation
+  - 🐉 [MLIR News](https://discourse.llvm.org/c/mlir/mlir-news-mlir-newsletter/) - MLIR News issue on discourse
   - :octocat: [llvm/Torch-LLVM](https://github.com/llvm/torch-mlir) - first class support from the PyTorch ecosystem to the MLIR ecosystem
   - :octocat: [llvm/Polygeist](https://github.com/llvm/Polygeist) - C/C++ frontend for MLIR
   - :octocat: [j2kun/mlir-tutorial](https://github.com/j2kun/mlir-tutorial) - a series of articles on the MLIR framework for building compilers
