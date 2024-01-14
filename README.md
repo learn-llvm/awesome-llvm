@@ -104,6 +104,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
   - [llvm-diff](http://llvm.org/docs/CommandGuide/llvm-diff.html) - LLVM structural "diff"
   - [llc](http://llvm.org/docs/CommandGuide/llc.html) -  LLVM static compiler, compile LLVM IR to native assembly,  `llc main.ll -o main.s`
   - [llvm-ar](http://llvm.org/docs/CommandGuide/llvm-ar.html)(llvm-ranlib) - LLVM archiver
+  - [llvm-mca](https://llvm.org/docs/CommandGuide/llvm-mca.html) - LLVM Machine Code Analyzer
   - [lit](http://llvm.org/docs/CommandGuide/lit.html) - LLVM Integrated Tester, for testing purpose during development
 - [libc++](https://libcxx.llvm.org/) - LLVM's implementation of C++ standard library
 - [libc++abi](https://libcxxabi.llvm.org/) - LLVM's C++ ABI library that provides an implementation of the library portion of the Itanium C++ ABI
