@@ -78,6 +78,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [LLVM @ IEEEXplore](http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=llvm)
 - [LLVM @ DBLP](http://dblp.org/search/#query=llvm)
 - 📖 [Learn LLVM 12](https://www.amazon.com/Learn-LLVM-12-beginners-libraries/dp/1839213507/ref=sr_1_1) - good to start with
+- 📖 [Learn LLVM 17](https://www.packtpub.com/product/learn-llvm-17-second-edition/9781837631346) Second Edition
 - 📖 [Getting Started with LLVM Core Libraries](https://www.amazon.com/Getting-Started-LLVM-Core-Libraries/dp/1782166920), also available on [ACM library](https://dl.acm.org/citation.cfm?id=2692607)
 - 📖 [LLVM Cookbook](https://www.amazon.com/LLVM-Cookbook-Mayur-Pandey/dp/178528598X)
 - 📖 [LLVM Essentials](https://www.amazon.com/LLVM-Essentials-Suyog-Sarda/dp/1785280805/)
