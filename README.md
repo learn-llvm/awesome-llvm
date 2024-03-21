@@ -36,6 +36,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - 🐉 [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html) - detailed docs for LLVM IR/Bitcode
   - 🐉 [LLVM Bitcode File Format](http://llvm.org/docs/BitCodeFormat.html)
   - 🐉 [The Often Misunderstood GEP Instruction](http://llvm.org/docs/GetElementPtr.html)
+  - 🐉 [Opaque Pointers](https://llvm.org/docs/OpaquePointers.html) - Opaque pointer that was introduced in LLVM14 and fully deprecates typed pointers in LLVM17
   - [A Gentle Introduction to LLVM IR](https://mcyoung.xyz/2023/08/01/llvm-ir/), with a [Chinese translation version](TODO)
   - :octocat: [](https://github.com/sunxfancy/vscode-llvm) - VSCode LLVM Compiler Explorer
 - 🐉 [LLVM Programmer’s Manual](http://llvm.org/docs/ProgrammersManual.html) - how to develop using LLVM infrastructure
