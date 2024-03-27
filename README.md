@@ -38,7 +38,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
   - 🐉 [The Often Misunderstood GEP Instruction](http://llvm.org/docs/GetElementPtr.html)
   - 🐉 [Opaque Pointers](https://llvm.org/docs/OpaquePointers.html) - Opaque pointer that was introduced in LLVM14 and fully deprecates typed pointers in LLVM17
   - [A Gentle Introduction to LLVM IR](https://mcyoung.xyz/2023/08/01/llvm-ir/), with a [Chinese translation version](TODO)
-  - :octocat: [](https://github.com/sunxfancy/vscode-llvm) - VSCode LLVM Compiler Explorer
+  - :octocat: [PSA: Instruction-constructors changing to iterator-only insertion](https://github.com/sunxfancy/vscode-llvm) - VSCode LLVM Compiler Explorer
 - 🐉 [LLVM Programmer’s Manual](http://llvm.org/docs/ProgrammersManual.html) - how to develop using LLVM infrastructure
   - 🐉 [LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html)
   - 🐉 [LLVM Developer Policy](http://llvm.org/docs/DeveloperPolicy.html)
@@ -46,6 +46,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
   - 🐉 [Source Level Debugging](http://llvm.org/docs/SourceLevelDebugging.html)
   - 🐉 [Create A Project](http://llvm.org/docs/Projects.html)
   - 🐉 [Exception Handling in LLVM](http://llvm.org/docs/ExceptionHandling.html)
+  - 🐉 [](https://discourse.llvm.org/t/psa-instruction-constructors-changing-to-iterator-only-insertion/77845)
   - 📹 [A Tour of ADT - the LLVM Developer's Toolbox](https://www.youtube.com/watch?v=owQlnNYek2o&list=PL_R5A0lGi1AD9nPVlv7mG8_2mMSiL_0Ik&index=26)
 - 🐉 [CommandLine 2.0 Library Manual](http://llvm.org/docs/CommandLine.html) - LLVM's CLI option parser library, used by all LLVM CLI tools etc
 - 🐉 [Getting Started with the LLVM System](http://llvm.org/docs/GettingStarted.html) - LLVM project's build, configurations, directory layouts etc
