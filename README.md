@@ -115,6 +115,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [Compiler-RT](https://compiler-rt.llvm.org/) - runtime libraries, including sanitizers, profiling utilities, etc
 - [MLIR](https://mlir.llvm.org/) - Multi-Level Intermediate Representation
   - 🐉 [MLIR News](https://discourse.llvm.org/c/mlir/mlir-news-mlir-newsletter/) - MLIR News issue on discourse
+  - 🐉 [](https://discourse.llvm.org/t/rfc-a-new-tutorial-mlir-for-beginners/78273)
   - :octocat: [llvm/Torch-LLVM](https://github.com/llvm/torch-mlir) - first class support from the PyTorch ecosystem to the MLIR ecosystem
   - :octocat: [llvm/Polygeist](https://github.com/llvm/Polygeist) - C/C++ frontend for MLIR
   - :octocat: [j2kun/mlir-tutorial](https://github.com/j2kun/mlir-tutorial) - a series of articles on the MLIR framework for building compilers
@@ -122,6 +123,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
   - :octocat: [melior](https://github.com/edg-l/melior) - The rustic MLIR bindings in Rust; see also [introduction blog post](https://edgarluque.com/blog/mlir-with-rust/)
   - :octocat: [Sparsifier](https://developers.google.com/mlir-sparsifier) - Google MLIR sparsifier
   - :octocat: [intel/mlir-extensions](https://github.com/intel/mlir-extensions/tree/main) - Intel® Extension for MLIR
+  - [MLIR Workshop @ EuroLLVM 2024](https://discourse.llvm.org/t/cfp-mlir-workshop-at-the-eurollvm-developer-meeting-apr-9-2024/76987) -- topics with slides available, also [notes about MLIR at round table](https://discourse.llvm.org/t/notes-from-the-mlir-upstream-round-table-eurollvm-2024/78374)
   - 📹 [MLIR Is Not an ML Compiler, and Other Common Misconceptions](https://www.youtube.com/watch?v=lXAp6ZAWyBY&list=PL_R5A0lGi1AD9nPVlv7mG8_2mMSiL_0Ik&index=25)
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
 - [LLD](https://lld.llvm.org/) - LLVM's integrated linker, similar to [GNU ld](https://linux.die.net/man/1/ld) and [gold linker](https://en.wikipedia.org/wiki/Gold_(linker))
