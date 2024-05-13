@@ -104,6 +104,7 @@ This doc was originally forked from https://github.com/ingve/awesome-clang and t
 - [clang-experiments](https://github.com/pr0g/clang-experiments/tree/main)
 - [SCRT/avcleaner](https://github.com/SCRT/avcleaner) - C/C++ source obfuscator for antivirus bypass (based on libtooling)
 - https://github.com/aras-p/ClangBuildAnalyzer - Clang build analysis tool using -ftime-trace
+- [ClangQL](https://github.com/frabert/ClangQL) - Query C++ codebases using SQLite, based on Clangd indexing results
 
 # Other Relevant Resources
 - [GCC Static Analyzer](https://gcc.gnu.org/wiki/StaticAnalyzer)
