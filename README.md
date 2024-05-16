@@ -190,6 +190,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [mojo](https://docs.modular.com/)
 - [solang](https://github.com/hyperledger/solang)
 - [Ola](https://github.com/mateeeeeee/Ola) - a toy language, for learning LLVM-backend codegen
+- [TinyGo](https://github.com/tinygo-org/tinygo)
 - ~~[go-llvm](https://github.com/go-llvm/llgo)~~
 
 # Setup
