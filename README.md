@@ -163,6 +163,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [diffkemp](https://github.com/viktormalik/diffkemp) - Static analysis of semantic differences in kernel versionsa
 - [GaloisInc/yapall](https://github.com/GaloisInc/yapall) - A precise and scalable pointer analysis for LLVM, written in Ascent
 - [llvm2c](https://github.com/staticafi/llvm2c) - Decompiler of LLVM bitcode to C
+- [llvm-cbe](https://github.com/JuliaHubOSS/llvm-cbe) - Resurrected LLVM "C Backend"
 - [dr checker](https://github.com/ucsb-seclab/dr_checker) - A Soundy Vulnerability Detection Tool for Linux Kernel Drivers
 - [DG](https://github.com/mchalupa/dg) -  Various program analyses, construction of dependence graphs and program slicing of LLVM bitcode
   - dg can integrate SVF, see [here](https://github.com/mchalupa/dg/blob/master/doc/SVF.md) for details
