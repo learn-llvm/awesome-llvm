@@ -179,6 +179,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - C/C++/ObjC/ObjC++
 - [Swift](https://developer.apple.com/swift/)
 - [GHC Haskell](https://www.haskell.org/ghc/)
+- [GNAT](https://github.com/AdaCore/gnat-llvm)
 - [Rust](https://www.rust-lang.org)
 - [Julia](https://julialang.org/)
 - [scala-native](https://github.com/scala-native/scala-native)
