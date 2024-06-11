@@ -126,6 +126,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
   - [MLIR Workshop @ EuroLLVM 2024](https://discourse.llvm.org/t/cfp-mlir-workshop-at-the-eurollvm-developer-meeting-apr-9-2024/76987) -- topics with slides available, also [notes about MLIR at round table](https://discourse.llvm.org/t/notes-from-the-mlir-upstream-round-table-eurollvm-2024/78374)
   - 📹 [MLIR Is Not an ML Compiler, and Other Common Misconceptions](https://www.youtube.com/watch?v=lXAp6ZAWyBY&list=PL_R5A0lGi1AD9nPVlv7mG8_2mMSiL_0Ik&index=25)
   - out-of-tree MLIR project templates: [zincnode/mlir-he](https://github.com/zincnode/mlir-he), [jmgorius/mlir-standalone-template](https://github.com/jmgorius/mlir-standalone-template), [Lewuathe/mlir-hello](https://github.com/Lewuathe/mlir-hello)
+  - [Working with MLIR](https://makslevental.github.io/working-with-mlir/)
 - [libfuzzer](https://llvm.org/docs/LibFuzzer.html) - a library for coverage-guided fuzz testing
 - [LLD](https://lld.llvm.org/) - LLVM's integrated linker, similar to [GNU ld](https://linux.die.net/man/1/ld) and [gold linker](https://en.wikipedia.org/wiki/Gold_(linker))
   - relevant: [LLVM Gold Linker plugin](https://llvm.org/docs/GoldPlugin.html)
