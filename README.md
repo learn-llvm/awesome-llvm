@@ -165,6 +165,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [diffkemp](https://github.com/viktormalik/diffkemp) - Static analysis of semantic differences in kernel versionsa
 - [GaloisInc/yapall](https://github.com/GaloisInc/yapall) - A precise and scalable pointer analysis for LLVM, written in Ascent
 - [llvm2c](https://github.com/staticafi/llvm2c) - Decompiler of LLVM bitcode to C
+- [llvm-cbe](https://github.com/JuliaHubOSS/llvm-cbe) - Resurrected LLVM "C Backend"
 - [dr checker](https://github.com/ucsb-seclab/dr_checker) - A Soundy Vulnerability Detection Tool for Linux Kernel Drivers
 - [DG](https://github.com/mchalupa/dg) -  Various program analyses, construction of dependence graphs and program slicing of LLVM bitcode
   - dg can integrate SVF, see [here](https://github.com/mchalupa/dg/blob/master/doc/SVF.md) for details
@@ -180,6 +181,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - C/C++/ObjC/ObjC++
 - [Swift](https://developer.apple.com/swift/)
 - [GHC Haskell](https://www.haskell.org/ghc/)
+- [GNAT](https://github.com/AdaCore/gnat-llvm)
 - [Rust](https://www.rust-lang.org)
 - [Julia](https://julialang.org/)
 - [scala-native](https://github.com/scala-native/scala-native)
@@ -190,6 +192,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [mojo](https://docs.modular.com/)
 - [solang](https://github.com/hyperledger/solang)
 - [Ola](https://github.com/mateeeeeee/Ola) - a toy language, for learning LLVM-backend codegen
+- [TinyGo](https://github.com/tinygo-org/tinygo)
 - ~~[go-llvm](https://github.com/go-llvm/llgo)~~
 
 # Setup
