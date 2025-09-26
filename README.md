@@ -170,6 +170,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
   - dg can integrate SVF, see [here](https://github.com/mchalupa/dg/blob/master/doc/SVF.md) for details
 - [llvm-crash-analyzer](https://github.com/cisco-open/llvm-crash-analyzer) -- crash analysis against coredump files based on LLVM Machine-IR, together with LLDB
 - [seahorn/clam](https://github.com/seahorn/clam) - a static analyzer (CLI) based on [seahorn/crab](https://github.com/seahorn/crab), the latter of which is abstract Interpretation-based library
+- [llvm-pass-skeleton](https://github.com/sampsyo/llvm-pass-skeleton) - example LLVM pass
 
 # Bindings
 - [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM **python** binding for writing JIT compilers
