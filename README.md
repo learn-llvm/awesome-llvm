@@ -164,6 +164,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [IKOS](https://github.com/nasa-sw-vnv/ikos) - Static analyzer for C/C++ based on the theory of Abstract Interpretation.
 - [diffkemp](https://github.com/viktormalik/diffkemp) - Static analysis of semantic differences in kernel versionsa
 - [GaloisInc/yapall](https://github.com/GaloisInc/yapall) - A precise and scalable pointer analysis for LLVM, written in Ascent
+- [google/souper](https://github.com/google/souper) - A superoptimizer for LLVM IR
 - [llvm2c](https://github.com/staticafi/llvm2c) - Decompiler of LLVM bitcode to C
 - [dr checker](https://github.com/ucsb-seclab/dr_checker) - A Soundy Vulnerability Detection Tool for Linux Kernel Drivers
 - [DG](https://github.com/mchalupa/dg) -  Various program analyses, construction of dependence graphs and program slicing of LLVM bitcode
