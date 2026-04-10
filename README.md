@@ -192,6 +192,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [mojo](https://docs.modular.com/)
 - [solang](https://github.com/hyperledger/solang)
 - [Ola](https://github.com/mateeeeeee/Ola) - a toy language, for learning LLVM-backend codegen
+- [Lateralus](https://github.com/grug-group420/lateralus) - Systems programming language with LLVM backend, featuring pattern matching, algebraic data types, and borrow checking
 - ~~[go-llvm](https://github.com/go-llvm/llgo)~~
 
 # Setup
