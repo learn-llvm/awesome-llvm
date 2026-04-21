@@ -172,6 +172,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [llvm-crash-analyzer](https://github.com/cisco-open/llvm-crash-analyzer) -- crash analysis against coredump files based on LLVM Machine-IR, together with LLDB
 - [seahorn/clam](https://github.com/seahorn/clam) - a static analyzer (CLI) based on [seahorn/crab](https://github.com/seahorn/crab), the latter of which is abstract Interpretation-based library
 - [llvm-pass-skeleton](https://github.com/sampsyo/llvm-pass-skeleton) - example LLVM pass
+- [Culebra](https://github.com/Mapanare-Research/Culebra) - LLVM IR diagnostics for self-hosting compilers, with IR validation, ABI/struct-layout checks, and a template-based scanner for known IR bug patterns
 
 # Bindings
 - [llvmlite](https://github.com/numba/llvmlite) - A lightweight LLVM **python** binding for writing JIT compilers
