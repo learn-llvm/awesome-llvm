@@ -155,6 +155,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [DWGrep](http://pmachata.github.io/dwgrep/) - A tool for querying Dwarf (debuginfo) graphs
 - [Emscripten](https://github.com/kripken/emscripten) - An LLVM-to-JavaScript Compiler
 - [cling](https://github.com/root-project/cling) - The cling C++ interpreter ([1.0](https://github.com/vgvassilev/cling/releases/tag/v1.0) has been released)
+- [assembly-repl](https://github.com/pirate/assembly-repl) - Native raw assembly, LLVM IR, C, C++, and Objective-C REPLs for macOS and Linux
 - [remill](https://github.com/lifting-bits/remill) - Library for lifting machine code to LLVM bitcode
 - [llvm2cpg](https://github.com/ShiftLeftSecurity/llvm2cpg) - LLVM meets Code Property Graphs
 - [QBDI](https://github.com/QBDI/QBDI) - A Dynamic Binary Instrumentation framework based on LLVM
