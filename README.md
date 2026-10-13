@@ -192,6 +192,7 @@ This README.md itself mostly records **LLVM backend** (as well as mixed) resourc
 - [mojo](https://docs.modular.com/)
 - [solang](https://github.com/hyperledger/solang)
 - [Ola](https://github.com/mateeeeeee/Ola) - a toy language, for learning LLVM-backend codegen
+- [Loment](https://github.com/FujoJTOP/loment) - a systems language targeting bare-metal and hosted x86-64; emits LLVM IR and links it with its own linker
 - ~~[go-llvm](https://github.com/go-llvm/llgo)~~
 
 # Setup
